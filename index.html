@@ -4,27 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <title>Đời Sống Pháp Luật</title>
   </head>
   <body>
     <section id="header">
-      <div id="hero-img"></div>
+      <img id="ads-img" src="./asset/ads_top.png" />
       <div id="menu-bar" class="side color-white">
-        <div id="information" class="py-28 flex space-between">
-          <div class="flex gap-28">
-            <span id="logo">Doi song phap luat</span>
-            <input id="search-bar" placeholder="Nhap noi dung" />
+        <div class="p-14 flex space-between">
+          <div class="flex gap-28 flex-align-center">
+            <img src="./asset/logo.png" />
+            <div id="search-bar" class="bg-blue-1 border flex space-between">
+              <input id="search-input" placeholder="Nhập nội dung tìm kiếm" />
+              <i class="fa fa-search"></i>
+            </div>
           </div>
-          <div class="flex gap-28">
+          <div class="flex gap-28 flex-align-center">
             <span id="weather">
-              <div>Thu 3, ngay 21-11-2023</div>
-              <div>Ha Noi, 16 - 28*C</div>
+              <div>Thứ 3, ngày 21-11-2023</div>
+              <div>Hà Nội, 16° - 28°C</div>
             </span>
-            <span id="news">Tin moi nhat</span>
-            <span id="login">Dang nhap</span>
+            <span id="news"
+              ><i class="fa fa-refresh" aria-hidden="true"></i> Tin mới
+              nhất</span
+            >
+            <span id="login"
+              ><i class="fa fa-user-o" aria-hidden="true"></i> Đăng nhập</span
+            >
           </div>
         </div>
-        <div id="nav-bar" class="flex gap-28 px-28 py-16 border">
+        <div id="nav-bar" class="flex gap-28 px-28 py-16 border space-between">
           <a TIN class="">TIN TUC</a>
           <a class="">PHAP LUAT</a>
           <a class="">KINH DOANH</a>
@@ -34,19 +47,23 @@
           <a class="">VIDEO</a>
           <a class="">THE THAO</a>
           <a class="">GIAO DUC</a>
+          <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
       </div>
     </section>
     <section id="body" class="side">
-      <div id="hot-event" class="flex gap-6 px-8 px-28 border">
-        <span id="">Dong su kien</span>
-        <span id="event" class="tag"
+      <div id="hot-event" class="flex gap-6 py-8 px-44 border">
+        <span id=""
+          ><i class="fa fa-line-chart" aria-hidden="true"></i> Dong su
+          kien</span
+        >
+        <span id="event" class="tag font-size-10 color-blue-1"
           >Vụ đứt cáp ròng rọc, 3 người chết ở Bình Thuận</span
         >
-        <span id="event" class="tag">
+        <span id="event" class="tag font-size-10 color-blue-1">
           Tai nạn giao thông, 5 người chết ở Lạng Sơn</span
         >
-        <span id="event" class="tag">
+        <span id="event" class="tag font-size-10 color-blue-1">
           Những vụ giết người phi tang chấn động</span
         >
       </div>
@@ -315,7 +332,7 @@
         </section>
         <section id="list-post" class="flex">
           <div id="list-post__left" style="width: 50%">
-            <div class="post-item flex">
+            <div class="post-item py-20 flex">
               <div
                 class="img"
                 style="width: 215px; height: 126px; background: #333"
@@ -332,7 +349,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item flex">
+            <div class="post-item py-20 flex">
               <div
                 class="img"
                 style="width: 215px; height: 126px; background: #333"
@@ -349,7 +366,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item flex">
+            <div class="post-item py-20 flex">
               <div
                 class="img"
                 style="width: 215px; height: 126px; background: #333"
@@ -366,7 +383,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item flex">
+            <div class="post-item py-20 flex">
               <div
                 class="img"
                 style="width: 215px; height: 126px; background: #333"
@@ -383,7 +400,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item flex">
+            <div class="post-item py-20 flex">
               <div
                 class="img"
                 style="width: 215px; height: 126px; background: #333"
@@ -400,58 +417,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item flex">
-              <div
-                class="img"
-                style="width: 215px; height: 126px; background: #333"
-              ></div>
-              <div class="text">
-                <div class="title">
-                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
-                  CX-5
-                </div>
-                <div class="description">
-                  Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi nhau",
-                  Skyworth Skyhome của Skywell nổi bật với trang bị ít xe nào
-                  có...
-                </div>
-              </div>
-            </div>
-            <div class="post-item flex">
-              <div
-                class="img"
-                style="width: 215px; height: 126px; background: #333"
-              ></div>
-              <div class="text">
-                <div class="title">
-                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
-                  CX-5
-                </div>
-                <div class="description">
-                  Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi nhau",
-                  Skyworth Skyhome của Skywell nổi bật với trang bị ít xe nào
-                  có...
-                </div>
-              </div>
-            </div>
-            <div class="post-item flex">
-              <div
-                class="img"
-                style="width: 215px; height: 126px; background: #333"
-              ></div>
-              <div class="text">
-                <div class="title">
-                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
-                  CX-5
-                </div>
-                <div class="description">
-                  Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi nhau",
-                  Skyworth Skyhome của Skywell nổi bật với trang bị ít xe nào
-                  có...
-                </div>
-              </div>
-            </div>
-            <div class="post-item flex">
+            <div class="post-item py-20 flex">
               <div
                 class="img"
                 style="width: 215px; height: 126px; background: #333"
@@ -611,7 +577,7 @@
               </div>
             </div>
             <div class="list-post">
-              <div class="row flex">
+              <div class="row flex gap-10">
                 <div id="post-item">
                   <div
                     class="img"
@@ -643,7 +609,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row flex">
+              <div class="row flex gap-10">
                 <div id="post-item">
                   <div
                     class="img"
@@ -703,7 +669,7 @@
                   </div>
                 </div>
                 <div class="list-post">
-                  <div class="item flex">
+                  <div class="item flex py-8">
                     <div
                       class="img"
                       style="width: 123px; height: 73px; background: #333"
@@ -713,7 +679,7 @@
                       đất lúa làm dự án đầu tư
                     </div>
                   </div>
-                  <div class="item flex">
+                  <div class="item flex py-8">
                     <div
                       class="img"
                       style="width: 123px; height: 73px; background: #333"
@@ -747,7 +713,7 @@
                   </div>
                 </div>
                 <div class="list-post">
-                  <div class="item flex">
+                  <div class="item flex py-8">
                     <div
                       class="img"
                       style="width: 123px; height: 73px; background: #333"
@@ -757,7 +723,7 @@
                       đất lúa làm dự án đầu tư
                     </div>
                   </div>
-                  <div class="item flex">
+                  <div class="item flex py-8">
                     <div
                       class="img"
                       style="width: 123px; height: 73px; background: #333"
@@ -797,7 +763,7 @@
                   </div>
                 </div>
                 <div class="list-post">
-                  <div class="item flex">
+                  <div class="item flex py-8">
                     <div
                       class="img"
                       style="width: 123px; height: 73px; background: #333"
@@ -807,7 +773,7 @@
                       đất lúa làm dự án đầu tư
                     </div>
                   </div>
-                  <div class="item flex">
+                  <div class="item flex py-8">
                     <div
                       class="img"
                       style="width: 123px; height: 73px; background: #333"
@@ -841,7 +807,7 @@
                   </div>
                 </div>
                 <div class="list-post">
-                  <div class="item flex">
+                  <div class="item flex py-8">
                     <div
                       class="img"
                       style="width: 123px; height: 73px; background: #333"
@@ -851,7 +817,7 @@
                       đất lúa làm dự án đầu tư
                     </div>
                   </div>
-                  <div class="item flex">
+                  <div class="item flex py-8">
                     <div
                       class="img"
                       style="width: 123px; height: 73px; background: #333"
@@ -871,33 +837,182 @@
                 class="chart"
                 style="width: 302px; height: 140px; background: #333"
               ></div>
-              
+              <table class="bg-grey-1">
+                <tr>
+                  <th>INDEX</th>
+                  <th>GIA</th>
+                  <th>+/-</th>
+                </tr>
+                <tr>
+                  <td>VN INDEX</td>
+                  <td>1,367.55</td>
+                  <td>-0.25%</td>
+                </tr>
+                <tr>
+                  <td>HNX-INDEX</td>
+                  <td>342.80</td>
+                  <td>-0.25</td>
+                </tr>
+                <tr>
+                  <td>UP-INDEX</td>
+                  <td>94.04</td>
+                  <td>-0.00%</td>
+                </tr>
+                <tr>
+                  <td>VN-30</td>
+                  <td>1498.90</td>
+                  <td>-0.12%</td>
+                </tr>
+                <tr>
+                  <td>HNX-30</td>
+                  <td>572.00</td>
+                  <td>-0.34%</td>
+                </tr>
+              </table>
             </div>
-            <div id="forex-table"></div>
-            <div id="ad"></div>
+            <div id="forex-table">
+              <table class="bg-grey-1">
+                <tr>
+                  <th>SYMBOL</th>
+                  <th>PRICE</th>
+                  <th>CHANGE</th>
+                  <th>%CHANGE</th>
+                </tr>
+                <tr>
+                  <td>USD INDEX</td>
+                  <td>1,367.55</td>
+                  <td>-0.25%</td>
+                  <td>-0.25%</td>
+                </tr>
+                <tr>
+                  <td>HNX-INDEX</td>
+                  <td>342.80</td>
+                  <td>-0.25</td>
+                  <td>-0.25</td>
+                </tr>
+                <tr>
+                  <td>UP-INDEX</td>
+                  <td>94.04</td>
+                  <td>-0.00%</td>
+                  <td>-0.00%</td>
+                </tr>
+                <tr>
+                  <td>VN-30</td>
+                  <td>1498.90</td>
+                  <td>-0.12%</td>
+                  <td>-0.12%</td>
+                </tr>
+                <tr>
+                  <td>HNX-30</td>
+                  <td>572.00</td>
+                  <td>-0.34%</td>
+                  <td>-0.34%</td>
+                </tr>
+              </table>
+            </div>
+            <div
+              id="ad"
+              style="width: 300px; height: 600px; background: #333"
+            ></div>
           </div>
         </section>
-        <section id="knowedge">
-          <div>title</div>
-          <div>nav</div>
-          <div class="flex">
+        <section id="news-tab">
+          <div class="bold">CAN BIET</div>
+          <div id="nav" class="flex">
+            <a>San pham dich vu | </a>
+            <a>Y te suc <khoe></khoe> </a>
+          </div>
+          <div class="flex gap-12">
             <div id="hot-post">
-              <div class="img"></div>
-              <div class="title"></div>
+              <div
+                class="img"
+                style="width: 362px; height: 220px; background: #333"
+              ></div>
+              <div class="title">
+                [E] “Hãnh diện lớn nhất đời tôi là tạo dựng được ngân hàng trên
+                đất Mỹ"
+              </div>
             </div>
-            <div id="post"></div>
+            <div id="post">
+              <div id="post-1" class="flex">
+                <div
+                  class="img"
+                  style="width: 164px; height: 98px; background: #333"
+                ></div>
+                <div class="title">
+                  Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
+                </div>
+              </div>
+              <div class="title">
+                Tình báo Anh phát hiện động thái bất thường của Nga ở thành phố
+                quan trọng trên biển Baltic
+              </div>
+              <div class="title">
+                Tình báo Anh phát hiện động thái bất thường của Nga ở thành phố
+                quan trọng trên biển Baltic
+              </div>
+            </div>
+            <div id="post">
+              <div id="post-1" class="flex">
+                <div
+                  class="img"
+                  style="width: 164px; height: 98px; background: #333"
+                ></div>
+                <div class="title">
+                  Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
+                </div>
+              </div>
+              <div class="title">
+                Tình báo Anh phát hiện động thái bất thường của Nga ở thành phố
+                quan trọng trên biển Baltic
+              </div>
+              <div class="title">
+                Tình báo Anh phát hiện động thái bất thường của Nga ở thành phố
+                quan trọng trên biển Baltic
+              </div>
+            </div>
           </div>
         </section>
-        <div class="ad"></div>
+        <div
+          class="ad"
+          style="width: 1128px; height: 250px; background: #333"
+        ></div>
       </div>
     </section>
-    <section id="footer">
-      <div>logo</div>
-      <div class="info-1">
-        <div class="left"></div>
-        <div class="right"></div>
+    <section id="footer" class="side bg-blue-1 color-white">
+      <div style="width: 193px; height: 96px; background: #333">logo</div>
+      <div class="info-1 flex">
+        <div class="left">
+          <div>
+            Website của Tạp chí Đời sống và Pháp luật -
+            https://www.doisongphapluat.com
+          </div>
+          <div>
+            Giấy phép số 33/GP-TTĐT do Bộ Thông tin và Truyền thông cấp.
+          </div>
+          <div>
+            Tổng biên tập Tạp chí Đời sống và Pháp luật : Nguyễn Tiến Thanh
+          </div>
+          <div>Trưởng ban biên tập: Nguyễn Thanh Ngọc</div>
+          <div>
+            Chỉ được dẫn nguồn khi được chấp thuận bằng văn bản từ Tạp chí Đời
+            sống và Pháp luật.
+          </div>
+        </div>
+        <div class="right">
+          <div>Báo giá quảng cáo</div>
+          <div>Ms Linh 098 9033388</div>
+          <div id="dmca"></div>
+        </div>
       </div>
-      <div class="info-2"></div>
+      <div class="info-2">
+        <div class="location">
+          Tầng 4, Tòa tháp Ngôi Sao - Star Tower, đường Dương Đình Nghệ - Phường
+          Yên Hòa - Quận Cầu Giấy - Hà Nội.
+        </div>
+        <div class="phone">0947271302</div>
+        <div class="email">dsplonline.toasoan@gmail.com</div>
+      </div>
     </section>
   </body>
 </html>
