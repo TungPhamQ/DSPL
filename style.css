@@ -1,0 +1,111 @@
+@import url(custom.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.side {
+  padding: 0 20%;
+}
+.tag {
+  padding: 4px 16px;
+  background: #ebebeb;
+  border-radius: 16px;
+}
+/* DEFINE LIBRARY */
+/* color */
+.color-white {
+  color: white;
+}
+/* background */
+.bg-grey-1 {
+  background: #f6f6f6;
+}
+.bg-grey-2 {
+  background: #dcdcdc;
+}
+.bg-blue-1 {
+  background: #052962;
+}
+.bg-blue-2 {
+  background: #b9e1ff;
+}
+.bg-blue-3 {
+  background: #e4eff8;
+}
+/* flex box */
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.space-between {
+  justify-content: space-between;
+}
+.gap-6 {
+  gap: 6px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-12 {
+  gap: 12px;
+}
+.gap-28 {
+  gap: 28px;
+}
+/* padding */
+.py-8 {
+  padding: 8px 0;
+}
+.py-16 {
+  padding: 16px 0;
+}
+.py-28 {
+  padding: 28px 0;
+}
+
+.px-8 {
+  padding: 0 8px;
+}
+.px-12 {
+  padding: 0 12px;
+}
+.px-28 {
+  padding: 0 28px;
+}
+.p-14 {
+  padding: 14px;
+}
+.pr-13 {
+  padding-right: 13px;
+}
+.pl-13 {
+  padding-left: 13px;
+}
+.pb-12 {
+  padding-bottom: 12px;
+}
+/* border */
+.border {
+  border: 1px solid #dbdbdb;
+}
+.border-bottom {
+  border-bottom: 1px solid #dbdbdb;
+}
+/* text */
+.bold {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.align-center {
+  text-align: center;
+}
+/* width */
+.min-content {
+  width: min-content;
+}
