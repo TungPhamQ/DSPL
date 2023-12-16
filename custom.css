@@ -126,7 +126,8 @@ img {
   #page-main,
   #list-post__left,
   #list-post__right,
-  #side-page {
+  #side-page,
+  #hot-event {
     padding: 0;
   }
   #hot-news,
