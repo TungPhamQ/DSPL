@@ -120,9 +120,19 @@ tr td {
 img {
   width: 100%;
 }
-#hot-news,
-#video__container,
-#video__list {
-  display: flex;
-  flex-direction: column-reverse;
+
+@media only screen and (max-width: 768px) {
+  #page,
+  #page-main,
+  #list-post__left,
+  #list-post__right,
+  #side-page {
+    padding: 0;
+  }
+  #hot-news,
+  #video__container,
+  #video__list {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
