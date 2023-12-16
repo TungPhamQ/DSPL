@@ -18,35 +18,43 @@
         <div class="p-14 flex space-between">
           <div class="flex gap-28 flex-align-center">
             <img class="width-150" src="./asset/logo.png" />
-            <div id="search-bar" class="bg-blue-1 border flex space-between">
+            <div
+              id="search-bar"
+              class="display-none bg-blue-1 border flex space-between"
+            >
               <input id="search-input" placeholder="Nhập nội dung tìm kiếm" />
               <i class="fa fa-search"></i>
             </div>
           </div>
           <div class="flex gap-28 flex-align-center">
-            <span id="weather">
+            <span id="weather" class="display-none">
               <div>Thứ 3, ngày 21-11-2023</div>
               <div>Hà Nội, 16° - 28°C</div>
             </span>
             <span id="news"
-              ><i class="fa fa-refresh" aria-hidden="true"></i> Tin mới
-              nhất</span
+              ><i class="fa fa-refresh" aria-hidden="true"></i>
+              <div class="display-none">Tin mới nhất</div></span
             >
             <span id="login"
-              ><i class="fa fa-user-o" aria-hidden="true"></i> Đăng nhập</span
-            >
+              ><i class="fa fa-user-o" aria-hidden="true"></i>
+              <div class="display-none">Đăng nhập</div>
+            </span>
+            <i class="fa fa-search"></i>
           </div>
         </div>
-        <div id="nav-bar" class="flex gap-28 px-28 py-16 border space-between">
-          <a TIN class="">TIN TỨC</a>
-          <a class="">PHÁP LUẬT</a>
-          <a class="">KINH DOANH</a>
-          <a class="">ĐỜI SỐNG</a>
-          <a class="">THẾ GIỚI</a>
-          <a class="">VĂN HÓA</a>
-          <a class="">VIDEO</a>
-          <a class="">THỂ THAO</a>
-          <a class="">GIÁO DỤC</a>
+        <div
+          id="nav-bar"
+          class="flex gap-28 px-28 py-16 border space-between wrap"
+        >
+          <a class="text-no-wrap">TIN TỨC</a>
+          <a class="text-no-wrap">PHÁP LUẬT</a>
+          <a class="text-no-wrap">KINH DOANH</a>
+          <a class="text-no-wrap">ĐỜI SỐNG</a>
+          <a class="text-no-wrap">THẾ GIỚI</a>
+          <a class="text-no-wrap">VĂN HÓA</a>
+          <a class="text-no-wrap">VIDEO</a>
+          <a class="text-no-wrap">THỂ THAO</a>
+          <a class="text-no-wrap">GIÁO DỤC</a>
           <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
       </div>
@@ -69,8 +77,8 @@
       </div>
       <div id="page" class="p-14 border">
         <section class="flex">
-          <div id="page-main" class="pr-13">
-            <div id="hot-news" class="flex border__top--blue">
+          <div id="page-main" class="pr-13" style="width: 65%">
+            <div id="hot-news" class="flex border__top--blue res-block">
               <div id="title" class="p-16">
                 <div class="color-blue-1 bold fs-24 pb-12">
                   [E] 10 năm “thắp lửa” của người Viettel ở nước nghèo nhất thế
@@ -119,7 +127,7 @@
             </div>
             <div id="news-2">
               <div id="news-2-item" class="flex gap-10">
-                <div class="bg-grey-3 border__top--blue flex">
+                <div class="bg-grey-3 border__top--blue flex res-block">
                   <img src="https://picsum.photos/230/140" />
                   <div class="p-8 flex flex-column space-between">
                     <div class="bold">
@@ -140,7 +148,7 @@
                 </div>
               </div>
               <div id="news-2-item" class="flex gap-10 mt-10">
-                <div class="bg-grey-3 border__top--blue flex">
+                <div class="bg-grey-3 border__top--blue flex res-block">
                   <img src="https://picsum.photos/230/140" />
                   <div class="p-8 flex flex-column space-between">
                     <div class="bold">
@@ -165,7 +173,7 @@
               Quảng cáo 800 x 128px
             </div>
           </div>
-          <div id="side-page" class="pl-13">
+          <div id="side-page" class="pl-13" style="width: 35%">
             <div class="ad-300-250 mb-12 bold color-white">
               QUANG CAO 300 250
             </div>
@@ -218,11 +226,11 @@
           <div class="bold tab__title">TIN TỨC</div>
           <div id="nav" class="flex fs-14 color-grey py-16">
             <a class="px-10">Tin trong nuoc </a>
-            <span>|</span>
+            <span class="border-right"></span>
             <a class="px-10">Tin trong nuoc </a>
-            <span>|</span>
+            <span class="border-right"></span>
             <a class="px-10">Tin trong nuoc </a>
-            <span>|</span>
+            <span class="border-right"></span>
             <a class="px-10">Tin trong nuoc </a>
             <i class="fa fa-angle-double-down" aria-hidden="true"></i>
           </div>
@@ -236,7 +244,7 @@
             </div>
             <div class="border-right"></div>
             <div id="post">
-              <div id="post-1" class="flex mb-12">
+              <div id="post-1" class="flex mb-12 res-block">
                 <img src="https://picsum.photos/160/100" />
                 <div class="title bold px-10 py-4">
                   Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
@@ -255,7 +263,7 @@
             </div>
             <div class="border-right"></div>
             <div id="post">
-              <div id="post-1" class="flex mb-12">
+              <div id="post-1" class="flex mb-12 res-block">
                 <img src="https://picsum.photos/160/100" />
                 <div class="title bold px-10 py-4">
                   Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
@@ -349,7 +357,7 @@
             style="width: 50%"
             class="border-right pr-13"
           >
-            <div class="post-item py-20 flex border-bottom">
+            <div class="post-item py-20 flex border-bottom res-block">
               <img src="https://picsum.photos/220/130" />
               <div class="text px-12">
                 <div class="title bold mb-12">
@@ -363,7 +371,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item py-20 flex border-bottom">
+            <div class="post-item py-20 flex border-bottom res-block">
               <img src="https://picsum.photos/220/130" />
               <div class="text px-12">
                 <div class="title bold mb-12">
@@ -377,7 +385,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item py-20 flex border-bottom">
+            <div class="post-item py-20 flex border-bottom res-block">
               <img src="https://picsum.photos/220/130" />
               <div class="text px-12">
                 <div class="title bold mb-12">
@@ -391,7 +399,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item py-20 flex border-bottom">
+            <div class="post-item py-20 flex border-bottom res-block">
               <img src="https://picsum.photos/220/130" />
               <div class="text px-12">
                 <div class="title bold mb-12">
@@ -405,7 +413,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item py-20 flex border-bottom">
+            <div class="post-item py-20 flex border-bottom res-block">
               <img src="https://picsum.photos/220/130" />
               <div class="text px-12">
                 <div class="title bold mb-12">
@@ -419,7 +427,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item py-20 flex border-bottom">
+            <div class="post-item py-20 flex border-bottom res-block">
               <img src="https://picsum.photos/220/130" />
               <div class="text px-12">
                 <div class="title bold mb-12">
@@ -433,7 +441,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item py-20 flex border-bottom">
+            <div class="post-item py-20 flex border-bottom res-block">
               <img src="https://picsum.photos/220/130" />
               <div class="text px-12">
                 <div class="title bold mb-12">
@@ -447,7 +455,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-item py-20 flex border-bottom">
+            <div class="post-item py-20 flex border-bottom res-block">
               <img src="https://picsum.photos/220/130" />
               <div class="text px-12">
                 <div class="title bold mb-12">
@@ -485,9 +493,9 @@
               <div class="tab__title bold">Pháp Luật</div>
               <div class="nav fs-14 color-grey py-16">
                 <a class="px-10">Ho so dieu tra </a>
-                <span>|</span>
+                <span class="border-right"></span>
                 <a class="px-10">An ninh phap luat</a>
-                <span>|</span>
+                <span class="border-right"></span>
                 <i class="fa fa-angle-double-down" aria-hidden="true"></i>
               </div>
               <div class="hot-post flex mb-12">
@@ -546,7 +554,7 @@
               <div class="tab__title bold">Pháp Luật</div>
               <div class="nav fs-14 color-grey py-16">
                 <a class="px-10">Ho so dieu tra </a>
-                <span>|</span>
+                <span class="border-right"></span>
                 <a class="px-10">An ninh phap luat</a>
                 <i class="fa fa-angle-double-down" aria-hidden="true"></i>
               </div>
@@ -606,7 +614,7 @@
               <div class="tab__title bold">Pháp Luật</div>
               <div class="nav fs-14 color-grey py-16">
                 <a class="px-10">Ho so dieu tra </a>
-                <span>|</span>
+                <span class="border-right"></span>
                 <a class="px-10">An ninh phap luat</a>
                 <i class="fa fa-angle-double-down" aria-hidden="true"></i>
               </div>
@@ -740,7 +748,7 @@
                 <div class="bold tab__title">Kinh Doanh</div>
                 <div class="nav flex fs-14 color-grey py-16">
                   <a class="px-10">Tai chinh 4.0</a>
-                  <span>|</span>
+                  <span class="border-right"></span>
                   <a class="px-10">Thi truong dau tu</a>
                   <i class="fa fa-angle-double-down" aria-hidden="true"></i>
                 </div>
@@ -757,14 +765,14 @@
                   </div>
                 </div>
                 <div class="list-post">
-                  <div class="item flex py-8 border-top">
+                  <div class="item flex py-8 border-top res-block">
                     <img src="https://picsum.photos/120/75" />
                     <div class="title mr-8 bold px-10">
                       Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
                       đất lúa làm dự án đầu tư
                     </div>
                   </div>
-                  <div class="item flex py-8 border-top">
+                  <div class="item flex py-8 border-top res-block">
                     <img src="https://picsum.photos/120/75" />
                     <div class="title mr-8 bold px-10">
                       Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
@@ -778,7 +786,7 @@
                 <div class="bold tab__title">Kinh Doanh</div>
                 <div class="nav flex fs-14 color-grey py-16">
                   <a class="px-10">Tai chinh 4.0</a>
-                  <span>|</span>
+                  <span class="border-right"></span>
                   <a class="px-10">Thi truong dau tu</a>
                   <i class="fa fa-angle-double-down" aria-hidden="true"></i>
                 </div>
@@ -795,14 +803,14 @@
                   </div>
                 </div>
                 <div class="list-post">
-                  <div class="item flex py-8 border-top">
+                  <div class="item flex py-8 border-top res-block">
                     <img src="https://picsum.photos/120/75" />
                     <div class="title mr-8 bold px-10">
                       Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
                       đất lúa làm dự án đầu tư
                     </div>
                   </div>
-                  <div class="item flex py-8 border-top">
+                  <div class="item flex py-8 border-top res-block">
                     <img src="https://picsum.photos/120/75" />
                     <div class="title mr-8 bold px-10">
                       Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
@@ -823,7 +831,7 @@
                 <div class="bold tab__title">Kinh Doanh</div>
                 <div class="nav flex fs-14 color-grey py-16">
                   <a class="px-10">Tai chinh 4.0</a>
-                  <span>|</span>
+                  <span class="border-right"></span>
                   <a class="px-10">Thi truong dau tu</a>
                   <i class="fa fa-angle-double-down" aria-hidden="true"></i>
                 </div>
@@ -843,14 +851,14 @@
                   </div>
                 </div>
                 <div class="list-post">
-                  <div class="item flex py-8 border-top">
+                  <div class="item flex py-8 border-top res-block">
                     <img src="https://picsum.photos/120/75" />
                     <div class="title mr-8 bold px-10">
                       Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
                       đất lúa làm dự án đầu tư
                     </div>
                   </div>
-                  <div class="item flex py-8 border-top">
+                  <div class="item flex py-8 border-top res-block">
                     <img src="https://picsum.photos/120/75" />
                     <div class="title mr-8 bold px-10">
                       Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
@@ -864,7 +872,7 @@
                 <div class="bold tab__title">Kinh Doanh</div>
                 <div class="nav flex fs-14 color-grey py-16">
                   <a class="px-10">Tai chinh 4.0</a>
-                  <span>|</span>
+                  <span class="border-right"></span>
                   <a class="px-10">Thi truong dau tu</a>
                   <i class="fa fa-angle-double-down" aria-hidden="true"></i>
                 </div>
@@ -881,14 +889,14 @@
                   </div>
                 </div>
                 <div class="list-post">
-                  <div class="item flex py-8 border-top">
+                  <div class="item flex py-8 border-top res-block">
                     <img src="https://picsum.photos/120/75" />
                     <div class="title mr-8 bold px-10">
                       Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
                       đất lúa làm dự án đầu tư
                     </div>
                   </div>
-                  <div class="item flex py-8 border-top">
+                  <div class="item flex py-8 border-top res-block">
                     <img src="https://picsum.photos/120/75" />
                     <div class="title mr-8 bold px-10">
                       Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
@@ -935,7 +943,7 @@
                 </tr>
               </table>
             </div>
-            <div id="forex-table" class="mt-30">
+            <div id="forex-table" class="mt-30 fs-12">
               <table class="bg-grey-1">
                 <tr>
                   <th>SYMBOL</th>
@@ -987,11 +995,11 @@
           <div class="bold tab__title">TIN TỨC</div>
           <div id="nav" class="flex fs-14 color-grey py-16">
             <a class="px-10">Tin trong nuoc </a>
-            <span>|</span>
+            <span class="border-right"></span>
             <a class="px-10">Tin trong nuoc </a>
-            <span>|</span>
+            <span class="border-right"></span>
             <a class="px-10">Tin trong nuoc </a>
-            <span>|</span>
+            <span class="border-right"></span>
             <a class="px-10">Tin trong nuoc </a>
             <i class="fa fa-angle-double-down" aria-hidden="true"></i>
           </div>
