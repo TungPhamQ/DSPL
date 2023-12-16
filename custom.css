@@ -58,17 +58,17 @@ input:focus {
 #side-bar {
   max-width: 300px;
 }
-#news-tab__title {
+.tab__title {
   position: relative;
   z-index: 3;
   font-size: 30px;
   color: #005689;
   font-style: italic;
 }
-#news-tab__dash {
+.tab__dash {
   position: relative;
 }
-#news-tab__dash::after {
+.tab__dash::after {
   content: "";
   position: absolute;
   left: -1px;
@@ -77,4 +77,17 @@ input:focus {
   width: 100%;
   height: 15px;
   background-color: #b9e1ff;
+}
+#border-top__short {
+  width: 76px;
+  border-top: 1px solid #2da5ff;
+}
+.max-width-394 {
+  max-width: 394px;
+}
+#ads-img {
+  width: -webkit-fill-available;
+}
+#footer-wrapper {
+  border: 1px solid #fff;
 }
