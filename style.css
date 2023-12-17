@@ -297,12 +297,14 @@
   width: 50%;
 }
 /* responsive */
-@media only screen and (max-width: 1300px) {
-  .res-block {
-    display: block !important;
-  }
+@media only screen and (max-width: 1500px) {
   .side {
     padding: 0 8%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .res-block {
+    display: block !important;
   }
   .display-none {
     display: none;
@@ -311,11 +313,5 @@
 @media only screen and (max-width: 768px) {
   .side {
     padding: 0;
-  }
-  .res-block {
-    display: block !important;
-  }
-  .display-none {
-    display: none !important;
   }
 }
