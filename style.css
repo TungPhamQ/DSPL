@@ -298,11 +298,34 @@
 }
 /* responsive */
 @media only screen and (max-width: 1300px) {
+  #side-page {
+    padding-left: 0;
+  }
+  #page-main {
+    padding: 0;
+  }
   .res-block {
     display: block !important;
   }
   .side {
     padding: 0 8%;
+  }
+  .display-none {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #page {
+    padding: 0 0 0 0;
+  }
+  #side-page {
+    padding-left: 0;
+  }
+  .res-block {
+    display: block !important;
+  }
+  .side {
+    padding: 0 1%;
   }
   .display-none {
     display: none;

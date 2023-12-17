@@ -137,3 +137,27 @@ img {
     flex-direction: column-reverse;
   }
 }
+
+@media only screen and (max-width: 1300px) {
+  .ad-800-128 {
+    margin: 12px 0 !important;
+  }
+  #list-post__left {
+    padding: 0;
+  }
+  #list-post__right {
+    padding: 20px 0;
+  }
+  .business-list {
+    gap: 0 !important;
+  }
+  .wrapper {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .wrapper {
+    padding: 16px;
+  }
+}
