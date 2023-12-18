@@ -28,34 +28,44 @@
           </div>
           <div class="flex gap-28 flex-align-center">
             <span id="weather" class="display-none">
-              <div>Thứ 3, ngày 21-11-2023</div>
-              <div>Hà Nội, 16° - 28°C</div>
+              <div class="text-no-wrap">Thứ 3, ngày 21-11-2023</div>
+              <div class="text-no-wrap">Hà Nội, 16° - 28°C</div>
             </span>
-            <span id="news"
+            <span id="news" class="flex flex-align-center gap-6"
               ><i class="fa fa-refresh" aria-hidden="true"></i>
-              <div class="display-none">Tin mới nhất</div></span
+              <div class="display-none text-no-wrap">Tin mới nhất</div></span
             >
-            <span id="login"
+            <span id="login" class="flex flex-align-center gap-6"
               ><i class="fa fa-user-o" aria-hidden="true"></i>
-              <div class="display-none">Đăng nhập</div>
+              <div class="display-none text-no-wrap">Đăng nhập</div>
             </span>
             <i class="fa fa-search res-block" style="display: none"></i>
           </div>
         </div>
         <div
           id="nav-bar"
-          class="flex gap-28 px-28 py-16 border space-between wrap"
+          class="flex border wrap flex-align-center space-between"
         >
-          <a class="text-no-wrap">TIN TỨC</a>
-          <a class="text-no-wrap">PHÁP LUẬT</a>
-          <a class="text-no-wrap">KINH DOANH</a>
-          <a class="text-no-wrap">ĐỜI SỐNG</a>
-          <a class="text-no-wrap">THẾ GIỚI</a>
-          <a class="text-no-wrap">VĂN HÓA</a>
-          <a class="text-no-wrap">VIDEO</a>
-          <a class="text-no-wrap">THỂ THAO</a>
-          <a class="text-no-wrap">GIÁO DỤC</a>
-          <i class="fa fa-bars" aria-hidden="true"></i>
+          <i
+            class="fa fa-home res-block"
+            aria-hidden="true"
+            style="display: none"
+          ></i>
+          <a class="text-no-wrap py-16 px-14 border__top--blue-2">TIN TỨC</a>
+          <a class="text-no-wrap py-16 px-14">PHÁP LUẬT</a>
+          <a class="text-no-wrap py-16 px-14">KINH DOANH</a>
+          <i
+            class="fa fa-share res-block px-14"
+            aria-hidden="true"
+            style="display: none"
+          ></i>
+          <a class="text-no-wrap display-none py-16 px-14">ĐỜI SỐNG</a>
+          <a class="text-no-wrap display-none py-16 px-14">THẾ GIỚI</a>
+          <a class="text-no-wrap display-none py-16 px-14">VĂN HÓA</a>
+          <a class="text-no-wrap display-none py-16 px-14">VIDEO</a>
+          <a class="text-no-wrap display-none py-16 px-14">THỂ THAO</a>
+          <a class="text-no-wrap display-none py-16 px-14">GIÁO DỤC</a>
+          <i class="fa fa-bars display-none px-14" aria-hidden="true"></i>
         </div>
       </div>
     </section>
@@ -201,10 +211,7 @@
                 >
                   ĐỌC NHIỀU
                 </div>
-                <div
-                  id="comment"
-                  class="bold color-blue-1 px-20 py-10 align-center"
-                >
+                <div id="comment" class="bold px-20 py-10 align-center">
                   BÌNH LUẬN
                 </div>
               </div>
@@ -769,7 +776,7 @@
             </div>
           </div>
         </section>
-        <section class="flex mt-30 gap-20 res-block ">
+        <section class="flex mt-30 gap-20 res-block">
           <div id="left">
             <div div class="flex gap-16 res-block">
               <div id="business" class="bg-grey-1 p-8">

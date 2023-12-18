@@ -246,7 +246,10 @@
   border-right: 1px solid #dbdbdb;
 }
 .border__top--blue {
-  border-top: 1px solid #052962;
+  border-top: 1px solid #0077b6;
+}
+.border__top--blue-2 {
+  border-top: 3px solid #00b2ff;
 }
 
 /* text */
@@ -261,6 +264,9 @@
 }
 .align-center {
   text-align: center;
+}
+.font-neue {
+  font-family: "Helvetica Neue", sans-serif !important  ;
 }
 .fs-10 {
   font-size: 10px;
@@ -315,6 +321,6 @@
     display: block !important;
   }
   .display-none {
-    display: none;
+    display: none !important    ;
   }
 }
