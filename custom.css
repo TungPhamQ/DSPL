@@ -1,7 +1,9 @@
 #header {
   background: #427cc6;
 }
-
+#body-wrapper {
+  border-top: none;
+}
 #menu-bar {
   background: #052962;
   width: 100%;
