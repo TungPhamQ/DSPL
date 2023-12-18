@@ -19,6 +19,9 @@ input:focus {
   height: 30px;
   width: 100%;
 }
+#side-news {
+  width: 48%;
+}
 #search-input {
   background: #052962;
   border: none;
