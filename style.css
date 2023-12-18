@@ -55,9 +55,7 @@ body {
 .bg-blue-3 {
   background: #e4eff8;
 }
-.bg-blue-4 {
-    background: #0077b6;
-  }
+
 /* flex box */
 .flex {
   display: flex;
