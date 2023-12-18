@@ -55,6 +55,9 @@ body {
 .bg-blue-3 {
   background: #e4eff8;
 }
+.bg-blue-4 {
+    background: #0077b6;
+  }
 /* flex box */
 .flex {
   display: flex;
@@ -217,13 +220,16 @@ body {
 .mb-30 {
   margin-bottom: 30px;
 }
+.mb-40 {
+    margin-bottom: 40px;
+  }
 .mr-8 {
   margin-right: 8px;
 }
 .mr-12 {
   margin-right: 12px;
 }
-.mr-20 {
+.justify-content{
   margin-right: 20px;
 }
 .mr-144 {

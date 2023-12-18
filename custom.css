@@ -200,6 +200,12 @@ img {
   display: inline-flex;
   align-items: end;
 }
+#dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #333;
+}
 @media only screen and (max-width: 800px) {
   #page,
   #page-main,
