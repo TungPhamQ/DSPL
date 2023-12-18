@@ -196,15 +196,39 @@ img {
   display: inline-block;
   background-repeat: no-repeat;
 }
+#icon-location {
+  background-image: url("./asset/icon-sprite.png");
+  background-position: -13px -529px;
+  width: 25px;
+  height: 31px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+#icon-phone {
+  background-image: url("./asset/icon-sprite.png");
+  background-position: -13px -485px;
+  width: 25px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+#icon-mail {
+  background-image: url("./asset/icon-sprite.png");
+  background-position: -16px -370px;
+  width: 25px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
 .comment-amount {
   display: inline-flex;
   align-items: end;
 }
 #dot {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  background-color: #333;
+  background-color: #a1a1a1;
 }
 .description {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
