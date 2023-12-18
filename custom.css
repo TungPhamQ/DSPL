@@ -164,13 +164,41 @@ img {
   display: inline-block;
   background-repeat: no-repeat;
 }
-#stonk {
+#icon-stonk {
   background-image: url("./asset/icon-sprite.png");
   background-position: -13px -251px;
   width: 25px;
   height: 25px;
   display: inline-block;
   background-repeat: no-repeat;
+}
+#icon-stonk-2 {
+  background-image: url("./asset/icon-sprite.png");
+  background-position: -13px -642px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+#icon-chevron {
+  background-image: url("./asset/icon-sprite.png");
+  background-position: -13px -610px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+#icon-comment {
+  background-image: url("./asset/icon-sprite.png");
+  background-position: -10px -46px;
+  width: 25px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.comment-amount {
+  display: inline-flex;
+  align-items: end;
 }
 @media only screen and (max-width: 800px) {
   #page,
