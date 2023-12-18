@@ -9,7 +9,7 @@ body {
   font-family: "Cha  ris SIL", serif;
 }
 .side {
-  padding: 0 20%;
+  margin: 0 20%;
 }
 
 /* DEFINE LIBRARY */
@@ -202,6 +202,9 @@ body {
 .mt-30 {
   margin-top: 30px;
 }
+.mb-2 {
+  margin-bottom: 2px;
+}
 .mb-6 {
   margin-bottom: 6px;
 }
@@ -307,17 +310,17 @@ body {
 /* responsive */
 @media only screen and (max-width: 1500px) {
   .side {
-    padding: 0 15%;
+    margin: 0 15%;
   }
 }
 @media only screen and (max-width: 1300px) {
   .side {
-    padding: 0 8%;
+    margin: 0 8%;
   }
 }
 @media only screen and (max-width: 768px) {
   .side {
-    padding: 0;
+    margin: 0;
   }
   .res-block {
     display: block !important;
