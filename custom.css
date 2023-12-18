@@ -39,7 +39,8 @@ input:focus {
   font-size: 12px;
   line-height: 24px;
   color: #707070;
-  /* font-family: "Helvetica Neue"; */
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif !important;
 }
 
 .tag {
