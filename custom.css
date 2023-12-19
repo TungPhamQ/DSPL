@@ -328,6 +328,9 @@ img {
   .icon-scale {
     transform: scale(1.2);
   }
+  #side-news {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 1500px) {
   #hot-news img {
