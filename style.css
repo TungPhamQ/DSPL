@@ -454,6 +454,9 @@ body {
 .fs-36 {
   font-size: 36px;
 }
+.line-height-30 {
+  line-height: 30px;
+}
 /* height */
 .h-fit {
   height: fit-content;

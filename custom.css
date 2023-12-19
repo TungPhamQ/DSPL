@@ -8,6 +8,10 @@
   background: #052962;
   width: 100%;
 }
+#hot-news__title {
+  max-height: 300px;
+  width: 300px;
+}
 input {
   color: #fff;
 }
