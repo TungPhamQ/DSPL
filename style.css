@@ -579,7 +579,7 @@ body {
   .res-block {
     display: block !important;
   }
-  .display-none {
+  .nonedisplay- {
     display: none !important    ;
   }
 }

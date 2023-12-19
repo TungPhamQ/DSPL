@@ -306,6 +306,9 @@ img {
   #hot-event {
     padding: 0;
   }
+  #hot-event {
+    padding: 8px 25px;
+  }
   #hot-news,
   #video__container,
   #video__list {
