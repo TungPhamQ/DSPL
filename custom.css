@@ -283,8 +283,7 @@ img {
   padding: 0 20%;
 }
 #list-post {
-  border-top: 1px solid #052962;
-  border-bottom: 1px solid #052962;
+  border-top: 1px solid #e2e2e2;
 }
 /* #list-post::before {
   position: absolute;
