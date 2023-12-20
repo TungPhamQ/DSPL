@@ -69,6 +69,9 @@ body {
 .flex-column {
   flex-direction: column;
 }
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
 .wrap {
   flex-wrap: wrap;
 }
