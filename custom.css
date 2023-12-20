@@ -12,6 +12,10 @@
   max-height: 300px;
   width: 300px;
 }
+#hot-news__title-category {
+  max-height: 300px;
+  width: 100%;
+}
 input {
   color: #fff;
 }
