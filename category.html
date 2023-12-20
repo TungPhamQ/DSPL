@@ -27,24 +27,30 @@
             </div>
           </div>
           <div
-            class="flex gap-28 flex-align-center font-helvetica color-blue-2"
+            id="icon-wrapper"
+            class="icon-wrapper flex gap-28 flex-align-center font-helvetica color-blue-2"
           >
             <span id="weather" class="display-none">
               <div class="text-no-wrap">Thứ 3, ngày 21-11-2023</div>
               <div class="text-no-wrap flex flex-align-center gap-6">
-                Hà Nội, 16° - 28°C
+                Hà Nội<i class="fa fa-chevron-down" aria-hidden="true"></i>
+                , 16° - 28°C
                 <i id="icon-sun"></i>
               </div>
             </span>
             <span id="news" class="flex flex-align-center gap-6"
-              ><i id="icon-reload"></i>
+              ><i id="icon-reload" class="icon-scale"></i>
               <div class="display-none text-no-wrap">Tin mới nhất</div></span
             >
             <span id="login" class="flex flex-align-center gap-6"
-              ><i id="icon-user"></i>
+              ><i id="icon-user" class="icon-scale"></i>
               <div class="display-none text-no-wrap">Đăng nhập</div>
             </span>
-            <i class="fa fa-search res-block" style="display: none"></i>
+            <i
+              id="icon-search"
+              class="res-block icon-scale"
+              style="display: none"
+            ></i>
           </div>
         </div>
         <div id="nav-bar" class="flex border flex-align-center space-between">
@@ -53,20 +59,23 @@
             aria-hidden="true"
             style="display: none"
           ></i>
-          <a class="text-no-wrap py-16 px-14 border__top--blue-2">TIN TỨC</a>
-          <a class="text-no-wrap py-16 px-14">PHÁP LUẬT</a>
-          <a class="text-no-wrap py-16 px-14">KINH DOANH</a>
+          <a class="text-no-wrap py-16 px-14 border__top--blue-2 bold"
+            >TIN TỨC</a
+          >
+          <a class="text-no-wrap py-16 px-14 bold">PHÁP LUẬT</a>
+          <a class="text-no-wrap py-16 px-14 bold">KINH DOANH</a>
           <i
-            class="fa fa-share res-block px-14"
+            id="icon-share"
+            class="res-block px-14"
             aria-hidden="true"
             style="display: none"
           ></i>
-          <a class="text-no-wrap display-none py-16 px-14">ĐỜI SỐNG</a>
-          <a class="text-no-wrap display-none py-16 px-14">THẾ GIỚI</a>
-          <a class="text-no-wrap display-none py-16 px-14">VĂN HÓA</a>
-          <a class="text-no-wrap display-none py-16 px-14">VIDEO</a>
-          <a class="text-no-wrap display-none py-16 px-14">THỂ THAO</a>
-          <a class="text-no-wrap display-none py-16 px-14">GIÁO DỤC</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">ĐỜI SỐNG</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">THẾ GIỚI</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">VĂN HÓA</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">VIDEO</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">THỂ THAO</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">GIÁO DỤC</a>
           <i class="display-none px-14 mr-20" id="icon-menu"></i>
         </div>
       </div>
@@ -75,291 +84,136 @@
       <div id="body-wrapper" class="border">
         <div
           id="hot-event"
-          class="display-none flex flex-align-center gap-6 py-8 px-44 font-helvetica mb-2 border-bottom"
+          class="flex flex-align-center gap-6 py-8 px-44 mb-2 border-bottom color-blue-1 bold fs-24 items-center"
         >
-          <span id="" class="text-no-wrap fs-10 flex flex-align-center"
-            ><i id="icon-stonk" class="display-none"></i> Dòng sự kiện</span
-          >
-          <span id="event" class="tag fs-10 color-blue-1 text-no-wrap"
-            >Vụ đứt cáp ròng rọc, 3 người chết ở Bình Thuận</span
-          >
-          <span
-            id="event"
-            class="tag fs-10 color-blue-1 text-no-wrap display-none"
-          >
-            Tai nạn giao thông, 5 người chết ở Lạng Sơn</span
-          >
-          <span
-            id="event"
-            class="tag fs-10 color-blue-1 text-no-wrap display-none"
-          >
-            Những vụ giết người phi tang chấn động</span
-          >
+          TIN TỨC
         </div>
         <div class="border-top mb-2"></div>
         <div id="page" class="p-14 border-top">
           <section class="flex res-block">
-            <div id="page-main" class="flex">
-              <div id="sharing" class="pl-16 mt-54 flex-col">
-                <div>
-                  <div
-                    class="bg-grey-1 p-4 rounded-16 flex flex-col justify-center items-center gap-10"
-                  >
-                    <span class="button-zoom">+</span>
-                    <span class="text-center">Aa</span>
-                    <span class="button-zoom">-</span>
+            <div id="page-main" class="pr-13">
+              <div
+                id="hot-news"
+                class="flex border__top--blue bg-grey-1 space-between"
+              >
+                <div id="hot-news__title" class="p-16">
+                  <div class="color-blue-1 bold fs-24 pb-12 line-height-30">
+                    [E] 10 năm “thắp lửa” của người Viettel ở nước nghèo nhất
+                    thế giới
+                    <span class="comment-amount fs-12">
+                      <i id="icon-comment" class="display-none"> </i>
+                      <span class="numer">6</span>
+                    </span>
                   </div>
-                  <div class="mt-16">
-                    <span class="button-social bg-grey-1 mt-10">
-                      <i class="fa fa-link" aria-hidden="true"></i>
-                    </span>
-                    <span class="button-social bg-grey-1 mt-10">
-                      <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </span>
-                    <span class="button-social bg-grey-1 mt-10">+</span>
-                    <span class="button-social bg-grey-1 mt-10"
-                      ><i class="fa fa-comments" aria-hidden="true"></i>
-                    </span>
-                    <p class="text-center">23</p>
+                  <div class="pb-12 fs-18 color-333 font-helvetica">
+                    Trong khi các tổ chức nước ngoài đều rời Burundi thì người
+                    Việt tại Lumitel lại làm ngược lại - bám trụ và xem đây là
+                    cơ hội để phát triển thuê bao.
                   </div>
+                  <div class="pb-12 time">1 giờ trước</div>
                 </div>
-
-                <!-- <div>
-                  <span class="button-social bg-grey-1">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </span>
-                  <span class="button-social bg-grey-1">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </span>
-                  <span class="button-social bg-grey-1">+</span>
-                  <span class="button-social bg-grey-1">+</span>
-                </div> -->
+                <img src="https://picsum.photos/500/300" style="width: auto" />
               </div>
-              <div class="pr-64 pl-30">
-                <div
-                  id="bread-crumb"
-                  class="mb-30 text-crumb flex justify-between"
-                >
-                  <div class="flex items-start uppercase fs-14">
-                    <span>Kinh doanh</span>
-                    <i
-                      class="fa fa-angle-double-right mx-8"
-                      aria-hidden="true"
-                    ></i>
-                    <span>Doanh nghiệp</span>
+              <div id="news" class="flex gap-10 py-16 res-block">
+                <div id="news-item" class="border__top--blue bg-grey-3">
+                  <img src="https://picsum.photos/260/160" />
+                  <div class="p-8 mt-6">
+                    <div class="bold">
+                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
+                      để đầu tư phiếu
+                      <span class="comment-amount fs-12">
+                        <i id="icon-comment" class="display-none"> </i>
+                        <span class="numer">6</span>
+                      </span>
+                    </div>
+                    <div class="time">1 gio</div>
                   </div>
-                  <span class="text-crumb fs-14"
-                    >Thứ ba, 12/12/2023, 14:36 (GMT+7)</span
+                </div>
+                <div id="news-item" class="border__top--blue bg-grey-3">
+                  <img src="https://picsum.photos/260/160" />
+                  <div class="p-8 mt-6">
+                    <div class="bold">
+                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
+                      phiếu để đầu tư
+                      <span class="comment-amount fs-12">
+                        <i id="icon-comment" class="display-none"> </i>
+                        <span class="numer">6</span>
+                      </span>
+                    </div>
+                    <div class="time">1 gio</div>
+                  </div>
+                </div>
+                <div id="news-item" class="border__top--blue bg-grey-3">
+                  <img src="https://picsum.photos/260/160" />
+                  <div class="p-8 mt-6">
+                    <div class="bold">
+                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
+                      phiếu để đầu tư
+                      <span class="comment-amount fs-12">
+                        <i id="icon-comment" class="display-none"> </i>
+                        <span class="numer">6</span>
+                      </span>
+                    </div>
+                    <div class="time">1 gio</div>
+                  </div>
+                </div>
+              </div>
+              <div id="news-2">
+                <div id="news-2-item" class="flex gap-10">
+                  <div
+                    class="bg-grey-3 border__top--blue flex res-block width-100pc"
                   >
-                </div>
-                <div id="hot-news">
-                  <div id="title">
-                    <div class="color-black bold fs-36">
-                      Nam A Bank tăng trưởng ấn tượng dựa trên sáng tạo số và
-                      quản trị rủi ro chuẩn mực quốc tế
-                    </div>
-                  </div>
-                  <div class="my-16">
-                    <ul class="uppercase fs-14 bold pl-16">
-                      <li class="color-blue-1">Nhân văn</li>
-                    </ul>
-                  </div>
-                  <div class="pb-12 fs-20 font-italic color-black">
-                    <span class="bold color-blue-1">ĐS&PL </span>Nam A Bank vừa
-                    công bố kết quả kinh doanh năm 2022 với nhiều chỉ tiêu tăng
-                    trưởng tích cực, đặc biệt lợi nhuận đạt hơn 2.000 tỷ đồng,
-                    tăng hơn 26% so với cùng kỳ năm 2021. Đây chính là minh
-                    chứng cho hiệu quả hoạt động ổn định, bền vững của Nam A
-                    Bank trên thị trường.
-                  </div>
-                  <div class="width-full">
-                    <img src="https://picsum.photos/260/160" />
-                    <span
-                      class="fs-12 text-center width-full display-block img-des"
-                    >
-                      Nam A Bank đang triển khai nhiều giải pháp tăng cường khả
-                      năng tiếp cận vốn của người dân (Ảnh: Nam A Bank).
-                    </span>
-                  </div>
-                  <div class="relative flex gap-16 my-16">
-                    <div class="width-58">
-                      <span class="fs-16">
-                        Năm vừa qua ghi dấu ấn quan trọng đối với Nam A Bank –
-                        kỷ niệm 30 năm hành trình khẳng định và phát triển
-                        thương hiệu, được vun đắp từ sự nỗ lực – đồng hành – tin
-                        tưởng và thấu hiểu của tập thể cán bộ nhân viên, đối
-                        tác, cổ đông, khách hàng và cộng đồng. Theo đó, bằng sự
-                        nỗ lực của tập thể, Nam A Bank đã ghi nhận những kết quả
-                        tích cực về kinh doanh, quản trị, vận hành dựa trên hệ
-                        thống công nghệ bảo mật, đi kèm với việc lan tỏa những
-                        giá trị nhân văn sâu sắc đến với cộng đồng.
-                      </span>
-                    </div>
-                    <div
-                      id="list-post"
-                      class="width-42 relative pl-14 pr-20 h-fit"
-                    >
-                      <div class="bold fs-16 py-16 border-bottom">
-                        <ul>
-                          <li>
-                            Những dấu ấn quan trọng NAM A BANK giai đoạn
-                            2016-2021
-                          </li>
-                        </ul>
+                    <img src="https://picsum.photos/230/140" />
+                    <div class="p-8 flex flex-column space-between">
+                      <div class="bold">
+                        Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
+                        phiếu để đầu tư
                       </div>
-                      <div class="bold fs-16 py-16">
-                        <ul>
-                          <li>
-                            Nam A Bank tung gói vay ưu đãi, giúp khách hàng phát
-                            triển kinh doanh dịp Tết
-                          </li>
-                        </ul>
+                      <div class="time">1 giờ trước</div>
+                    </div>
+                  </div>
+                  <div
+                    id="side-news"
+                    class="display-none bg-grey-3 border__top--blue p-8 flex flex-column space-between"
+                  >
+                    <div class="bold">
+                      Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn
+                      bán 500.000 cổ phiếu
+                    </div>
+                    <div class="time">1 giờ trước</div>
+                  </div>
+                </div>
+                <div id="news-2-item" class="flex gap-10 mt-10">
+                  <div
+                    class="bg-grey-3 border__top--blue flex res-block width-100pc"
+                  >
+                    <img src="https://picsum.photos/230/140" />
+                    <div class="p-8 flex flex-column space-between">
+                      <div class="bold">
+                        Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
+                        phiếu để đầu tư
                       </div>
+                      <div class="time">1 giờ trước</div>
                     </div>
                   </div>
-                  <div class="relative">
-                    <span class="fs-16">
-                      So với cùng kỳ năm 2021, tính đến 31/12/2022, tổng tài sản
-                      Nam A Bank đạt gần 180.000 tỷ đồng, tăng 16%; lợi nhuận
-                      trước thuế hợp nhất đạt 2.268 tỷ đồng, tăng hơn 26%; tổng
-                      huy động vốn đạt gần 140.000 tỷ đồng, tăng 9,3%. Tỷ lệ nợ
-                      xấu được kiểm soát chặt chẽ theo quy định của NHNN, giảm
-                      so với năm 2021.
-                    </span>
-                  </div>
-                  <div class="relative flex gap-16 my-16">
-                    <div class="width-40 relative h-fit">
-                      <img src="https://picsum.photos/120/130" />
+                  <div
+                    id="side-news"
+                    class="display-none bg-grey-3 border__top--blue p-8 flex flex-column space-between"
+                  >
+                    <div class="bold">
+                      Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn
+                      bán 500.000 cổ phiếu
                     </div>
-                    <div class="width-60">
-                      <span class="fs-16">
-                        Là một trong những ngân hàng tiên phong sáng tạo số, năm
-                        vừa qua Nam A Bank tiếp tục chú trọng chiến lược phát
-                        triển công nghệ bằng việc đẩy mạnh số hóa trong kinh
-                        doanh và vận hành, không ngừng cải tiến và nâng cao trải
-                        nghiệm Hệ sinh thái ngân hàng số (Open Banking – ONEBANK
-                        và Robot OPBA), mở rộng hệ sinh thái – kết nối đối tác
-                        như VGS, Mobifone, VNPOST, VNpay, VETC…Minh chứng là số
-                        lượng khách hàng sử dụng giao dịch số của Nam A Bank
-                        ngày càng tăng, so với cùng kỳ năm 2021, tiền gửi online
-                        tăng hơn 46%, khách hàng sử dụng thẻ tăng hơn 23%, khách
-                        hàng sử dụng Open Banking tăng hơn 77%.
-                      </span>
-                    </div>
-                  </div>
-                  <div class="relative mt-16">
-                    <span class="fs-16">
-                      Để đạt được kết quả tích cực trên, năm vừa qua, Nam A Bank
-                      đã không ngừng mở rộng mạng lưới, phát triển công nghệ và
-                      chú trọng quản trị rủi ro, khẳng định thương hiệu uy tín
-                      trên thị trường.
-                    </span>
-                  </div>
-                  <div class="relative mt-16">
-                    <span class="fs-16">
-                      Năm vừa qua, Nam A Bank tiếp được NHNN chấp thuận mở rộng
-                      mạng lưới và ngân hàng đã mở rộng thêm 4 chi nhánh tại
-                      Quảng Nam, Vĩnh Phúc, Cà Mau, Phú Yên cùng các Phòng Giao
-                      dịch, điểm giao dịch tự động ONEBANK. Tính đến nay, Nam A
-                      Bank có gần 120 đơn vị kinh doanh và gần 100 điểm ONEBANK
-                      trên toàn quốc.
-                    </span>
-                  </div>
-                  <div class="width-full my-16">
-                    <img src="https://picsum.photos/260/160" />
-                    <span
-                      class="fs-12 text-center width-full display-block img-des"
-                    >
-                      Nam A Bank là 1 trong 4 ngân hàng Việt công bố hoàn thành
-                      chuẩn mực quản trị rủi ro theo chuẩn quốc tế Basel III
-                    </span>
-                  </div>
-                  <div class="relative mt-16">
-                    <span class="fs-16">
-                      Để hoạt động kinh doanh ổn định, bền vững thì quản trị rủi
-                      ro luôn được các ngân hàng đặt lên hàng đầu. Quản trị rủi
-                      ro tốt sẽ giúp ngân hàng nâng cao khả năng ứng phó, nhanh
-                      chóng thích nghi và duy trì hoạt động ổn định, hiệu quả
-                      khi có những biến động về kinh tế. Có thể nói, đây là một
-                      trong những ngân hàng tiên phong và chủ động áp dụng mô
-                      hình quản trị rủi ro theo quy định của NHNN và chuẩn mực
-                      quốc tế từ sớm. Năm 2022, Nam A Bank là 1 trong 4 ngân
-                      hàng Việt được KPMG công bố hoàn thành chuẩn mực quản trị
-                      rủi ro theo chuẩn quốc tế Basel III. Đồng thời, triển khai
-                      chuẩn mực báo cáo tài chính quốc tế (IFRS) nhằm tăng cường
-                      tính minh bạch về tài chính và nâng cao hiệu quả, an toàn
-                      trong hoạt động tiến tới các chuẩn mực tài chính quốc tế
-                      toàn diện.
-                    </span>
-                  </div>
-                  <div class="relative flex gap-16 my-16">
-                    <div class="width-60">
-                      <p class="fs-16">
-                        Song hành cùng hoạt động kinh doanh, vai trò trách nhiệm
-                        xã hội trong năm vừa qua của Ngân hàng cũng thể hiện qua
-                        hàng loạt chương trình hướng đến cộng đồng mang ý nghĩa
-                        thiết thực như: Xây cầu và đường dân sinh, trao tặng nhà
-                        đại đoàn kết, nhà tình thương cho những gia đình khó
-                        khăn, tặng học bổng cho học sinh hiếu học, mang Tết hạnh
-                        phúc và trung thu đến những mảnh đời khó khăn hay đồng
-                        hành xuyên suốt cùng giải thưởng Mai vàng và các hoạt
-                        động thiện nguyện sau chương trình…
-                      </p>
-                      <p class="mt-16">
-                        Với những hoạt động tích cực, mang giá trị thiết thực và
-                        ý nghĩa trên, năm vừa qua Nam A Bank đã được các tổ chức
-                        trong và ngoài nước ghi nhận như: Nơi làm việc tốt nhất
-                        Châu Á do HR Asia bình chọn; Top 10 ng hiệu tăng
-                      </p>
-                    </div>
-                    <div class="width-40 relative h-fit">
-                      <img src="https://picsum.photos/120/130" />
-                    </div>
-                  </div>
-                  <div class="relative mt-16">
-                    <span class="fs-16">
-                      Thương hiệu tăng trưởng ấn tượng do Tạp chí Kinh tế Việt
-                      Nam tổ chức; Doanh nghiệp vì cộng đồng do tạp chí Kinh tế
-                      Sài Gòn tổ chức; Thương hiệu truyền cảm hứng Châu Á tại Lễ
-                      trao giải Asia Pacific Enterprise Awards (APEA); nhận 4
-                      giải thưởng quốc tế là Ngân hàng kiến tạo số tốt nhất Việt
-                      Nam 2022, Ngân hàng đẹp – Dịch vụ tốt nhất Việt Nam 2022;
-                      Ngân hàng quản trị rủi ro xuất sắc Việt Nam 2022, Ngân
-                      hàng có trách nhiệm xã hội tốt nhất Việt Nam 2022 do Tạp
-                      chí IBM tổ chức…
-                    </span>
-                  </div>
-                  <div class="relative mt-16">
-                    <span class="fs-16">
-                      Với nền tảng hoạt động kinh doanh hiệu quả, minh bạch, ổn
-                      định, năm 2023 Nam A Bank tiếp tục thực hiện các chiến
-                      lược mới và kỳ vọng sẽ hoàn thành tốt các chỉ tiêu cho năm
-                      mới. Song song đó, Ngân hàng sẽ tiếp tục củng cố và phát
-                      huy sức mạnh nội tại về công nghệ và nhân lực, chủ động
-                      tìm kiếm các cơ hội hợp tác với các tổ chức uy tín trên
-                      toàn cầu để tiếp tục hội nhập và đồng hành cùng khách hàng
-                      đẩy mạnh sản xuất kinh doanh.
-                    </span>
+                    <div class="time">1 giờ trước</div>
                   </div>
                 </div>
-                <div class="width-full bg-grey-3 flex items-center gap-10 p-14">
-                  <img src="https://picsum.photos/260/120" />
-                  <div class="relative">
-                    <p class="mb-12 bold fs-18 color-blue-1">
-                      Kỳ 2: Nam A Bank hai năm liên tiếp nhận giải thưởng thương
-                      hiệu châu Á
-                    </p>
-                    <p>
-                      Nam A Bank nhận giải "Thương hiệu truyền cảm hứng châu Á"
-                      nhờ nhiều hoạt động sáng tạo, sẵn sàng đổi mới kinh doanh,
-                      truyền thông hiệu quả, ngày 5/10.
-                    </p>
-                  </div>
-                </div>
+              </div>
+              <div class="ad-800-128 my-30 bold color-white display-none">
+                Quảng cáo 800 x 128px
               </div>
             </div>
             <div id="side-page" class="pl-13">
-              <div class="ad-300-250 mb-12 bold color-white">
+              <div class="ad-300-250 mb-12 bold color-white display-none">
                 QUANG CAO 300 250
               </div>
               <div class="ad-300-250 mb-12 bold color-white">
@@ -420,111 +274,6 @@
                   </div>
                   <div class="p-14 bold align-center">Xem thêm</div>
                 </div>
-              </div>
-              <div class="bg-blue-3 mt-16">
-                <div class="slide res-block">
-                  <div>
-                    <img src="https://picsum.photos/270/160" />
-                    <div class="flex py-10 justify-center gap-10">
-                      <span id="dot"></span>
-                      <span id="dot"></span>
-                      <span id="dot"></span>
-                      <span id="dot" style="background: #0077b6"></span>
-                    </div>
-                  </div>
-                  <div class="px-14 pb-12 flex-column justify-end">
-                    <div class="color-blue-1 fs-12 font-helvetica">
-                      <i id="icon-stonk-2"></i> Giải pháp thúc đẩy ngành Du lịch
-                      cất cánh
-                    </div>
-                    <div class="title bold fs-18 mt-10">
-                      Giải pháp thu hút du khách quốc tế đến Việt Nam: Những con
-                      số biết nói
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="right" class="mt-16">
-                <div id="stock" class="border display-none">
-                  <img src="https://picsum.photos/300/130" />
-                  <table class="bg-grey-1 width-100pc">
-                    <tr class="py-10 border-bottom">
-                      <th>INDEX</th>
-                      <th>GIA</th>
-                      <th>+/-</th>
-                    </tr>
-                    <tr class="border-bottom">
-                      <td>VN INDEX</td>
-                      <td>1,367.55</td>
-                      <td>-0.25%</td>
-                    </tr>
-                    <tr class="border-bottom">
-                      <td>HNX-INDEX</td>
-                      <td>342.80</td>
-                      <td>-0.25</td>
-                    </tr>
-                    <tr class="border-bottom">
-                      <td>UP-INDEX</td>
-                      <td>94.04</td>
-                      <td>-0.00%</td>
-                    </tr>
-                    <tr class="border-bottom">
-                      <td>VN-30</td>
-                      <td>1498.90</td>
-                      <td>-0.12%</td>
-                    </tr>
-                    <tr class="border-bottom">
-                      <td>HNX-30</td>
-                      <td>572.00</td>
-                      <td>-0.34%</td>
-                    </tr>
-                  </table>
-                </div>
-                <div id="forex-table" class="mt-30 fs-12 display-none">
-                  <table class="bg-grey-1">
-                    <tr>
-                      <th>SYMBOL</th>
-                      <th>PRICE</th>
-                      <th>CHANGE</th>
-                      <th>%CHANGE</th>
-                    </tr>
-                    <tr>
-                      <td>USD INDEX</td>
-                      <td>1,367.55</td>
-                      <td>-0.25%</td>
-                      <td>-0.25%</td>
-                    </tr>
-                    <tr>
-                      <td>HNX-INDEX</td>
-                      <td>342.80</td>
-                      <td>-0.25</td>
-                      <td>-0.25</td>
-                    </tr>
-                    <tr>
-                      <td>UP-INDEX</td>
-                      <td>94.04</td>
-                      <td>-0.00%</td>
-                      <td>-0.00%</td>
-                    </tr>
-                    <tr>
-                      <td>VN-30</td>
-                      <td>1498.90</td>
-                      <td>-0.12%</td>
-                      <td>-0.12%</td>
-                    </tr>
-                    <tr>
-                      <td>HNX-30</td>
-                      <td>572.00</td>
-                      <td>-0.34%</td>
-                      <td>-0.34%</td>
-                    </tr>
-                  </table>
-                </div>
-                <div
-                  id="ad "
-                  class="mt-30 width-100pc"
-                  style="width: 300px; height: 600px; background: #333"
-                ></div>
               </div>
             </div>
           </section>
@@ -612,21 +361,21 @@
                 <div id="video__list" class="flex gap-12">
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
                   </div>
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
                   </div>
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
@@ -635,21 +384,21 @@
                 <div id="video__list" class="flex gap-12">
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
                   </div>
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
                   </div>
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
@@ -1432,7 +1181,7 @@
           <div class="right mr-144 font-helvetica color-blue-2">
             <div>Báo giá quảng cáo</div>
             <div>Ms Linh 098 9033388</div>
-            <img class="mt-24" src="./asset/dmca.png" />
+            <img class="mt-24" style="width: auto" src="./asset/dmca.png" />
           </div>
         </div>
         <div class="info-2 mt-16">
