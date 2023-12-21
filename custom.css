@@ -323,7 +323,8 @@ img {
     display: flex;
     flex-direction: column-reverse;
   }
-  #nav-bar {
+  #nav-bar,
+  #nav-bar-category {
     background: #fff;
     color: #005689;
     padding: 2px 4px;
@@ -378,5 +379,16 @@ img {
 @media only screen and (max-width: 1300px) {
   .wrapper {
     padding: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #nav-bar-category {
+    justify-content: unset !important;
+    font-size: 28px;
+  }
+  #nav-bar-category a {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
