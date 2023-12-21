@@ -27,24 +27,30 @@
             </div>
           </div>
           <div
-            class="flex gap-28 flex-align-center font-helvetica color-blue-2"
+            id="icon-wrapper"
+            class="icon-wrapper flex gap-28 flex-align-center font-helvetica color-blue-2"
           >
             <span id="weather" class="display-none">
               <div class="text-no-wrap">Thứ 3, ngày 21-11-2023</div>
               <div class="text-no-wrap flex flex-align-center gap-6">
-                Hà Nội, 16° - 28°C
+                Hà Nội<i class="fa fa-chevron-down" aria-hidden="true"></i>
+                , 16° - 28°C
                 <i id="icon-sun"></i>
               </div>
             </span>
             <span id="news" class="flex flex-align-center gap-6"
-              ><i id="icon-reload"></i>
+              ><i id="icon-reload" class="icon-scale"></i>
               <div class="display-none text-no-wrap">Tin mới nhất</div></span
             >
             <span id="login" class="flex flex-align-center gap-6"
-              ><i id="icon-user"></i>
+              ><i id="icon-user" class="icon-scale"></i>
               <div class="display-none text-no-wrap">Đăng nhập</div>
             </span>
-            <i class="fa fa-search res-block" style="display: none"></i>
+            <i
+              id="icon-search"
+              class="res-block icon-scale"
+              style="display: none"
+            ></i>
           </div>
         </div>
         <div id="nav-bar" class="flex border flex-align-center space-between">
@@ -53,20 +59,23 @@
             aria-hidden="true"
             style="display: none"
           ></i>
-          <a class="text-no-wrap py-16 px-14 border__top--blue-2">TIN TỨC</a>
-          <a class="text-no-wrap py-16 px-14">PHÁP LUẬT</a>
-          <a class="text-no-wrap py-16 px-14">KINH DOANH</a>
+          <a class="text-no-wrap py-16 px-14 border__top--blue-2 bold"
+            >TIN TỨC</a
+          >
+          <a class="text-no-wrap py-16 px-14 bold">PHÁP LUẬT</a>
+          <a class="text-no-wrap py-16 px-14 bold">KINH DOANH</a>
           <i
-            class="fa fa-share res-block px-14"
+            id="icon-share"
+            class="res-block px-14"
             aria-hidden="true"
             style="display: none"
           ></i>
-          <a class="text-no-wrap display-none py-16 px-14">ĐỜI SỐNG</a>
-          <a class="text-no-wrap display-none py-16 px-14">THẾ GIỚI</a>
-          <a class="text-no-wrap display-none py-16 px-14">VĂN HÓA</a>
-          <a class="text-no-wrap display-none py-16 px-14">VIDEO</a>
-          <a class="text-no-wrap display-none py-16 px-14">THỂ THAO</a>
-          <a class="text-no-wrap display-none py-16 px-14">GIÁO DỤC</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">ĐỜI SỐNG</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">THẾ GIỚI</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">VĂN HÓA</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">VIDEO</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">THỂ THAO</a>
+          <a class="text-no-wrap display-none py-16 px-14 bold">GIÁO DỤC</a>
           <i class="display-none px-14 mr-20" id="icon-menu"></i>
         </div>
       </div>
@@ -75,9 +84,11 @@
       <div id="body-wrapper" class="border">
         <div
           id="hot-event"
-          class="display-none flex flex-align-center gap-6 py-8 px-44 font-helvetica mb-2 border-bottom"
+          class="flex flex-align-center gap-6 py-8 px-44 font-helvetica mb-2 border-bottom"
         >
-          <span id="" class="text-no-wrap fs-10 flex flex-align-center"
+          <span
+            id=""
+            class="text-no-wrap fs-10 flex flex-align-center bold color-grey"
             ><i id="icon-stonk" class="display-none"></i> Dòng sự kiện</span
           >
           <span id="event" class="tag fs-10 color-blue-1 text-no-wrap"
@@ -100,9 +111,12 @@
         <div id="page" class="p-14 border-top">
           <section class="flex res-block">
             <div id="page-main" class="pr-13">
-              <div id="hot-news" class="flex border__top--blue">
-                <div id="title" class="p-16">
-                  <div class="color-blue-1 bold fs-24 pb-12">
+              <div
+                id="hot-news"
+                class="flex border__top--blue bg-grey-1 space-between"
+              >
+                <div id="hot-news__title" class="p-16">
+                  <div class="color-blue-1 bold fs-24 pb-12 line-height-30">
                     [E] 10 năm “thắp lửa” của người Viettel ở nước nghèo nhất
                     thế giới
                     <span class="comment-amount fs-12">
@@ -117,7 +131,7 @@
                   </div>
                   <div class="pb-12 time">1 giờ trước</div>
                 </div>
-                <img src="https://picsum.photos/500/300" />
+                <img src="https://picsum.photos/500/300" style="width: auto" />
               </div>
               <div id="news" class="flex gap-10 py-16 res-block">
                 <div id="news-item" class="border__top--blue bg-grey-3">
@@ -178,7 +192,7 @@
                     </div>
                   </div>
                   <div
-                  id="side-news"
+                    id="side-news"
                     class="display-none bg-grey-3 border__top--blue p-8 flex flex-column space-between"
                   >
                     <div class="bold">
@@ -202,7 +216,7 @@
                     </div>
                   </div>
                   <div
-                  id="side-news"
+                    id="side-news"
                     class="display-none bg-grey-3 border__top--blue p-8 flex flex-column space-between"
                   >
                     <div class="bold">
@@ -213,12 +227,12 @@
                   </div>
                 </div>
               </div>
-              <div class="ad-800-128 my-30 bold color-white">
+              <div class="ad-800-128 my-30 bold color-white display-none">
                 Quảng cáo 800 x 128px
               </div>
             </div>
             <div id="side-page" class="pl-13">
-              <div class="ad-300-250 mb-12 bold color-white">
+              <div class="ad-300-250 mb-12 bold color-white display-none">
                 QUANG CAO 300 250
               </div>
               <div class="ad-300-250 mb-12 bold color-white">
@@ -366,21 +380,21 @@
                 <div id="video__list" class="flex gap-12">
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
                   </div>
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
                   </div>
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
@@ -389,21 +403,21 @@
                 <div id="video__list" class="flex gap-12">
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
                   </div>
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
                   </div>
                   <div class="video__item">
                     <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16">
+                    <div class="title color-white py-16 bold">
                       Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
                       hoảng loạn
                     </div>
@@ -1186,7 +1200,7 @@
           <div class="right mr-144 font-helvetica color-blue-2">
             <div>Báo giá quảng cáo</div>
             <div>Ms Linh 098 9033388</div>
-            <img class="mt-24" src="./asset/dmca.png" />
+            <img class="mt-24" style="width: auto" src="./asset/dmca.png" />
           </div>
         </div>
         <div class="info-2 mt-16">

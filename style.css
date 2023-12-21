@@ -6,10 +6,14 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Cha  ris SIL", serif;
+  font-family: "Charis SIL", serif;
 }
 .side {
   padding: 0 20%;
+}
+.side > div {
+  max-width: 1158px;
+  margin: auto;
 }
 
 /* DEFINE LIBRARY */
@@ -83,6 +87,9 @@ body {
 .flex-column {
   flex-direction: column;
 }
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
 .wrap {
   flex-wrap: wrap;
 }
@@ -115,6 +122,9 @@ body {
 }
 .gap-20 {
   gap: 20px;
+}
+.gap-24 {
+  gap: 24px;
 }
 .gap-28 {
   gap: 28px;
@@ -387,6 +397,9 @@ body {
 .mb-20 {
   margin-bottom: 20px;
 }
+.mb-14 {
+  margin-bottom: 14px;
+}
 .mb-24 {
   margin-bottom: 24px;
 }
@@ -562,6 +575,9 @@ body {
 .fs-36 {
   font-size: 36px;
 }
+.line-height-30 {
+  line-height: 30px;
+}
 /* height */
 .h-fit {
   height: fit-content;
@@ -719,6 +735,6 @@ body {
     display: block !important;
   }
   .display-none {
-    display: none !important    ;
+    display: none !important;
   }
 }
