@@ -330,6 +330,16 @@ img {
 #list-post {
   border-top: 1px solid #e2e2e2;
 }
+#hot-news__description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+#number {
+  line-height: normal;
+}
 /* #list-post::before {
   position: absolute;
   top: 0;
