@@ -437,9 +437,14 @@ img {
   #nav-bar-category {
     justify-content: unset !important;
     font-size: 28px;
+    padding-left: 20px;
   }
   #nav-bar-category a {
     padding-top: 0;
     padding-bottom: 0;
+  }
+  #category {
+    padding-left: 20px;
+    justify-content: flex-start;
   }
 }
