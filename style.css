@@ -720,14 +720,13 @@ body {
   text-align: justify;
 }
 /* responsive */
-@media only screen and (max-width: 1500px) {
-  .side {
-    /* padding: 0 15%; */
+@media only screen and (max-width: 1024px) {
+  .side > div {
+    width: auto;
+    max-width: 1158px;
   }
-}
-@media only screen and (max-width: 1300px) {
-  .side {
-    /* padding: 0 8%; */
+  #page-main {
+    width: 68%;
   }
 }
 @media only screen and (max-width: 768px) {

@@ -432,16 +432,6 @@ img {
   .wrapper {
     padding: 20px;
   }
-  #hot-news {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  #hot-news img {
-    width: 100% !important;
-  }
-  #news-2-item {
-    display: block;
-  }
 }
 
 @media only screen and (max-width: 1300px) {
