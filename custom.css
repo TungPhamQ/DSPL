@@ -8,6 +8,10 @@
   background: #052962;
   width: 100%;
 }
+#page-main {
+  width: 72%;
+  /* width: 814px; */
+}
 #hot-news__title {
   max-height: 300px;
   width: 300px;
@@ -37,6 +41,10 @@ input:focus {
 }
 #search-input::placeholder {
   color: #b9e1ff;
+}
+#hot-news img {
+  aspect-ratio: 5 / 3;
+  max-width: 500px;
 }
 .ad-300-250 {
   width: 300px;
