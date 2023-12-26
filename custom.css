@@ -50,6 +50,7 @@ input:focus {
 #hot-news img {
   aspect-ratio: 5 / 3;
   max-width: 500px;
+  width: auto;
 }
 .ad-300-250 {
   width: 300px;
@@ -414,12 +415,6 @@ img {
     width: 100%;
   }
 }
-@media only screen and (max-width: 1500px) {
-  #hot-news img {
-    width: 31rem;
-    height: fit-content;
-  }
-}
 
 @media only screen and (max-width: 1300px) {
   .ad-800-128 {
@@ -442,6 +437,10 @@ img {
 @media only screen and (max-width: 1300px) {
   .wrapper {
     padding: 16px;
+  }
+  #hot-news img {
+    width: 22rem !important;
+    height: unset;
   }
 }
 
