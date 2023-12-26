@@ -1,6 +1,9 @@
 #header {
   background: #427cc6;
 }
+section {
+  padding: 14px;
+}
 #body-wrapper {
   border-top: none;
 }
