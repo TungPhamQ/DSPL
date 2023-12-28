@@ -444,6 +444,10 @@ img {
   #footer {
     padding: 0;
   }
+  #side-page_tag,
+  #side-page_category {
+    width: 33%;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
