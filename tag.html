@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="custom-tag.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -88,10 +89,14 @@
           <section class="flex res-block">
             <div id="page-main" class="pr-13">
               <div class="content">
-                <div class="label">PHẠM NHẬT VƯỢNG</div>
+                <div class="label fs-36 bold color-blue-4 align-center pb-16">
+                  PHẠM NHẬT VƯỢNG
+                </div>
                 <div id="general-information" class="flex gap-20">
                   <img src="./asset/PNV-pic.png" style="width: 362px" />
-                  <div class="text-info font-helvetica fs-18 color-222">
+                  <div
+                    class="text-info font-helvetica fs-18 color-222 flex-col gap-24"
+                  >
                     <div class="birth">Sinh năm : 05/08/1968</div>
                     <div class="hometown">Nguyên quán : Hà Tĩnh</div>
                     <div class="birthplace">Nơi sinh : Hà Nội</div>
@@ -100,51 +105,53 @@
                     </div>
                   </div>
                 </div>
-                <div class="title">Thông tin chung:</div>
-                <div class="paragraph">
-                  <p>
+                <div class="title fs-24 bold mt-24">Thông tin chung:</div>
+                <div class="paragraph font-helvetica fs-18 line-height-24">
+                  <p class="mt-24">
                     Ông Phạm Nhật Vượng sinh năm 1968 tại Hà Nội. Ông từng theo
                     học Đại học Thăm dò địa chất Liên bang Nga và có thời gian
                     dài sinh sống tại Nga và Ukraine. Ông khởi nghiệp từ những
                     năm tháng còn ngồi trên ghế giảng đường, tuy nhiên do thiếu
                     kinh nghiệm nên bị phá sản.
                   </p>
-                  <p>
+                  <p class="mt-24">
                     Năm 1993, Sau khi tốt nghiệp Đại học MGRI-RSGPU, ông kết hôn
                     với bà Phạm Thu Hương và chuyển về Kharkov, Ukraine sinh
                     sống. Tại đây ông và bà Hương ở một nhà hàng tên là Thăng
                     Long ở Kiev.
                   </p>
-                  <p>
+                  <p class="mt-24">
                     Cũng trong năm 1993, ông Vượng thành lập Technocom bắt đầu
                     sản xuất mì ăn liền thương hiệu "Mivina". Đến năm 2004,
                     "Mivina" phát triển nhanh chóng và chiếm tới 97% thị phần đồ
                     ăn liền tại Ukraine. Năm 2010, ông bán lại cơ sở Technocom ở
                     Ukraine cho Nestle với mức giá 150 triệu USD.
                   </p>
-                  <p>
+                  <p class="mt-24">
                     Từ những năm 2000, ông Phạm Nhật Vượng đầu tư về Việt Nam
                     thông qua 2 công ty cổ phần Vincom và Vinpearl. Trong đó nổi
                     bật là những dự án như Khu du lịch nghỉ dưỡng Vinpearl Land
                     Nha Trang, Trung tâm thương mại Vincom Center Bà Triệu và
                     Vincom Center Hồ Chí Minh.
                   </p>
-                  Kể từ năm 2009, ông Vượng đổi tên Tập đoàn Technocom thành tập
-                  đoàn Vingroup, chuyển trụ sở từ Kharkov về Hà Nội; kể từ đó
-                  tập trung toàn lực đầu tư cho các dự án Việt Nam. Tính đến
-                  hiện tại, ông đã cho ra mắt nhiều thương hiệu và công ty trực
-                  thuộc tập đoàn như: Vincom, Vinhomes, Vinpearl, Vinmec,
-                  Vinschool, Vinfast, VinEco...
-                  <p>
+                  <p class="mt-24">
+                    Kể từ năm 2009, ông Vượng đổi tên Tập đoàn Technocom thành
+                    tập đoàn Vingroup, chuyển trụ sở từ Kharkov về Hà Nội; kể từ
+                    đó tập trung toàn lực đầu tư cho các dự án Việt Nam. Tính
+                    đến hiện tại, ông đã cho ra mắt nhiều thương hiệu và công ty
+                    trực thuộc tập đoàn như: Vincom, Vinhomes, Vinpearl, Vinmec,
+                    Vinschool, Vinfast, VinEco...
+                  </p>
+                  <p class="mt-24">
                     Với những thành công trong sự nghiệp, ông Phạm Nhật Vượng
                     nắm trong tay khối tài sản lên tới hàng tỷ USD. Ông cũng là
                     vị tỷ phú đô la đầu tiên và hiện đang là người giàu nhất
                     Việt Nam.
                   </p>
                 </div>
-                <div class="table">
+                <div id="info-table" class="mt-54 mb-30">
                   <table>
-                    <tr>
+                    <tr class="bold fs-20">
                       <th>Thời gian</th>
                       <th>Vị trí, đơn vị công tác</th>
                     </tr>
@@ -171,8 +178,17 @@
                     </tr>
                   </table>
                 </div>
+                <div
+                  id="collapse-btn"
+                  class="py-10 font-helvetica align-center"
+                >
+                  Thu gọn
+                </div>
               </div>
-              <div id="list-post__left" class="border-right pr-13 width-100pc">
+              <div
+                id="list-post__left"
+                class="border-right pr-13 width-100pc mt-20"
+              >
                 <div class="post-item py-20 flex border-bottom res-block">
                   <img src="https://picsum.photos/220/130" />
                   <div class="text px-12">

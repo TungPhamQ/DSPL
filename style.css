@@ -1,5 +1,4 @@
 @import url(custom.css);
-@import url(custom-tag.css);
 @import url("https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   margin: 0;
@@ -728,6 +727,9 @@ body {
 .gap-10 {
   gap: 10px;
 }
+.gap-24 {
+    gap: 24px;
+  }
 /* text align */
 .text-center {
   text-align: center;
