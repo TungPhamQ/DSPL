@@ -432,6 +432,10 @@ img {
   .wrapper {
     padding: 20px;
   }
+  #body,
+  #footer {
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
