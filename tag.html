@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
     <title>Đời Sống Pháp Luật</title>
   </head>
   <body>
@@ -52,21 +53,18 @@
             ></i>
           </div>
         </div>
-        <div id="nav-bar" class="flex border flex-align-center space-between">
+        <div
+          id="nav-bar-category"
+          class="flex border flex-align-center space-between"
+        >
           <i
             class="fa fa-home res-block"
             aria-hidden="true"
             style="display: none"
           ></i>
           <a class="text-no-wrap py-16 px-14 bold">TIN TỨC</a>
-          <a class="text-no-wrap py-16 px-14 bold">PHÁP LUẬT</a>
-          <a class="text-no-wrap py-16 px-14 bold">KINH DOANH</a>
-          <i
-            id="icon-share"
-            class="res-block px-14"
-            aria-hidden="true"
-            style="display: none"
-          ></i>
+          <a class="text-no-wrap py-16 px-14 bold display-none">PHÁP LUẬT</a>
+          <a class="text-no-wrap py-16 px-14 bold display-none">KINH DOANH</a>
           <a class="text-no-wrap display-none py-16 px-14 bold">ĐỜI SỐNG</a>
           <a class="text-no-wrap display-none py-16 px-14 bold">THẾ GIỚI</a>
           <a class="text-no-wrap display-none py-16 px-14 bold">VĂN HÓA</a>
@@ -86,133 +84,230 @@
           <span class="border__left--blue pl-12"> TAG: PHẠM NHẬT VƯỢNG </span>
         </div>
         <div class="border-top mb-2"></div>
-        <div id="page" class="border-top">
+        <div id="page" class="p-14 border-top">
           <section class="flex res-block">
             <div id="page-main" class="pr-13">
-              <div
-                id="hot-news"
-                class="flex border__top--blue bg-grey-1 space-between"
-              >
-                <div id="hot-news__title" class="p-16">
-                  <div class="color-blue-1 bold fs-24 pb-12 line-height-30">
-                    [E] 10 năm “thắp lửa” của người Viettel ở nước nghèo nhất
-                    thế giới
-                    <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
-                      <span class="number">6</span>
-                    </span>
-                  </div>
-                  <div
-                    id="hot-news__description"
-                    class="fs-18 color-333 font-helvetica line-height-24"
-                  >
-                    Trong khi các tổ chức nước ngoài đều rời Burundi thì người
-                    Việt tại Lumitel lại làm ngược lại - bám trụ và xem đây là
-                    cơ hội để phát triển thuê bao.
-                  </div>
-                  <div class="time">1 giờ trước</div>
-                </div>
-                <img src="https://picsum.photos/500/300" />
-              </div>
-              <div id="news" class="flex gap-10 py-16 res-block">
-                <div id="news-item" class="border__top--blue bg-grey-3">
-                  <img src="https://picsum.photos/260/160" />
-                  <div class="p-8 mt-6">
-                    <div class="bold">
-                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
-                      để đầu tư phiếu
-                      <span class="comment-amount fs-12">
-                        <i id="icon-comment" class="display-none"> </i>
-                        <span class="number">6</span>
-                      </span>
+              <div class="content">
+                <div class="label">PHẠM NHẬT VƯỢNG</div>
+                <div id="general-information" class="flex gap-20">
+                  <img src="./asset/PNV-pic.png" style="width: 362px" />
+                  <div class="text-info font-helvetica fs-18 color-222">
+                    <div class="birth">Sinh năm : 05/08/1968</div>
+                    <div class="hometown">Nguyên quán : Hà Tĩnh</div>
+                    <div class="birthplace">Nơi sinh : Hà Nội</div>
+                    <div class="location">
+                      Cư trú : Quận Hai Bà Trưng, Hà Nội
                     </div>
-                    <div class="time">1 gio</div>
                   </div>
                 </div>
-                <div id="news-item" class="border__top--blue bg-grey-3">
-                  <img src="https://picsum.photos/260/160" />
-                  <div class="p-8 mt-6">
-                    <div class="bold">
-                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
-                      phiếu để đầu tư
-                      <span class="comment-amount fs-12">
-                        <i id="icon-comment" class="display-none"> </i>
-                        <span class="number">6</span>
-                      </span>
-                    </div>
-                    <div class="time">1 gio</div>
-                  </div>
+                <div class="title">Thông tin chung:</div>
+                <div class="paragraph">
+                  <p>
+                    Ông Phạm Nhật Vượng sinh năm 1968 tại Hà Nội. Ông từng theo
+                    học Đại học Thăm dò địa chất Liên bang Nga và có thời gian
+                    dài sinh sống tại Nga và Ukraine. Ông khởi nghiệp từ những
+                    năm tháng còn ngồi trên ghế giảng đường, tuy nhiên do thiếu
+                    kinh nghiệm nên bị phá sản.
+                  </p>
+                  <p>
+                    Năm 1993, Sau khi tốt nghiệp Đại học MGRI-RSGPU, ông kết hôn
+                    với bà Phạm Thu Hương và chuyển về Kharkov, Ukraine sinh
+                    sống. Tại đây ông và bà Hương ở một nhà hàng tên là Thăng
+                    Long ở Kiev.
+                  </p>
+                  <p>
+                    Cũng trong năm 1993, ông Vượng thành lập Technocom bắt đầu
+                    sản xuất mì ăn liền thương hiệu "Mivina". Đến năm 2004,
+                    "Mivina" phát triển nhanh chóng và chiếm tới 97% thị phần đồ
+                    ăn liền tại Ukraine. Năm 2010, ông bán lại cơ sở Technocom ở
+                    Ukraine cho Nestle với mức giá 150 triệu USD.
+                  </p>
+                  <p>
+                    Từ những năm 2000, ông Phạm Nhật Vượng đầu tư về Việt Nam
+                    thông qua 2 công ty cổ phần Vincom và Vinpearl. Trong đó nổi
+                    bật là những dự án như Khu du lịch nghỉ dưỡng Vinpearl Land
+                    Nha Trang, Trung tâm thương mại Vincom Center Bà Triệu và
+                    Vincom Center Hồ Chí Minh.
+                  </p>
+                  Kể từ năm 2009, ông Vượng đổi tên Tập đoàn Technocom thành tập
+                  đoàn Vingroup, chuyển trụ sở từ Kharkov về Hà Nội; kể từ đó
+                  tập trung toàn lực đầu tư cho các dự án Việt Nam. Tính đến
+                  hiện tại, ông đã cho ra mắt nhiều thương hiệu và công ty trực
+                  thuộc tập đoàn như: Vincom, Vinhomes, Vinpearl, Vinmec,
+                  Vinschool, Vinfast, VinEco...
+                  <p>
+                    Với những thành công trong sự nghiệp, ông Phạm Nhật Vượng
+                    nắm trong tay khối tài sản lên tới hàng tỷ USD. Ông cũng là
+                    vị tỷ phú đô la đầu tiên và hiện đang là người giàu nhất
+                    Việt Nam.
+                  </p>
                 </div>
-                <div id="news-item" class="border__top--blue bg-grey-3">
-                  <img src="https://picsum.photos/260/160" />
-                  <div class="p-8 mt-6">
-                    <div class="bold">
-                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
-                      phiếu để đầu tư
-                      <span class="comment-amount fs-12">
-                        <i id="icon-comment" class="display-none"> </i>
-                        <span class="number">6</span>
-                      </span>
-                    </div>
-                    <div class="time">1 gio</div>
-                  </div>
-                </div>
-              </div>
-              <div id="news-2">
-                <div id="news-2-item" class="flex gap-10">
-                  <div
-                    class="bg-grey-3 border__top--blue flex res-block width-100pc"
-                  >
-                    <img src="https://picsum.photos/230/140" />
-                    <div class="p-8 flex flex-column space-between">
-                      <div class="bold">
-                        Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
-                        phiếu để đầu tư
-                      </div>
-                      <div class="time">1 giờ trước</div>
-                    </div>
-                  </div>
-                  <div
-                    id="side-news"
-                    class="display-none bg-grey-3 border__top--blue p-8 flex flex-column space-between"
-                  >
-                    <div class="bold">
-                      Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn
-                      bán 500.000 cổ phiếu
-                    </div>
-                    <div class="time">1 giờ trước</div>
-                  </div>
-                </div>
-                <div id="news-2-item" class="flex gap-10 mt-10">
-                  <div
-                    class="bg-grey-3 border__top--blue flex res-block width-100pc"
-                  >
-                    <img src="https://picsum.photos/230/140" />
-                    <div class="p-8 flex flex-column space-between">
-                      <div class="bold">
-                        Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
-                        phiếu để đầu tư
-                      </div>
-                      <div class="time">1 giờ trước</div>
-                    </div>
-                  </div>
-                  <div
-                    id="side-news"
-                    class="display-none bg-grey-3 border__top--blue p-8 flex flex-column space-between"
-                  >
-                    <div class="bold">
-                      Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn
-                      bán 500.000 cổ phiếu
-                    </div>
-                    <div class="time">1 giờ trước</div>
-                  </div>
+                <div class="table">
+                  <table>
+                    <tr>
+                      <th>Thời gian</th>
+                      <th>Vị trí, đơn vị công tác</th>
+                    </tr>
+                    <tr>
+                      <td>09/2002 đến 07/2006</td>
+                      <td>
+                        Thành viên sáng lập Công ty TNHH Du lịch và Thương mại
+                        Hòn Tre (tiền thân của Công ty CP Vinpearl)
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>08/08/1993 đến 09/2009</td>
+                      <td>
+                        Cổ đông sáng lập kiêm Chủ tịch danh dự - Công ty TNHH
+                        Technocom tại Ukraine
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>26/07/2006 đến 28/10/2011</td>
+                      <td>
+                        Thành viên HĐQT - Công ty Cổ phần Du lịch và Thương mại
+                        Vinpearl
+                      </td>
+                    </tr>
+                  </table>
                 </div>
               </div>
-              <div class="ad-800-128 my-30 bold color-white display-none">
-                Quảng cáo 800 x 128px
+              <div id="list-post__left" class="border-right pr-13 width-100pc">
+                <div class="post-item py-20 flex border-bottom res-block">
+                  <img src="https://picsum.photos/220/130" />
+                  <div class="text px-12">
+                    <div class="title bold mb-12">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div class="description color-grey">
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div class="post-item py-20 flex border-bottom res-block">
+                  <img src="https://picsum.photos/220/130" />
+                  <div class="text px-12">
+                    <div class="title bold mb-12">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div class="description color-grey">
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div class="post-item py-20 flex border-bottom res-block">
+                  <img src="https://picsum.photos/220/130" />
+                  <div class="text px-12">
+                    <div class="title bold mb-12">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div class="description color-grey">
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div class="post-item py-20 flex border-bottom res-block">
+                  <img src="https://picsum.photos/220/130" />
+                  <div class="text px-12">
+                    <div class="title bold mb-12">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div class="description color-grey">
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div class="post-item py-20 flex border-bottom res-block">
+                  <img src="https://picsum.photos/220/130" />
+                  <div class="text px-12">
+                    <div class="title bold mb-12">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div class="description color-grey">
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div class="post-item py-20 flex border-bottom res-block">
+                  <img src="https://picsum.photos/220/130" />
+                  <div class="text px-12">
+                    <div class="title bold mb-12">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div class="description color-grey">
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div class="post-item py-20 flex border-bottom res-block">
+                  <img src="https://picsum.photos/220/130" />
+                  <div class="text px-12">
+                    <div class="title bold mb-12">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div class="description color-grey">
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div class="post-item py-20 flex border-bottom res-block">
+                  <img src="https://picsum.photos/220/130" />
+                  <div class="text px-12">
+                    <div class="title bold mb-12">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div class="description color-grey">
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div class="post-item py-20 flex border-bottom res-block">
+                  <img src="https://picsum.photos/220/130" />
+                  <div class="text px-12">
+                    <div class="title bold mb-12">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div class="description color-grey">
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="font-helvetica fs-14 text-center mt-20"
+                  style="color: #222222"
+                >
+                  Xem thêm
+                </div>
               </div>
             </div>
-            <div id="side-page" class="pl-13">
+            <div id="side-page_tag" class="pl-13">
               <div class="ad-300-250 mb-12 bold color-white display-none">
                 QUANG CAO 300 250
               </div>
@@ -275,268 +370,8 @@
                   <div class="p-14 bold align-center">Xem thêm</div>
                 </div>
               </div>
-            </div>
-          </section>
-          <section id="news-tab">
-            <div class="tab__dash"></div>
-            <div class="bold tab__title">TIN TỨC</div>
-            <div id="nav" class="nav fs-14 color-grey pb-12 font-helvetica">
-              <a class="px-10">Tin trong nuoc </a>
-              <span class="border-right"></span>
-              <a class="px-10">Tin trong nuoc </a>
-              <span class="border-right"></span>
-              <a class="px-10">Tin trong nuoc </a>
-              <span class="border-right"></span>
-              <a class="px-10">Tin trong nuoc </a>
-              <i id="icon-chevron"></i>
-            </div>
-            <div class="flex gap-12 mb-30 res-block">
-              <div id="hot-post">
-                <img " src="https://picsum.photos/365/220" />
-                <div class="title bold fs-18 mt-20">
-                  [E] “Hãnh diện lớn nhất đời tôi là tạo dựng được ngân hàng
-                  trên đất Mỹ"
-                  <span class="comment-amount fs-12">
-                    <i id="icon-comment" class="display-none"> </i>
-                    <span class="number">6</span>
-                  </span>
-                </div>
-              </div>
-              <div class="border-right"></div>
-              <div id="post">
-                <div id="post-1" class="flex mb-12 res-block">
-                  <img src="https://picsum.photos/160/100" />
-                  <div class="title bold px-10 py-4">
-                    Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
-                    <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
-                      <span class="number">6</span>
-                    </span>
-                  </div>
-                </div>
-                <div id="border-top__short"></div>
-                <div class="title bold py-14 fs-16">
-                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
-                  phố quan trọng trên biển Baltic
-                </div>
-                <div id="border-top__short"></div>
-                <div class="title bold py-14 fs-16">
-                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
-                  phố quan trọng trên biển Baltic
-                </div>
-              </div>
-              <div class="border-right"></div>
-              <div id="post">
-                <div id="post-1" class="flex mb-12 res-block">
-                  <img src="https://picsum.photos/160/100" />
-                  <div class="title bold px-10 py-4">
-                    Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
-                    <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
-                      <span class="number">6</span>
-                    </span>
-                  </div>
-                </div>
-                <div id="border-top__short"></div>
-                <div class="title bold py-14 fs-16">
-                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
-                  phố quan trọng trên biển Baltic
-                </div>
-                <div id="border-top__short"></div>
-                <div class="title bold py-14 fs-16">
-                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
-                  phố quan trọng trên biển Baltic
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id="video" class="bg-blue-1 p-14">
-            <div
-              class="font-italic title color-white align-center bold mb-30 fs-30"
-            >
-              VIDEO
-            </div>
-            <div id="video__container" class="flex gap-10">
-              <div class="row">
-                <div id="video__list" class="flex gap-12">
-                  <div class="video__item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16 bold">
-                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
-                      hoảng loạn
-                    </div>
-                  </div>
-                  <div class="video__item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16 bold">
-                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
-                      hoảng loạn
-                    </div>
-                  </div>
-                  <div class="video__item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16 bold">
-                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
-                      hoảng loạn
-                    </div>
-                  </div>
-                </div>
-                <div id="video__list" class="flex gap-12">
-                  <div class="video__item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16 bold">
-                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
-                      hoảng loạn
-                    </div>
-                  </div>
-                  <div class="video__item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16 bold">
-                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
-                      hoảng loạn
-                    </div>
-                  </div>
-                  <div class="video__item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title color-white py-16 bold">
-                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
-                      hoảng loạn
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div id="video__hot" class="">
-                <img src="https://picsum.photos/440/260" />
-                <div class="title bold color-white py-20 fs-18">
-                  Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
-                  hoảng loạn
-                </div>
-                <div class="description color-white fs-14 font-helvetica">
-                  Ở hướng Yuzhnodonetsk, quân đội Nga đã chặn đứng cuộc phản
-                  công của Lực lượng Vũ trang Ukraine ở khu vực Priyutnoye.
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id="list-post" class="flex res-block">
-            <div id="list-post__left" class="border-right pr-13 width-100pc">
-              <div class="post-item py-20 flex border-bottom res-block">
-                <img src="https://picsum.photos/220/130" />
-                <div class="text px-12">
-                  <div class="title bold mb-12">
-                    Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
-                    CX-5
-                  </div>
-                  <div class="description color-grey">
-                    Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
-                    nhau", Skyworth Skyhome của Skywell nổi bật với trang bị ít
-                    xe nào có...
-                  </div>
-                </div>
-              </div>
-              <div class="post-item py-20 flex border-bottom res-block">
-                <img src="https://picsum.photos/220/130" />
-                <div class="text px-12">
-                  <div class="title bold mb-12">
-                    Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
-                    CX-5
-                  </div>
-                  <div class="description color-grey">
-                    Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
-                    nhau", Skyworth Skyhome của Skywell nổi bật với trang bị ít
-                    xe nào có...
-                  </div>
-                </div>
-              </div>
-              <div class="post-item py-20 flex border-bottom res-block">
-                <img src="https://picsum.photos/220/130" />
-                <div class="text px-12">
-                  <div class="title bold mb-12">
-                    Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
-                    CX-5
-                  </div>
-                  <div class="description color-grey">
-                    Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
-                    nhau", Skyworth Skyhome của Skywell nổi bật với trang bị ít
-                    xe nào có...
-                  </div>
-                </div>
-              </div>
-              <div class="post-item py-20 flex border-bottom res-block">
-                <img src="https://picsum.photos/220/130" />
-                <div class="text px-12">
-                  <div class="title bold mb-12">
-                    Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
-                    CX-5
-                  </div>
-                  <div class="description color-grey">
-                    Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
-                    nhau", Skyworth Skyhome của Skywell nổi bật với trang bị ít
-                    xe nào có...
-                  </div>
-                </div>
-              </div>
-              <div class="post-item py-20 flex border-bottom res-block">
-                <img src="https://picsum.photos/220/130" />
-                <div class="text px-12">
-                  <div class="title bold mb-12">
-                    Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
-                    CX-5
-                  </div>
-                  <div class="description color-grey">
-                    Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
-                    nhau", Skyworth Skyhome của Skywell nổi bật với trang bị ít
-                    xe nào có...
-                  </div>
-                </div>
-              </div>
-              <div class="post-item py-20 flex border-bottom res-block">
-                <img src="https://picsum.photos/220/130" />
-                <div class="text px-12">
-                  <div class="title bold mb-12">
-                    Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
-                    CX-5
-                  </div>
-                  <div class="description color-grey">
-                    Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
-                    nhau", Skyworth Skyhome của Skywell nổi bật với trang bị ít
-                    xe nào có...
-                  </div>
-                </div>
-              </div>
-              <div class="post-item py-20 flex border-bottom res-block">
-                <img src="https://picsum.photos/220/130" />
-                <div class="text px-12">
-                  <div class="title bold mb-12">
-                    Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
-                    CX-5
-                  </div>
-                  <div class="description color-grey">
-                    Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
-                    nhau", Skyworth Skyhome của Skywell nổi bật với trang bị ít
-                    xe nào có...
-                  </div>
-                </div>
-              </div>
-              <div class="post-item py-20 flex border-bottom res-block">
-                <img src="https://picsum.photos/220/130" />
-                <div class="text px-12">
-                  <div class="title bold mb-12">
-                    Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
-                    CX-5
-                  </div>
-                  <div class="description color-grey">
-                    Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
-                    nhau", Skyworth Skyhome của Skywell nổi bật với trang bị ít
-                    xe nào có...
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="list-post__right" class="pl-13 py-20">
-              <div class="bg-blue-3 border__top--blue">
-                <div class="slide flex border__top--blue res-block">
+              <div class="bg-blue-3 border__top--blue mt-20">
+                <div class="slide border__top--blue res-block">
                   <div>
                     <img src="https://picsum.photos/270/160" />
                     <div class="flex py-10 justify-center gap-10">
@@ -557,601 +392,90 @@
                   </div>
                 </div>
               </div>
-
-              <div class="pb-12 mt-20">
-                <div class="tab__dash"></div>
-                <div class="tab__title bold">Pháp Luật</div>
-                <div class="nav fs-14 color-grey pb-12 font-helvetica">
-                  <a class="px-10">Ho so dieu tra </a>
-                  <span class="border-right"></span>
-                  <a class="px-10">An ninh phap luat</a>
-                  <i id="icon-chevron"></i>
+              <div id="right ">
+                <div id="stock" class="border display-none">
+                  <img src="https://picsum.photos/300/130" />
+                  <table class="bg-grey-1">
+                    <tr class="py-10 border-bottom">
+                      <th>INDEX</th>
+                      <th>GIA</th>
+                      <th>+/-</th>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td>VN INDEX</td>
+                      <td>1,367.55</td>
+                      <td>-0.25%</td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td>HNX-INDEX</td>
+                      <td>342.80</td>
+                      <td>-0.25</td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td>UP-INDEX</td>
+                      <td>94.04</td>
+                      <td>-0.00%</td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td>VN-30</td>
+                      <td>1498.90</td>
+                      <td>-0.12%</td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td>HNX-30</td>
+                      <td>572.00</td>
+                      <td>-0.34%</td>
+                    </tr>
+                  </table>
                 </div>
-                <div class="hot-post flex mb-12 res-block">
-                  <img src="https://picsum.photos/270/160" />
-                  <div class="pl-8">
-                    <div class="bold fs-18 mb-12">
-                      Lời khai nghi phạm vụ bé gái 14 tuổi bị mua bán, ép phục
-                      vụ khách trong quán karaoke
-                    </div>
-                    <div class="description fs-14 color-grey">
-                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
-                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
-                      ít xe nào có...
-                    </div>
-                  </div>
+                <div id="forex-table" class="mt-30 fs-12 display-none">
+                  <table class="bg-grey-1">
+                    <tr>
+                      <th>SYMBOL</th>
+                      <th>PRICE</th>
+                      <th>CHANGE</th>
+                      <th>%CHANGE</th>
+                    </tr>
+                    <tr>
+                      <td>USD INDEX</td>
+                      <td>1,367.55</td>
+                      <td>-0.25%</td>
+                      <td>-0.25%</td>
+                    </tr>
+                    <tr>
+                      <td>HNX-INDEX</td>
+                      <td>342.80</td>
+                      <td>-0.25</td>
+                      <td>-0.25</td>
+                    </tr>
+                    <tr>
+                      <td>UP-INDEX</td>
+                      <td>94.04</td>
+                      <td>-0.00%</td>
+                      <td>-0.00%</td>
+                    </tr>
+                    <tr>
+                      <td>VN-30</td>
+                      <td>1498.90</td>
+                      <td>-0.12%</td>
+                      <td>-0.12%</td>
+                    </tr>
+                    <tr>
+                      <td>HNX-30</td>
+                      <td>572.00</td>
+                      <td>-0.34%</td>
+                      <td>-0.34%</td>
+                    </tr>
+                  </table>
                 </div>
-                <div
-                  id="list-post"
-                  class="flex gap-12 border-top py-10 res-block wrapper"
-                >
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div
-                  id="list-post"
-                  class="flex gap-12 border-top py-10 res-block wrapper"
-                >
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="pb-12 mt-20">
-                <div class="tab__dash"></div>
-                <div class="tab__title bold">Pháp Luật</div>
-                <div class="nav fs-14 color-grey pb-12 font-helvetica">
-                  <a class="px-10">Ho so dieu tra </a>
-                  <span class="border-right"></span>
-                  <a class="px-10">An ninh phap luat</a>
-                  <i id="icon-chevron"></i>
-                </div>
-                <div class="hot-post flex mb-12 res-block">
-                  <img src="https://picsum.photos/270/160" />
-                  <div class="pl-8">
-                    <div class="bold fs-18 mb-12">
-                      Lời khai nghi phạm vụ bé gái 14 tuổi bị mua bán, ép phục
-                      vụ khách trong quán karaoke
-                    </div>
-                    <div class="description fs-14 color-grey">
-                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
-                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
-                      ít xe nào có...
-                    </div>
-                  </div>
-                </div>
-                <div
-                  id="list-post"
-                  class="flex gap-12 border-top py-10 res-block wrapper"
-                >
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div
-                  id="list-post"
-                  class="flex gap-12 border-top py-10 res-block wrapper"
-                >
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="pb-12 mt-20">
-                <div class="tab__dash"></div>
-                <div class="tab__title bold">Pháp Luật</div>
-                <div class="nav fs-14 color-grey pb-12 font-helvetica">
-                  <a class="px-10">Ho so dieu tra </a>
-                  <span class="border-right"></span>
-                  <a class="px-10">An ninh phap luat</a>
-                  <i id="icon-chevron"></i>
-                </div>
-                <div class="hot-post flex mb-12 res-block">
-                  <img src="https://picsum.photos/270/160" />
-                  <div class="pl-8">
-                    <div class="bold fs-18 mb-12">
-                      Lời khai nghi phạm vụ bé gái 14 tuổi bị mua bán, ép phục
-                      vụ khách trong quán karaoke
-                    </div>
-                    <div class="description fs-14 color-grey">
-                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
-                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
-                      ít xe nào có...
-                    </div>
-                  </div>
-                </div>
-                <div
-                  id="list-post"
-                  class="flex gap-12 border-top py-10 res-block wrapper"
-                >
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div
-                  id="list-post"
-                  class="flex gap-12 border-top py-10 res-block wrapper"
-                >
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="bold mr-12 fs-16 pl-13">
-                    <ul>
-                      <li>
-                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
-                        để giãn nợ
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                <div id="ads-300-600" class="mt-30 width-100pc"></div>
               </div>
             </div>
           </section>
-          <section id="media" class="bg-grey-4 py-16 px-10">
-            <div
-              class="color-blue-1 pb-30 fs-30 font-italic color-blue-1 align-center bold"
-            >
-              MEDIA GIAI TRI
-            </div>
-            <div class="container flex res-block">
-              <div class="hot-post mr-20">
-                <img class="mb-30" src="https://picsum.photos/440/260" />
-                <div class="title bold mb-30 fs-18">
-                  [E] Bộ trưởng Nguyễn Kim Sơn: Giáo dục cần có sự hỗ trợ, chia
-                  sẻ từ phía xã hội
-                </div>
-                <div class="description color-grey fs-14">
-                  Toàn ngành đang đứng trước thách thức rất lớn. Nhưng những
-                  thách thức, áp lực như vậy cũng là cơ hội để nhà giáo tiếp tục
-                  đổi mới, phát triển và trưởng thành...
-                </div>
-              </div>
-              <div class="list-post">
-                <div class="row flex gap-10 res-block">
-                  <div id="post-item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title bold py-20">
-                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
-                      em về nhà
-                    </div>
-                  </div>
-                  <div id="post-item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title bold py-20">
-                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
-                      em về nhà
-                    </div>
-                  </div>
-                  <div id="post-item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title bold py-20">
-                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
-                      em về nhà
-                    </div>
-                  </div>
-                </div>
-                <div class="row flex gap-10 res-block">
-                  <div id="post-item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title bold py-20">
-                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
-                      em về nhà
-                    </div>
-                  </div>
-                  <div id="post-item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title bold py-20">
-                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
-                      em về nhà
-                    </div>
-                  </div>
-                  <div id="post-item">
-                    <img src="https://picsum.photos/220/130" />
-                    <div class="title bold py-20">
-                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
-                      em về nhà
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="flex mt-30 gap-20 res-block">
-            <div id="left">
-              <div div class="flex gap-16 res-block">
-                <div id="business" class="bg-grey-1 p-8">
-                  <div class="tab__dash"></div>
-                  <div class="bold tab__title">Kinh Doanh</div>
-                  <div class="nav fs-14 color-grey pb-12 font-helvetica">
-                    <a class="px-10">Tai chinh 4.0</a>
-                    <span class="border-right"></span>
-                    <a class="px-10">Thi truong dau tu</a>
-                    <i id="icon-chevron"></i>
-                  </div>
-                  <div class="hot-post">
-                    <img src="https://picsum.photos/370/220" />
-                    <div class="title bold fs-18 mb-12">
-                      Căn hộ biển sở hữu lâu dài tại Phú Quốc: Bảo chứng giá trị
-                      cho second home
-                    </div>
-                    <div class="description color-grey mb-12">
-                      Là dự án chung cư cao cấp có sổ đỏ lâu dài hiếm hoi tại
-                      Phú Quốc, Meypearl Harmony Phú Quốc thiết lập định nghĩa
-                      chuẩn mực cho một seconde home...
-                    </div>
-                  </div>
-                  <div class="list-post">
-                    <div class="item flex py-8 border-top res-block">
-                      <img src="https://picsum.photos/120/75" />
-                      <div class="title mr-8 bold px-10">
-                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
-                        đất lúa làm dự án đầu tư
-                      </div>
-                    </div>
-                    <div class="item flex py-8 border-top res-block">
-                      <img src="https://picsum.photos/120/75" />
-                      <div class="title mr-8 bold px-10">
-                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
-                        đất lúa làm dự án đầu tư
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="business" class="bg-grey-1 p-8">
-                  <div class="tab__dash"></div>
-                  <div class="bold tab__title">Kinh Doanh</div>
-                  <div class="nav fs-14 color-grey pb-12 font-helvetica">
-                    <a class="px-10">Tai chinh 4.0</a>
-                    <span class="border-right"></span>
-                    <a class="px-10">Thi truong dau tu</a>
-                    <i id="icon-chevron"></i>
-                  </div>
-                  <div class="hot-post">
-                    <img src="https://picsum.photos/370/220" />
-                    <div class="title bold fs-18 mb-12">
-                      Căn hộ biển sở hữu lâu dài tại Phú Quốc: Bảo chứng giá trị
-                      cho second home
-                    </div>
-                    <div class="description color-grey mb-12">
-                      Là dự án chung cư cao cấp có sổ đỏ lâu dài hiếm hoi tại
-                      Phú Quốc, Meypearl Harmony Phú Quốc thiết lập định nghĩa
-                      chuẩn mực cho một seconde home...
-                    </div>
-                  </div>
-                  <div class="list-post">
-                    <div class="item flex py-8 border-top res-block">
-                      <img src="https://picsum.photos/120/75" />
-                      <div class="title mr-8 bold px-10">
-                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
-                        đất lúa làm dự án đầu tư
-                      </div>
-                    </div>
-                    <div class="item flex py-8 border-top res-block">
-                      <img src="https://picsum.photos/120/75" />
-                      <div class="title mr-8 bold px-10">
-                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
-                        đất lúa làm dự án đầu tư
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                id="ad"
-                class="width-100pc"
-                style="width: 800px; height: 128px; background: #333"
-              ></div>
-              <div class="flex gap-16 res-block">
-                <div id="business" class="bg-grey-1 p-8">
-                  <div class="tab__dash"></div>
-                  <div class="bold tab__title">Kinh Doanh</div>
-                  <div class="nav fs-14 color-grey pb-12 font-helvetica">
-                    <a class="px-10">Tai chinh 4.0</a>
-                    <span class="border-right"></span>
-                    <a class="px-10">Thi truong dau tu</a>
-                    <i id="icon-chevron"></i>
-                  </div>
-                  <div class="hot-post">
-                    <img
-                      class="width-100pc"
-                      src="https://picsum.photos/370/220"
-                    />
-                    <div class="title bold fs-18 mb-12">
-                      Căn hộ biển sở hữu lâu dài tại Phú Quốc: Bảo chứng giá trị
-                      cho second home
-                    </div>
-                    <div class="description color-grey mb-12">
-                      Là dự án chung cư cao cấp có sổ đỏ lâu dài hiếm hoi tại
-                      Phú Quốc, Meypearl Harmony Phú Quốc thiết lập định nghĩa
-                      chuẩn mực cho một seconde home...
-                    </div>
-                  </div>
-                  <div class="list-post">
-                    <div class="item flex py-8 border-top res-block">
-                      <img src="https://picsum.photos/120/75" />
-                      <div class="title mr-8 bold px-10">
-                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
-                        đất lúa làm dự án đầu tư
-                      </div>
-                    </div>
-                    <div class="item flex py-8 border-top res-block">
-                      <img src="https://picsum.photos/120/75" />
-                      <div class="title mr-8 bold px-10">
-                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
-                        đất lúa làm dự án đầu tư
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="business" class="bg-grey-1 p-8">
-                  <div class="tab__dash"></div>
-                  <div class="bold tab__title">Kinh Doanh</div>
-                  <div class="nav fs-14 color-grey pb-12 font-helvetica">
-                    <a class="px-10">Tai chinh 4.0</a>
-                    <span class="border-right"></span>
-                    <a class="px-10">Thi truong dau tu</a>
-                    <i id="icon-chevron"></i>
-                  </div>
-                  <div class="hot-post">
-                    <img src="https://picsum.photos/370/220" />
-                    <div class="title bold fs-18 mb-12">
-                      Căn hộ biển sở hữu lâu dài tại Phú Quốc: Bảo chứng giá trị
-                      cho second home
-                    </div>
-                    <div class="description color-grey mb-12">
-                      Là dự án chung cư cao cấp có sổ đỏ lâu dài hiếm hoi tại
-                      Phú Quốc, Meypearl Harmony Phú Quốc thiết lập định nghĩa
-                      chuẩn mực cho một seconde home...
-                    </div>
-                  </div>
-                  <div class="list-post">
-                    <div class="item flex py-8 border-top res-block">
-                      <img src="https://picsum.photos/120/75" />
-                      <div class="title mr-8 bold px-10">
-                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
-                        đất lúa làm dự án đầu tư
-                      </div>
-                    </div>
-                    <div class="item flex py-8 border-top res-block">
-                      <img src="https://picsum.photos/120/75" />
-                      <div class="title mr-8 bold px-10">
-                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
-                        đất lúa làm dự án đầu tư
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="right ">
-              <div id="stock" class="border display-none">
-                <img src="https://picsum.photos/300/130" />
-                <table class="bg-grey-1">
-                  <tr class="py-10 border-bottom">
-                    <th>INDEX</th>
-                    <th>GIA</th>
-                    <th>+/-</th>
-                  </tr>
-                  <tr class="border-bottom">
-                    <td>VN INDEX</td>
-                    <td>1,367.55</td>
-                    <td>-0.25%</td>
-                  </tr>
-                  <tr class="border-bottom">
-                    <td>HNX-INDEX</td>
-                    <td>342.80</td>
-                    <td>-0.25</td>
-                  </tr>
-                  <tr class="border-bottom">
-                    <td>UP-INDEX</td>
-                    <td>94.04</td>
-                    <td>-0.00%</td>
-                  </tr>
-                  <tr class="border-bottom">
-                    <td>VN-30</td>
-                    <td>1498.90</td>
-                    <td>-0.12%</td>
-                  </tr>
-                  <tr class="border-bottom">
-                    <td>HNX-30</td>
-                    <td>572.00</td>
-                    <td>-0.34%</td>
-                  </tr>
-                </table>
-              </div>
-              <div id="forex-table" class="mt-30 fs-12 display-none">
-                <table class="bg-grey-1">
-                  <tr>
-                    <th>SYMBOL</th>
-                    <th>PRICE</th>
-                    <th>CHANGE</th>
-                    <th>%CHANGE</th>
-                  </tr>
-                  <tr>
-                    <td>USD INDEX</td>
-                    <td>1,367.55</td>
-                    <td>-0.25%</td>
-                    <td>-0.25%</td>
-                  </tr>
-                  <tr>
-                    <td>HNX-INDEX</td>
-                    <td>342.80</td>
-                    <td>-0.25</td>
-                    <td>-0.25</td>
-                  </tr>
-                  <tr>
-                    <td>UP-INDEX</td>
-                    <td>94.04</td>
-                    <td>-0.00%</td>
-                    <td>-0.00%</td>
-                  </tr>
-                  <tr>
-                    <td>VN-30</td>
-                    <td>1498.90</td>
-                    <td>-0.12%</td>
-                    <td>-0.12%</td>
-                  </tr>
-                  <tr>
-                    <td>HNX-30</td>
-                    <td>572.00</td>
-                    <td>-0.34%</td>
-                    <td>-0.34%</td>
-                  </tr>
-                </table>
-              </div>
-              <div id="ads-300-600" class="mt-30"></div>
-            </div>
-          </section>
-          <section id="news-tab" class="display-none">
-            <div class="tab__dash"></div>
-            <div class="bold tab__title">TIN TỨC</div>
-            <div id="nav" class="nav fs-14 color-grey pb-12 font-helvetica">
-              <a class="px-10">Tin trong nuoc </a>
-              <span class="border-right"></span>
-              <a class="px-10">Tin trong nuoc </a>
-              <span class="border-right"></span>
-              <a class="px-10">Tin trong nuoc </a>
-              <span class="border-right"></span>
-              <a class="px-10">Tin trong nuoc </a>
-              <i id="icon-chevron"></i>
-            </div>
-            <div class="flex gap-12 mb-30 res-block">
-              <div id="hot-post">
-                <img src="https://picsum.photos/365/220" />
-                <div class="title bold fs-18 mt-20">
-                  [E] “Hãnh diện lớn nhất đời tôi là tạo dựng được ngân hàng
-                  trên đất Mỹ"
-                  <span class="comment-amount fs-12">
-                    <i id="icon-comment" class="display-none"> </i>
-                    <span class="number">6</span>
-                  </span>
-                </div>
-              </div>
-              <div class="border-right"></div>
-              <div id="post">
-                <div id="post-1" class="flex mb-12">
-                  <img src="https://picsum.photos/160/100" />
-                  <div class="title bold px-10 py-4">
-                    Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
-                    <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
-                      <span class="number">6</span>
-                    </span>
-                  </div>
-                </div>
-                <div id="border-top__short"></div>
-                <div class="title bold py-14 fs-16">
-                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
-                  phố quan trọng trên biển Baltic
-                </div>
-                <div id="border-top__short"></div>
-                <div class="title bold py-14 fs-16">
-                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
-                  phố quan trọng trên biển Baltic
-                </div>
-              </div>
-              <div class="border-right"></div>
-              <div id="post">
-                <div id="post-1" class="flex mb-12">
-                  <img src="https://picsum.photos/160/100" />
-                  <div class="title bold px-10 py-4">
-                    Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
-                    <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
-                      <span class="number">6</span>
-                    </span>
-                  </div>
-                </div>
-                <div id="border-top__short"></div>
-                <div class="title bold py-14 fs-16">
-                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
-                  phố quan trọng trên biển Baltic
-                </div>
-                <div id="border-top__short"></div>
-                <div class="title bold py-14 fs-16">
-                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
-                  phố quan trọng trên biển Baltic
-                </div>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div
-              class="ad width-100pc"
-              style="width: 1128px; height: 250px; background: #333"
-            ></div>
-          </section>
+          <div
+            class="ad width-100pc mt-20"
+            style="width: 1128px; height: 250px; background: #333"
+          ></div>
         </div>
       </div>
     </section>
