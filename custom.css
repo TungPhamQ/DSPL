@@ -5,6 +5,10 @@
 section {
   padding: 14px;
 }
+#body,
+#footer {
+  padding: 0;
+}
 #body-wrapper {
   border-top: none;
 }
