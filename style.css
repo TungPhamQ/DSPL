@@ -172,6 +172,10 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.py-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
 .py-14 {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -302,6 +306,12 @@ body {
 }
 .pr-40 {
   padding-right: 40px;
+}
+.pr-44 {
+  padding-right: 44px;
+}
+.pr-48 {
+  padding-right: 48px;
 }
 .pr-64 {
   padding-right: 64px;
@@ -613,6 +623,12 @@ body {
 .width-58 {
   width: 58%;
 }
+.width-55 {
+  width: 55%;
+}
+.width-45 {
+  width: 45%;
+}
 .width-42 {
   width: 42%;
 }
@@ -621,6 +637,24 @@ body {
 }
 .width-40 {
   width: 40%;
+}
+.width-59 {
+  width: 59%;
+}
+.width-41 {
+  width: 41%;
+}
+.width-65 {
+  width: 65%;
+}
+.width-35 {
+  width: 35%;
+}
+.width-62 {
+  width: 62%;
+}
+.width-38 {
+  width: 38%;
 }
 .width-30 {
   width: 30%;
@@ -728,14 +762,41 @@ body {
   gap: 10px;
 }
 .gap-24 {
-    gap: 24px;
-  }
+  gap: 24px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.gap-32 {
+  gap: 32px;
+}
 /* text align */
 .text-center {
   text-align: center;
 }
 .text-justify {
   text-align: justify;
+}
+.word-space-1 {
+  word-spacing: 1px;
+}
+.word-space-2 {
+  word-spacing: 2px;
+}
+.word-space-4 {
+  word-spacing: 4px;
+}
+.line-height-16 {
+  line-height: 16px;
+}
+.line-height-20 {
+  line-height: 20px;
+}
+.line-height-24 {
+  line-height: 24px;
+}
+.line-height-30 {
+  line-height: 30px;
 }
 /* responsive */
 @media only screen and (max-width: 1024px) {

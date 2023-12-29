@@ -167,6 +167,38 @@ tr td {
 img {
   width: 100%;
 }
+#title {
+  line-height: 44px;
+  word-spacing: 2px;
+}
+#list-news {
+  border-top: 2px solid #052962;
+  border-bottom: 1px solid #052962;
+  font-weight: 800;
+}
+.img-250-270 {
+  margin-top: 8px;
+  width: 250px;
+  height: 270px;
+}
+#box {
+  position: relative;
+  width: 250px;
+  height: 330px;
+  background-color: #dcdcdc;
+  border-radius: 4px;
+}
+.box__content {
+  position: absolute;
+  width: 250px;
+  height: 330px;
+  top: 18px;
+  left: 16px;
+  border: 1px solid #052962;
+  font-style: italic;
+  padding: 20px 16px 20px 12px;
+  border-radius: 4px;
+}
 /* icon define */
 #icon-search {
   background-image: url("./asset/icon-sprite.png");
