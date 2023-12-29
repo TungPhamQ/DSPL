@@ -1,0 +1,10 @@
+#avatar {
+  width: 180px;
+  border-radius: 50%;
+}
+#content {
+  border-bottom: 5px solid #f0f0f0;
+}
+#page-main {
+  border-right: none;
+}

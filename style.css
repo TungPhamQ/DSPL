@@ -184,6 +184,10 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.py-26 {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
 .py-28 {
   padding-top: 28px;
   padding-bottom: 28px;
@@ -728,8 +732,8 @@ body {
   gap: 10px;
 }
 .gap-24 {
-    gap: 24px;
-  }
+  gap: 24px;
+}
 /* text align */
 .text-center {
   text-align: center;
