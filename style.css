@@ -834,5 +834,24 @@ body {
   }
   #hot-news__title {
     width: 100%;
+    max-height: none;
+  }
+  #hot-news__description {
+    margin-bottom: 20px;
+  }
+  .ms-fs-24 {
+    font-size: 24px;
+  }
+  .ms-fs-36 {
+    font-size: 36px;
+  }
+  .ms-fs-48 {
+    font-size: 48px;
+  }
+  .ms-line-height-48 {
+    line-height: 48px;
+  }
+  .ms-line-height-60 {
+    line-height: 60px;
   }
 }
