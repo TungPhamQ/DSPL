@@ -816,10 +816,23 @@ body {
   .side {
     padding: 0;
   }
+  section {
+    padding: 0;
+  }
   .res-block {
     display: block !important;
   }
   .display-none {
     display: none !important;
+  }
+  #page-main {
+    width: 100%;
+  }
+  #hot-news img {
+    max-width: unset;
+    width: 100% !important;
+  }
+  #hot-news__title {
+    width: 100%;
   }
 }
