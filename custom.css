@@ -455,6 +455,19 @@ img {
   #side-news {
     width: 100%;
   }
+  #icon-comment {
+    transform: scale(1.7);
+    width: 40px;
+    height: 25px;
+  }
+  .comment-amount {
+    align-items: center;
+  }
+  #show-more-btn {
+    font-size: 36px;
+    line-height: 48px;
+    color: #b9e1ff;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
