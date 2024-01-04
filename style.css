@@ -880,6 +880,12 @@ body {
     height: 625px;
     background: #5f5f5d;
   }
+  #border-top__short--mobile {
+    display: block !important;
+    width: 154px;
+    border-top: 4px solid #b9e1ff;
+    margin: 26px 0;
+  }
   /* text */
   .ms-fs-20 {
     font-size: 20px !important;
