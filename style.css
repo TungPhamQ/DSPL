@@ -765,6 +765,9 @@ body {
 .gap-10 {
   gap: 10px;
 }
+.gap-18 {
+  gap: 18px;
+}
 .gap-24 {
   gap: 24px;
 }
@@ -801,6 +804,9 @@ body {
 }
 .line-height-30 {
   line-height: 30px;
+}
+.line-height-40 {
+  line-height: 40px;
 }
 /* responsive */
 @media only screen and (max-width: 1024px) {
@@ -839,14 +845,25 @@ body {
   #hot-news__description {
     margin-bottom: 20px;
   }
+  #news-item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* text */
   .ms-fs-24 {
     font-size: 24px;
+  }
+  .ms-fs-32 {
+    font-size: 32px;
   }
   .ms-fs-36 {
     font-size: 36px;
   }
   .ms-fs-48 {
     font-size: 48px;
+  }
+  .ms-line-height-44 {
+    line-height: 44px;
   }
   .ms-line-height-48 {
     line-height: 48px;
