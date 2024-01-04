@@ -882,25 +882,28 @@ body {
   }
   /* text */
   .ms-fs-24 {
-    font-size: 24px;
+    font-size: 24px !important;
   }
   .ms-fs-32 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
   .ms-fs-36 {
-    font-size: 36px;
+    font-size: 36px !important;
+  }
+  .ms-fs-40 {
+    font-size: 40px !important;
   }
   .ms-fs-48 {
-    font-size: 48px;
+    font-size: 48px !important;
   }
   .ms-line-height-44 {
-    line-height: 44px;
+    line-height: 44px !important;
   }
   .ms-line-height-48 {
-    line-height: 48px;
+    line-height: 48px !important;
   }
   .ms-line-height-60 {
-    line-height: 60px;
+    line-height: 60px !important;
   }
   /* margin */
   .m-mx-20 {
