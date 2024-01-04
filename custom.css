@@ -468,6 +468,18 @@ img {
     line-height: 48px;
     color: #b9e1ff;
   }
+  .tab__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline   ;
+  }
+  .tab__dash::after {
+    height: 30px;
+    top: 55px;
+  }
+  #icon-chevron {
+    transform: scale(1.5);
+  }
 }
 
 @media only screen and (max-width: 1300px) {
