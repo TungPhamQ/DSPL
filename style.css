@@ -123,6 +123,9 @@ body {
 .gap-12 {
   gap: 12px;
 }
+.gap-14 {
+  gap: 14px;
+}
 .gap-16 {
   gap: 16px;
 }
@@ -840,6 +843,9 @@ body {
   section {
     padding: 0;
   }
+  .m-flex {
+    display: flex !important;
+  }
   .res-block {
     display: block !important;
   }
@@ -911,6 +917,9 @@ body {
   .ms-fs-60 {
     font-size: 60px !important;
   }
+  .ms-line-height-40 {
+    line-height: 40px !important;
+  }
   .ms-line-height-44 {
     line-height: 44px !important;
   }
@@ -920,9 +929,28 @@ body {
   .ms-line-height-60 {
     line-height: 60px !important;
   }
+  .m-color-blue-2 {
+    color: #b9e1ff;
+  }
   /* margin */
   .m-mx-20 {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  .m-mb-30 {
+    margin-bottom: 30px;
+  }
+  /* padding */
+  .m-py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .m-py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* border */
+  .m-border-white {
+    border-top: 1px solid #f0f0f0;
   }
 }
