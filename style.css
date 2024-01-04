@@ -881,8 +881,14 @@ body {
     background: #5f5f5d;
   }
   /* text */
+  .ms-fs-20 {
+    font-size: 20px !important;
+  }
   .ms-fs-24 {
     font-size: 24px !important;
+  }
+  .ms-fs-28 {
+    font-size: 28px !important;
   }
   .ms-fs-32 {
     font-size: 32px !important;
