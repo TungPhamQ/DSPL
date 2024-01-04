@@ -863,6 +863,22 @@ body {
   #news-item {
     display: flex;
     flex-direction: column-reverse;
+    margin-bottom: 40px;
+  }
+  #news-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  #news-2-item {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dcdcdc;
+    border-top: none;
+  }
+  #ads-mobile {
+    width: 100%;
+    height: 625px;
+    background: #5f5f5d;
   }
   /* text */
   .ms-fs-24 {
@@ -885,5 +901,10 @@ body {
   }
   .ms-line-height-60 {
     line-height: 60px;
+  }
+  /* margin */
+  .m-mx-20 {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
