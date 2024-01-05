@@ -297,7 +297,8 @@ img {
   background-repeat: no-repeat;
 }
 .fa-home:before {
-  font-size: 44px;
+  /* font-size: 44px; */
+  font-size: 5.867vw;
 }
 #icon-share {
   background-image: url("./asset/icon-mobi-share.png");
@@ -421,10 +422,12 @@ img {
   width: 100%;
 } */
 #show-more-news-btn {
-  padding: 35px 125px;
+  /* padding: 35px 125px; */
+  padding: 4.667vw 16.667vw;
   background-color: #dcdcdc;
   text-align: center;
-  margin: 40px 60px;
+  /* margin: 40px 60px; */
+  margin: 16.667vw 8vw;
   border-radius: 8px;
 }
 @media only screen and (max-width: 800px) {
@@ -437,7 +440,9 @@ img {
     padding: 0;
   }
   #hot-event {
-    padding: 8px 25px;
+    /* padding: 8px 25px; */
+    padding: 1.067vw 3.333vw;
+    overflow-x: auto;
   }
   #hot-news,
   #video__container,
@@ -449,12 +454,14 @@ img {
   #nav-bar-category {
     background: #fff;
     color: #005689;
-    padding: 2px 4px;
+    /* padding: 2px 4px; */
+    padding: 0.267vw 0.533vw;
     gap: 0;
     align-items: center;
   }
   #icon-wrapper {
-    gap: 16px;
+    /* gap: 16px; */
+    gap: 2.133vw;
   }
   .icon-scale {
     transform: scale(1.2);
@@ -471,8 +478,9 @@ img {
     align-items: center;
   }
   #show-more-btn {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 4.8vw;
+    /* line-height: 48px; */
+    line-height: 6.4vw;
     color: #b9e1ff;
   }
   .tab__title {
@@ -481,15 +489,19 @@ img {
     align-items: baseline;
   }
   .tab__dash::after {
-    height: 30px;
-    top: 55px;
+    /* height: 30px; */
+    height: 4vw;
+    /* top: 55px; */
+    top: 7.333vw;
   }
   #icon-chevron {
     transform: scale(1.5);
   }
   #dot {
-    width: 20px;
-    height: 20px;
+    /* width: 20px;
+    height: 20px; */
+    width: 2.667vw;
+    height: 2.667vw;
   }
 }
 
@@ -532,15 +544,17 @@ img {
 @media only screen and (max-width: 768px) {
   #nav-bar-category {
     justify-content: unset !important;
-    font-size: 28px;
-    padding-left: 20px;
+    /* font-size: 28px; */
+    font-size: 3.733vw;
+    /* padding-left: 20px; */
+    padding-left: 2.667vw;
   }
   #nav-bar-category a {
     padding-top: 0;
     padding-bottom: 0;
   }
   #category {
-    padding-left: 20px;
+    padding-left: 2.667vw;
     justify-content: flex-start;
   }
 }
