@@ -936,9 +936,16 @@ body {
     color: #b9e1ff;
   }
   /* margin */
+  .m-my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .m-mx-20 {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  .m-mt-40 {
+    margin-top: 40px;
   }
   .m-mb-30 {
     margin-bottom: 30px;
@@ -955,5 +962,8 @@ body {
   /* border */
   .m-border-white {
     border-top: 1px solid #f0f0f0;
+  }
+  .m-border-bottom--grey {
+    border-bottom: 1px solid #f0f0f0;
   }
 }
