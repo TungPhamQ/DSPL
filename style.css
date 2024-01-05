@@ -957,10 +957,17 @@ body {
   .m-mb-30 {
     margin-bottom: 30px;
   }
+  .m-mb-60 {
+    margin-bottom: 60px;
+  }
   /* padding */
   .m-px-0 {
     padding-left: 0;
     padding-right: 0;
+  }
+  .m-px-22 {
+    padding-left: 22px;
+    padding-right: 22px;
   }
   .m-py-0 {
     padding-top: 0;
@@ -969,6 +976,9 @@ body {
   .m-py-30 {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  .m-pb-44 {
+    padding-bottom: 44px;
   }
   .m-pb-70 {
     padding-bottom: 70px;
@@ -982,5 +992,9 @@ body {
   }
   .m-border-bottom--grey-2 {
     border-bottom: 1px solid #929292;
+  }
+  /* flex */
+  .ms-gap-20 {
+    gap: 20px;
   }
 }
