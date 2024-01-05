@@ -842,7 +842,6 @@ body {
   }
   img {
     height: fit-content;
-    width: 40%;
   }
   .side {
     padding: 0;
@@ -1040,5 +1039,13 @@ body {
   .ms-gap-20 {
     /* gap: 20px; */
     gap: 2.667vw;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #icon-share {
+    transform: scale(0.5);
+  }
+  .m-max-width-40pc {
+    max-width: 40% !important;
   }
 }
