@@ -855,11 +855,17 @@ body {
   .m-flex-column {
     flex-direction: column;
   }
+  .m-flex-column-reverse {
+    flex-direction: column-reverse;
+  }
   .res-block {
     display: block !important;
   }
   .display-none {
     display: none !important;
+  }
+  .m-width-100pc {
+    width: 100% !important;
   }
   #page-main {
     width: 100%;
