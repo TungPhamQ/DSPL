@@ -965,6 +965,10 @@ body {
     /* line-height: 60px !important; */
     line-height: 8vw !important;
   }
+  .ms-line-height-62 {
+    /* line-height: 60px !important; */
+    line-height: 8.267vw !important;
+  }
   .m-color-blue-2 {
     color: #b9e1ff;
   }

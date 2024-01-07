@@ -1,0 +1,11 @@
+#category {
+  text-transform: uppercase;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+  #category {
+    text-transform: none;
+  }
+}
