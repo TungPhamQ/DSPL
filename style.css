@@ -882,6 +882,9 @@ body {
   .m-width-100pc {
     width: 100% !important;
   }
+  .m-width-fill-max {
+    width: -webkit-fill-available !important;
+  }
   #page-main {
     width: 100%;
   }
