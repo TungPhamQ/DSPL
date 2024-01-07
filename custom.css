@@ -398,8 +398,11 @@ img {
   line-clamp: 5;
   -webkit-box-orient: vertical;
 }
-#number {
+.number {
   line-height: normal;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  color: #234b8a;
 }
 #side-page_tag,
 #side-page_category {
