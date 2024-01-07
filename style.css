@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* outline: 1px solid red; */
 }
 body {
   font-family: "Charis SIL", serif;
@@ -1017,6 +1018,12 @@ body {
   .m-px-0 {
     padding-left: 0;
     padding-right: 0;
+  }
+  .m-px-20 {
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding-left: 2.667vw !important;
+    padding-right: 2.667vw !important;
   }
   .m-px-22 {
     /* padding-left: 22px; */
