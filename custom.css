@@ -477,6 +477,9 @@ img {
   .comment-amount {
     align-items: center;
   }
+  .comment-amount .number {
+    font-size: 3.2vw !important;
+  }
   #show-more-btn {
     font-size: 4.8vw;
     /* line-height: 48px; */
