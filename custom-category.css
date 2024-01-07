@@ -13,4 +13,7 @@
     width: 30px;
     height: 25px;
   }
+  #hot-news__title-category {
+    max-height: unset;
+  }
 }
