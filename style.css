@@ -924,6 +924,13 @@ body {
     height: 83.333vw;
     background: #5f5f5d;
   }
+  .m-grey-btn {
+    padding: 15px 0 !important;
+    width: 100% !important;
+    border-radius: 25px !important;
+    background: #f0f0f0 !important;
+    height: 100% !important;
+  }
   #border-top__short--mobile {
     display: block !important;
     width: 154px;
@@ -1018,6 +1025,10 @@ body {
     margin-right: 20px; */
     margin-left: 2.667vw;
     margin-right: 2.667vw;
+  }
+  .m-mt-30 {
+    /* margin-bottom: 30px; */
+    margin-top: 4vw;
   }
   .m-mt-40 {
     /* margin-top: 40px; */
