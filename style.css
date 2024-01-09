@@ -1035,8 +1035,12 @@ body {
     margin-top: 5.333vw;
   }
   .m-mt-50 {
-    /* margin-top: 40px; */
+    /* margin-top:50px; */
     margin-top: 6.667vw;
+  }
+  .m-mt-65 {
+    /* margin-top: 60px; */
+    margin-top: 8.667vw;
   }
   .m-mb-30 {
     /* margin-bottom: 30px; */
