@@ -23,3 +23,24 @@
   color: #222222;
   margin: 0 auto;
 }
+
+#mobile-table {
+  border: 1px solid #c9c9c9;
+}
+#mobile-table .date {
+  background: #f0f0f0;
+  color: #222222;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  font-weight: bold;
+  font-size: 4.267vw;
+  padding: 15px 24px;
+}
+#mobile-table .info {
+  background: #fff;
+  color: #222222;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  font-size: 4.267vw;
+  padding: 25px 24px;
+}
