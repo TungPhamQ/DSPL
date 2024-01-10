@@ -549,6 +549,9 @@ img {
     width: 100%;
     padding-left: 0;
   }
+  #icon-stonk-2 {
+    transform: scale(2);
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -573,5 +576,9 @@ img {
     transform: scale(1);
     width: 30px;
     height: 20px;
+  }
+  #icon-stonk-2 {
+    height: 22px;
+    transform: scale(1.4);
   }
 }
