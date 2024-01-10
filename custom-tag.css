@@ -44,3 +44,15 @@
   font-size: 4.267vw;
   padding: 25px 24px;
 }
+
+@media only screen and (max-width: 768px) {
+  #icon-stonk-2 {
+    transform: scale(2);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #icon-stonk-2 {
+    transform: scale(1.4);
+  }
+}
