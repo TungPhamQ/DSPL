@@ -51,8 +51,9 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   #icon-stonk-2 {
+    height: 22px;
     transform: scale(1.4);
   }
 }
