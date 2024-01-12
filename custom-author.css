@@ -8,3 +8,14 @@
 #page-main {
   border-right: none;
 }
+@media only screen and (max-width: 768px) {
+  #content {
+    align-items: center;
+  }
+  .info {
+    text-align: center;
+  }
+  #avatar {
+    width: 42.667vw;
+  }
+}
