@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="custom-detail.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
     <title>Đời Sống Pháp Luật</title>
   </head>
   <body>
@@ -103,6 +103,7 @@
               <div id="sharing" class="pl-16 mt-54 flex-col">
                 <div>
                   <div
+                    id="sharing"
                     class="bg-grey-1 p-4 rounded-16 flex flex-col justify-center items-center gap-10"
                   >
                     <span class="button-zoom">+</span>
@@ -126,7 +127,7 @@
                   </div>
                 </div>
               </div>
-              <div class="pr-44 pl-30">
+              <div id="detail_container" class="pr-44 pl-30">
                 <div
                   id="bread-crumb"
                   class="mb-12 text-crumb flex justify-between"
@@ -150,12 +151,15 @@
                       quản trị rủi ro chuẩn mực quốc tế
                     </span>
                   </div>
-                  <div class="mb-12">
+                  <div id="sub__menu" class="mb-12">
                     <ul class="uppercase fs-14 bold pl-16">
                       <li class="color-blue-1">Nhân văn</li>
                     </ul>
                   </div>
-                  <div class="pb-12 fs-20 font-italic color-black word-space-1">
+                  <div
+                    id="content__detail"
+                    class="pb-12 fs-20 font-italic color-black word-space-1"
+                  >
                     <span class="bold color-blue-1">ĐS&PL </span>Nam A Bank vừa
                     công bố kết quả kinh doanh năm 2022 với nhiều chỉ tiêu tăng
                     trưởng tích cực, đặc biệt lợi nhuận đạt hơn 2.000 tỷ đồng,
@@ -163,7 +167,7 @@
                     chứng cho hiệu quả hoạt động ổn định, bền vững của Nam A
                     Bank trên thị trường.
                   </div>
-                  <div class="width-full">
+                  <div id="description__detail" class="width-full">
                     <img
                       class="width-full"
                       src="https://picsum.photos/300/200"
@@ -175,7 +179,10 @@
                       năng tiếp cận vốn của người dân (Ảnh: Nam A Bank).
                     </span>
                   </div>
-                  <div class="relative flex gap-16 my-16 line-height-24">
+                  <div
+                    id="main__content"
+                    class="relative flex gap-16 my-16 line-height-24"
+                  >
                     <div class="width-59">
                       <span class="fs-16">
                         Năm vừa qua ghi dấu ấn quan trọng đối với Nam A Bank –
@@ -214,7 +221,10 @@
                       so với năm 2021.
                     </span>
                   </div>
-                  <div class="relative flex gap-24 my-16 line-height-24">
+                  <div
+                    id="main__content"
+                    class="relative flex gap-24 my-16 line-height-24"
+                  >
                     <img
                       class="img-250-280"
                       src="https://picsum.photos/250/270"
@@ -251,7 +261,7 @@
                       trên toàn quốc.
                     </span>
                   </div>
-                  <div class="width-full my-16">
+                  <div id="description__detail" class="width-full my-16">
                     <img src="https://picsum.photos/260/160" />
                     <span
                       class="fs-12 text-center width-full display-block img-des"
@@ -278,7 +288,7 @@
                       toàn diện.
                     </span>
                   </div>
-                  <div class="relative flex gap-10 mt-16">
+                  <div id="main__content" class="relative flex gap-10 mt-16">
                     <div class="relative width-60 line-height-24">
                       <p class="fs-16">
                         Song hành cùng hoạt động kinh doanh, vai trò trách nhiệm
@@ -291,7 +301,13 @@
                         hành xuyên suốt cùng giải thưởng Mai vàng và các hoạt
                         động thiện nguyện sau chương trình…
                       </p>
-                      <p class="mt-16">
+                      <div
+                        id="block__hidden"
+                        class="img-250-280 mb-12 bold bg-grey-1 mt-10 display-none"
+                      >
+                        QUANG CAO 300 250
+                      </div>
+                      <p id="sharing" class="mt-16">
                         Với những hoạt động tích cực, mang giá trị thiết thực và
                         ý nghĩa trên, năm vừa qua Nam A Bank đã được các tổ chức
                         trong và ngoài nước ghi nhận như: Nơi làm việc tốt nhất
@@ -299,7 +315,6 @@
                       </p>
                     </div>
                     <div class="relative width-42">
-                      <!-- <img src="https://picsum.photos/120/130" /> -->
                       <div id="box">
                         <div class="box__content">
                           <span class="fs-16"
@@ -316,6 +331,12 @@
                   </div>
                   <div class="relative">
                     <span class="fs-16">
+                      <span id="content__hidden" class="mt-16">
+                        Với những hoạt động tích cực, mang giá trị thiết thực và
+                        ý nghĩa trên, năm vừa qua Nam A Bank đã được các tổ chức
+                        trong và ngoài nước ghi nhận như: Nơi làm việc tốt nhất
+                        Châu Á do HR Asia bình chọn; Top 10
+                      </span>
                       Thương hiệu tăng trưởng ấn tượng do Tạp chí Kinh tế Việt
                       Nam tổ chức; Doanh nghiệp vì cộng đồng do tạp chí Kinh tế
                       Sài Gòn tổ chức; Thương hiệu truyền cảm hứng Châu Á tại Lễ
@@ -340,9 +361,12 @@
                     </span>
                   </div>
                 </div>
-                <div class="width-full bg-grey-3 flex items-center gap-10 p-14">
-                  <img src="https://picsum.photos/260/140" />
-                  <div class="relative pb-12">
+                <div
+                  id="container__content"
+                  class="width-full bg-grey-3 flex items-center gap-10 p-14"
+                >
+                  <img id="img__detail" src="https://picsum.photos/260/140" />
+                  <div id="other__news" class="relative pb-12">
                     <p class="bold color-blue-1">
                       Kỳ 2: Nam A Bank hai năm liên tiếp nhận giải thưởng thương
                       hiệu châu Á
@@ -360,6 +384,12 @@
                     Tag:
                     <span>Chiến lược / Nam Á Bank / Ngân hàng xanh</span>
                   </span>
+                </div>
+                <div
+                  id="block__hidden"
+                  class="img-250-280 mb-12 bold bg-grey-1 mt-10 display-none"
+                >
+                  QUANG CAO 300 250
                 </div>
                 <div
                   class="relative flex items-center justify-between gap-32 fs-12"
@@ -392,7 +422,10 @@
                       ></span>
                     </div>
                   </div>
-                  <div class="flex items-center items-center gap-6 pb-24">
+                  <div
+                    id="sharing"
+                    class="flex items-center items-center gap-6 pb-24"
+                  >
                     <span class="button-share"
                       ><i class="fa fa-chevron-left" aria-hidden="true"></i
                     ></span>
@@ -412,13 +445,27 @@
                     >Động viên Tác giả</span
                   >
                 </div>
-                <div class="relative py-14 pl-30 pr-20 bg-grey-3 border mt-54">
-                  <div class="title mb-20">
-                    <span class="color-blue-4 uppercase bold fs-18">
-                      <i class="fa fa-comments cmt-icon" aria-hidden="true"></i>
-                      <span class="ml-8">Bình luận</span>
-                    </span>
-                    <span class="">(23)</span>
+                <div
+                  id="container__comments"
+                  class="relative py-14 pl-30 pr-20 bg-grey-3 border mt-54"
+                >
+                  <div class="title flex items-end justify-between mb-20">
+                    <div>
+                      <span class="color-blue-4 uppercase bold fs-18">
+                        <i
+                          class="fa fa-comments cmt-icon"
+                          aria-hidden="true"
+                        ></i>
+                        <span class="ml-8">Bình luận</span>
+                      </span>
+                      <span class="">(23)</span>
+                    </div>
+                    <div
+                      id="block__hidden"
+                      class="flex items-center justify-center"
+                    >
+                      <span>Chia sẻ</span>
+                    </div>
                   </div>
                   <div class="cmt-area relative">
                     <div class="relative">
@@ -432,11 +479,13 @@
                       </span>
                     </div>
                     <div class="flex items-center justify-between mt-10">
-                      <span class="fs-12"
+                      <span id="sharing" class="fs-12"
                         >Bình luận sẽ được xét duyệt trước khi đăng. Xin vui
                         lòng gõ tiếng Việt có dấu</span
                       >
-                      <span class="px-18 py-8 bg-blue-4 color-white rounded-4"
+                      <span
+                        id="comment__btn"
+                        class="px-18 py-8 bg-blue-4 color-white rounded-4"
                         >Gửi bình luận</span
                       >
                     </div>
@@ -492,7 +541,10 @@
                               3
                             </span>
                           </div>
-                          <div class="pl-16 border-left h-fit mt-12">
+                          <div
+                            id="comment__action"
+                            class="pl-16 border-left h-fit mt-12"
+                          >
                             <div class="cmt-area relative">
                               <span class="motion-icon">
                                 <i class="fa fa-smile-o" aria-hidden="true"></i>
@@ -506,8 +558,10 @@
                             <div
                               class="flex items-center justify-between mt-16"
                             >
-                              <span class="fs-12">Tối đa 1500 ký tự</span>
-                              <div>
+                              <span id="sharing" class="fs-12"
+                                >Tối đa 1500 ký tự</span
+                              >
+                              <div class="wrapper__btn">
                                 <span class="p-8 color-grey">Hủy</span>
                                 <span
                                   class="px-18 py-8 bg-blue-4 color-white rounded-4"
@@ -915,11 +969,254 @@
                         <div class="relative text-center mt-16">Xem thêm</div>
                       </div>
                     </section>
+
+                    <section id="block__hidden" class="mt-16">
+                      <div class="tab__dash"></div>
+                      <div class="bold tab__title">Tin liên quan</div>
+                      <div class="relative posts">
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="p-14 bold align-center">Xem thêm</div>
+                      </div>
+                    </section>
+                    <section id="block__hidden" class="">
+                      <div class="tab__dash"></div>
+                      <div class="bold tab__title">Tin cùng tác giả</div>
+                      <div class="relative posts">
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="p-14 bold align-center">Xem thêm</div>
+                      </div>
+                    </section>
+                    <section id="block__hidden" class="">
+                      <div class="tab__dash"></div>
+                      <div class="bold tab__title">Tin nổi bật</div>
+                      <div class="relative posts">
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-item flex border-bottom res-block">
+                          <div class="title bold fs-18 line-height-24 mt-10">
+                            Nam A Bank tăng trưởng tổng tài sản vượt kế hoạch
+                            năm
+                          </div>
+                          <div class="text flex gap-8 py-10">
+                            <img
+                              id="img__detail"
+                              src="https://picsum.photos/220/130"
+                            />
+                            <div class="description color-grey fs-14">
+                              Tổng tài sản Nam A Bank đạt quy mô hơn 206.750 tỷ
+                              đồng, tăng gần 19% so với cùng kỳ, hoàn thành
+                              100,9% kế hoạch năm, tính đến hết quý III.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="p-14 bold align-center">Xem thêm</div>
+                      </div>
+                    </section>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="flex flex-col pl-13">
+            <div id="hidden__ads" class="flex flex-col pl-13">
               <div class="ad-300-250 mb-12 bold color-white">
                 QUANG CAO 300 250
               </div>
