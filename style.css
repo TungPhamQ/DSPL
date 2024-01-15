@@ -539,6 +539,9 @@ body {
 .border-left {
   border-left: 1px solid #dbdbdb;
 }
+.border-left-3px {
+  border-left: 3px solid #dbdbdb;
+}
 .border-bottom {
   border-bottom: 1px solid #dbdbdb;
 }

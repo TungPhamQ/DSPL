@@ -1,0 +1,1736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../video-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Đời Sống Pháp Luật</title>
+  </head>
+  <body>
+    <section id="header">
+      <img id="ads-img" src="../asset/ads_top.png" />
+      <div id="menu-bar" class="side color-white">
+        <div class="p-14 flex space-between" style="gap: 8%">
+          <div class="flex gap-28 flex-align-center width-100pc">
+            <i
+              class="res-block px-14 mr-20"
+              id="icon-menu"
+              style="display: none"
+            ></i>
+            <img class="width-150" src="../asset/logo.png" />
+            <div
+              id="search-bar"
+              class="display-none bg-blue-1 border flex space-between"
+            >
+              <input id="search-input" placeholder="Nhập nội dung tìm kiếm" />
+              <i id="icon-search"></i>
+            </div>
+          </div>
+          <div
+            id="icon-wrapper"
+            class="icon-wrapper flex gap-28 flex-align-center font-helvetica color-blue-2"
+          >
+            <span id="weather" class="display-none">
+              <span class="text-no-wrap">Thứ 3, ngày 21-11-2023</span>
+              <span class="text-no-wrap flex flex-align-center gap-6">
+                Hà Nội<i class="fa fa-chevron-down" aria-hidden="true"></i>
+                , 16° - 28°C
+                <i id="icon-sun"></i>
+              </span>
+            </span>
+            <span id="news" class="flex flex-align-center gap-6"
+              ><i id="icon-reload" class="icon-scale"></i>
+              <span class="display-none text-no-wrap">Tin mới nhất</span></span
+            >
+            <span id="login" class="flex flex-align-center gap-6"
+              ><i id="icon-user" class="icon-scale"></i>
+              <span class="display-none text-no-wrap">Đăng nhập</span>
+            </span>
+            <i
+              id="icon-search"
+              class="res-block icon-scale"
+              style="display: none"
+            ></i>
+          </div>
+        </div>
+        <div id="nav-bar" class="flex border flex-align-center space-between">
+          <i
+            class="fa fa-home res-block"
+            aria-hidden="true"
+            style="display: none"
+          ></i>
+          <div class="py-16 flex items-center">
+            <a class="text-no-wrap px-14 bold ms-fs-28 fs-30">VIDEO</a>
+            <a class="text-no-wrap px-14 bold ms-fs-28 border-left-3px"
+              >THỜI SỰ</a
+            >
+            <a class="text-no-wrap px-14 bold ms-fs-28">THẾ GIỚI</a>
+            <a class="text-no-wrap px-14 bold ms-fs-28">GIẢI TRÍ</a>
+          </div>
+
+          <i
+            id="icon-share"
+            class="res-block px-14"
+            aria-hidden="true"
+            style="display: none"
+          ></i>
+          <i class="display-none px-14 mr-20" id="icon-menu"></i>
+        </div>
+      </div>
+    </section>
+    <section id="body" class="side border">
+      <div id="body-wrapper" class="border">
+        <div class="mb-2"></div>
+        <div id="page" class="">
+          <section class="flex res-block">
+            <div id="page-main__video" class="">
+              <div
+                id="hot-news__video"
+                class="flex border__top--blue bg-grey-1 space-between"
+              >
+                <img src="https://picsum.photos/750/420" />
+
+                <div id="hot-news__video" class="p-16">
+                  <div
+                    class="color-blue-1 bold fs-24 pb-12 line-height-30 ms-fs-48 ms-line-height-60"
+                  >
+                    9 dự án cao tốc thông xe năm nay
+                  </div>
+                  <div>Thời sự</div>
+                  <div class="video-icon flex">
+                    <span>link</span>
+                    <span>zalo</span>
+                    <span>facebook</span>
+                  </div>
+                  <div
+                    id="hot-news__description"
+                    class="fs-18 color-333 font-helvetica line-height-24 ms-fs-36 ms-line-height-48"
+                  >
+                    8 dự án thành phần cao tốc Bắc - Nam phía Đông cùng 40 km
+                    tuyến Tuyên Quang - Phú Thọ thông xe năm 2023 giúp nối liền
+                    vùng miền, phát triển kinh tế ở nhiều địa phương.
+                  </div>
+                  <div class="author flex justify-end">Nhân Văn</div>
+                  <div class="description-2">
+                    Cảm ơn bạn đã quan tâm đến nội dung trên. Hãy
+                    <span class="uppercase">tặng sao</span> để tiếp thêm động
+                    lực cho tác giả có những bài viết hay hơn nữa.
+                  </div>
+                  <div class="reaction ms-fs-24">
+                    Đã tặng:
+                    <span class="like">85 like</span>
+                    <span class="heart">12</span>
+                    <span class="star">20</span>
+                  </div>
+                </div>
+              </div>
+              <div id="news" class="flex gap-10 py-16 res-block m-mx-20">
+                <div id="news-item" class="border__top--blue bg-grey-3">
+                  <div class="flex gap-18">
+                    <img
+                      src="https://picsum.photos/260/160"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
+                      style="display: none"
+                    >
+                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
+                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
+                    </div>
+                  </div>
+
+                  <div class="p-8 mt-6">
+                    <div class="bold ms-fs-36 ms-line-height-48">
+                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
+                      để đầu tư phiếu
+                      <span class="comment-amount fs-12 display-none">
+                        <i id="icon-comment"> </i>
+                        <span class="number">6</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div id="news-item" class="border__top--blue bg-grey-3">
+                  <div class="flex gap-18">
+                    <img
+                      src="https://picsum.photos/260/160"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
+                      style="display: none"
+                    >
+                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
+                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
+                    </div>
+                  </div>
+
+                  <div class="p-8 mt-6">
+                    <div class="bold ms-fs-36 ms-line-height-48">
+                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
+                      để đầu tư phiếu
+                      <span class="comment-amount fs-12 display-none">
+                        <i id="icon-comment"> </i>
+                        <span class="number">6</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div id="news-item" class="border__top--blue bg-grey-3">
+                  <div class="flex gap-18">
+                    <img
+                      src="https://picsum.photos/260/160"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
+                      style="display: none"
+                    >
+                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
+                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
+                    </div>
+                  </div>
+
+                  <div class="p-8 mt-6">
+                    <div class="bold ms-fs-36 ms-line-height-48">
+                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
+                      để đầu tư phiếu
+                      <span class="comment-amount fs-12 display-none">
+                        <i id="icon-comment" class=""> </i>
+                        <span class="number">6</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="news" class="flex gap-10 py-16 res-block m-mx-20">
+                <div id="news-item" class="border__top--blue bg-grey-3">
+                  <div class="flex gap-18">
+                    <img
+                      src="https://picsum.photos/260/160"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
+                      style="display: none"
+                    >
+                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
+                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
+                    </div>
+                  </div>
+
+                  <div class="p-8 mt-6">
+                    <div class="bold ms-fs-36 ms-line-height-48">
+                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
+                      để đầu tư phiếu
+                      <span class="comment-amount fs-12 display-none">
+                        <i id="icon-comment"> </i>
+                        <span class="number">6</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div id="news-item" class="border__top--blue bg-grey-3">
+                  <div class="flex gap-18">
+                    <img
+                      src="https://picsum.photos/260/160"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
+                      style="display: none"
+                    >
+                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
+                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
+                    </div>
+                  </div>
+
+                  <div class="p-8 mt-6">
+                    <div class="bold ms-fs-36 ms-line-height-48">
+                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
+                      để đầu tư phiếu
+                      <span class="comment-amount fs-12 display-none">
+                        <i id="icon-comment"> </i>
+                        <span class="number">6</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div id="news-item" class="border__top--blue bg-grey-3">
+                  <div class="flex gap-18">
+                    <img
+                      src="https://picsum.photos/260/160"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
+                      style="display: none"
+                    >
+                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
+                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
+                    </div>
+                  </div>
+
+                  <div class="p-8 mt-6">
+                    <div class="bold ms-fs-36 ms-line-height-48">
+                      Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
+                      để đầu tư phiếu
+                      <span class="comment-amount fs-12 display-none">
+                        <i id="icon-comment" class=""> </i>
+                        <span class="number">6</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ad-800-128 my-30 bold color-white display-none">
+                Quảng cáo 1128 x 250px
+              </div>
+              <div
+                id="ads-mobile"
+                class="my-30 bold color-white res-block"
+                style="display: none"
+              >
+                Quảng cáo mobile
+              </div>
+            </div>
+          </section>
+          <section id="news-tab" class="m-mx-20">
+            <div class="tab__dash"></div>
+            <div class="bold tab__title ms-fs-60">
+              <span>TIN TỨC</span>
+              <i id="icon-chevron" class="res-block" style="display: none"></i>
+            </div>
+            <div
+              id="nav"
+              class="nav fs-14 color-grey pb-12 font-helvetica display-none"
+            >
+              <a class="px-10">Tin trong nuoc </a>
+              <span class="border-right"></span>
+              <a class="px-10">Tin trong nuoc </a>
+              <span class="border-right"></span>
+              <a class="px-10">Tin trong nuoc </a>
+              <span class="border-right"></span>
+              <a class="px-10">Tin trong nuoc </a>
+              <i id="icon-chevron"></i>
+            </div>
+            <div class="flex gap-12 mb-30 res-block">
+              <div id="hot-post">
+                <img src="https://picsum.photos/365/220" />
+                <div class="title bold fs-18 mt-20 ms-fs-36 ms-line-height-48">
+                  [E] “Hãnh diện lớn nhất đời tôi là tạo dựng được ngân hàng
+                  trên đất Mỹ"
+                  <span class="comment-amount fs-12">
+                    <i id="icon-comment" class=""> </i>
+                    <span class="number">6</span>
+                  </span>
+                </div>
+              </div>
+              <div class="border-right"></div>
+              <div id="border-top__short--mobile" style="display: none"></div>
+              <div id="post">
+                <div id="post-1" class="flex mb-12">
+                  <img
+                    src="https://picsum.photos/160/100"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="title bold px-10 py-4 ms-fs-36 ms-line-height-48">
+                    Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
+                    <span class="comment-amount fs-12 display-none">
+                      <i id="icon-comment " class=""> </i>
+                      <span class="number">6</span>
+                    </span>
+                  </div>
+                </div>
+                <div id="border-top__short" class="display-none"></div>
+                <div class="title bold py-14 fs-16 display-none">
+                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
+                  phố quan trọng trên biển Baltic
+                </div>
+                <div id="border-top__short" class="display-none"></div>
+                <div class="title bold py-14 fs-16 display-none">
+                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
+                  phố quan trọng trên biển Baltic
+                </div>
+              </div>
+              <div class="border-right"></div>
+              <div id="border-top__short--mobile" style="display: none"></div>
+              <div id="post">
+                <div id="post-1" class="flex mb-12">
+                  <img
+                    src="https://picsum.photos/160/100"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="title bold px-10 py-4 ms-fs-36 ms-line-height-48">
+                    Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
+                    <span class="comment-amount fs-12 display-none">
+                      <i id="icon-comment " class=""> </i>
+                      <span class="number">6</span>
+                    </span>
+                  </div>
+                </div>
+                <div id="border-top__short" class="display-none"></div>
+                <div class="title bold py-14 fs-16 display-none">
+                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
+                  phố quan trọng trên biển Baltic
+                </div>
+                <div id="border-top__short" class="display-none"></div>
+                <div class="title bold py-14 fs-16 display-none">
+                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
+                  phố quan trọng trên biển Baltic
+                </div>
+              </div>
+              <div class="res-block" style="display: none">
+                <div id="border-top__short--mobile" style="display: none"></div>
+                <div id="post--mobile">
+                  <div id="post-1" class="flex mb-12">
+                    <img
+                      src="https://picsum.photos/160/100"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="title bold px-10 py-4 ms-fs-36 ms-line-height-48"
+                    >
+                      Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
+                      <span class="comment-amount fs-12 display-none">
+                        <i id="icon-comment " class=""> </i>
+                        <span class="number">6</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div id="border-top__short--mobile" style="display: none"></div>
+                <div id="post--mobile">
+                  <div id="post-1" class="flex mb-12">
+                    <img
+                      src="https://picsum.photos/160/100"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="title bold px-10 py-4 ms-fs-36 ms-line-height-48"
+                    >
+                      Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
+                      <span class="comment-amount fs-12 display-none">
+                        <i id="icon-comment " class=""> </i>
+                        <span class="number">6</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div id="border-top__short--mobile" style="display: none"></div>
+                <div id="post--mobile">
+                  <div id="post-1" class="flex mb-12">
+                    <img
+                      src="https://picsum.photos/160/100"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="title bold px-10 py-4 ms-fs-36 ms-line-height-48"
+                    >
+                      Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
+                      <span class="comment-amount fs-12 display-none">
+                        <i id="icon-comment " class=""> </i>
+                        <span class="number">6</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div id="border-top__short--mobile" style="display: none"></div>
+                <div id="post--mobile">
+                  <div id="post-1" class="flex mb-12">
+                    <img
+                      src="https://picsum.photos/160/100"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="title bold px-10 py-4 ms-fs-36 ms-line-height-48"
+                    >
+                      Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
+                      <span class="comment-amount fs-12 display-none">
+                        <i id="icon-comment" class=""> </i>
+                        <span class="number">6</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="video" class="bg-blue-1 p-14">
+            <div
+              class="font-italic title color-white align-center bold mb-30 fs-30 ms-fs-60"
+            >
+              VIDEO
+            </div>
+            <div id="video__container" class="flex gap-10">
+              <div class="row">
+                <div id="video__list" class="flex gap-12">
+                  <div class="video__item m-flex gap-14 m-border-white m-py-30">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div class="title color-white py-16 bold ms-fs-32 m-py-0">
+                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
+                      hoảng loạn
+                    </div>
+                  </div>
+                  <div class="video__item m-flex gap-14 m-border-white m-py-30">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div class="title color-white py-16 bold ms-fs-32 m-py-0">
+                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
+                      hoảng loạn
+                    </div>
+                  </div>
+                  <div class="video__item m-flex gap-14 m-border-white m-py-30">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div class="title color-white py-16 bold ms-fs-32 m-py-0">
+                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
+                      hoảng loạn
+                    </div>
+                  </div>
+                </div>
+                <div id="video__list" class="flex gap-12">
+                  <div class="video__item m-flex gap-14 m-border-white m-py-30">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div class="title color-white py-16 bold ms-fs-32 m-py-0">
+                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
+                      hoảng loạn
+                    </div>
+                  </div>
+                  <div class="video__item m-flex gap-14 m-border-white m-py-30">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div class="title color-white py-16 bold ms-fs-32 m-py-0">
+                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
+                      hoảng loạn
+                    </div>
+                  </div>
+                  <div class="video__item m-flex gap-14 m-border-white m-py-30">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div class="title color-white py-16 bold ms-fs-32 m-py-0">
+                      Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
+                      hoảng loạn
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="video__hot" class="">
+                <img src="https://picsum.photos/440/260" />
+                <div
+                  class="title bold color-white py-20 fs-18 ms-fs-36 m-color-blue-2"
+                >
+                  Clip: Cá sấu khổng lồ ẩn nấp dưới nhà sàn ở ven biển, gây
+                  hoảng loạn
+                </div>
+                <div
+                  class="description color-white fs-14 font-helvetica ms-fs-28 ms-line-height-40 m-mb-30"
+                >
+                  Ở hướng Yuzhnodonetsk, quân đội Nga đã chặn đứng cuộc phản
+                  công của Lực lượng Vũ trang Ukraine ở khu vực Priyutnoye.
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div
+            class="bg-blue-3 border__top--blue res-block pb-30"
+            style="display: none; margin-top: 85px"
+          >
+            <div class="slide flex border__top--blue res-block">
+              <div>
+                <img src="https://picsum.photos/270/160" />
+                <div class="flex py-10 justify-center gap-20">
+                  <span id="dot"></span>
+                  <span id="dot"></span>
+                  <span id="dot"></span>
+                  <span id="dot" style="background: #0077b6"></span>
+                </div>
+              </div>
+              <div class="pl-13 flex flex-column justify-end mb-40">
+                <div class="color-blue-1 ms-fs-24 font-helvetica flex">
+                  <i id="icon-stonk-2" style="transform: scale(2)"></i>
+                  <span>Chiến sự Israel - Hamas</span>
+                </div>
+                <div class="title bold fs-18 mt-10 ms-fs-36 ms-line-height-48">
+                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
+                  CX-5
+                </div>
+              </div>
+            </div>
+          </div>
+          <section id="list-post" class="flex res-block">
+            <div id="list-post__left" class="border-right pr-13 m-mx-20">
+              <div class="py-20 border-bottom">
+                <div
+                  class="title bold mb-12 res-block ms-fs-36 ms-line-height-48"
+                  style="display: none"
+                >
+                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
+                  CX-5
+                </div>
+                <div class="post-item flex">
+                  <img
+                    src="https://picsum.photos/220/130"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="text px-12">
+                    <div class="title bold mb-12 display-none">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div
+                      class="description color-grey ms-fs-30 ms-line-height-40"
+                    >
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="py-20 border-bottom">
+                <div
+                  class="title bold mb-12 res-block ms-fs-36 ms-line-height-48"
+                  style="display: none"
+                >
+                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
+                  CX-5
+                </div>
+                <div class="post-item flex">
+                  <img
+                    src="https://picsum.photos/220/130"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="text px-12">
+                    <div class="title bold mb-12 display-none">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div
+                      class="description color-grey ms-fs-30 ms-line-height-40"
+                    >
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="py-20 border-bottom">
+                <div
+                  class="title bold mb-12 res-block ms-fs-36 ms-line-height-48"
+                  style="display: none"
+                >
+                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
+                  CX-5
+                </div>
+                <div class="post-item flex">
+                  <img
+                    src="https://picsum.photos/220/130"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="text px-12">
+                    <div class="title bold mb-12 display-none">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div
+                      class="description color-grey ms-fs-30 ms-line-height-40"
+                    >
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="py-20 border-bottom">
+                <div
+                  class="title bold mb-12 res-block ms-fs-36 ms-line-height-48"
+                  style="display: none"
+                >
+                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
+                  CX-5
+                </div>
+                <div class="post-item flex">
+                  <img
+                    src="https://picsum.photos/220/130"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="text px-12">
+                    <div class="title bold mb-12 display-none">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div
+                      class="description color-grey ms-fs-30 ms-line-height-40"
+                    >
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="py-20 border-bottom">
+                <div
+                  class="title bold mb-12 res-block ms-fs-36 ms-line-height-48"
+                  style="display: none"
+                >
+                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
+                  CX-5
+                </div>
+                <div class="post-item flex">
+                  <img
+                    src="https://picsum.photos/220/130"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="text px-12">
+                    <div class="title bold mb-12 display-none">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div
+                      class="description color-grey ms-fs-30 ms-line-height-40"
+                    >
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="py-20 border-bottom">
+                <div
+                  class="title bold mb-12 res-block ms-fs-36 ms-line-height-48"
+                  style="display: none"
+                >
+                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
+                  CX-5
+                </div>
+                <div class="post-item flex">
+                  <img
+                    src="https://picsum.photos/220/130"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="text px-12">
+                    <div class="title bold mb-12 display-none">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự <ki></ki>ến
+                      như Mazda CX-5
+                    </div>
+                    <div
+                      class="description color-grey ms-fs-30 ms-line-height-40"
+                    >
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="py-20 border-bottom">
+                <div
+                  class="title bold mb-12 res-block ms-fs-36 ms-line-height-48"
+                  style="display: none"
+                >
+                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
+                  CX-5
+                </div>
+                <div class="post-item flex">
+                  <img
+                    src="https://picsum.photos/220/130"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="text px-12">
+                    <div class="title bold mb-12 display-none">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div
+                      class="description color-grey ms-fs-30 ms-line-height-40"
+                    >
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="py-20 border-bottom">
+                <div
+                  class="title bold mb-12 res-block ms-fs-36 ms-line-height-48"
+                  style="display: none"
+                >
+                  Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như Mazda
+                  CX-5
+                </div>
+                <div class="post-item flex">
+                  <img
+                    src="https://picsum.photos/220/130"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="text px-12">
+                    <div class="title bold mb-12 display-none">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                    <div
+                      class="description color-grey ms-fs-30 ms-line-height-40"
+                    >
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="show-more-news-btn"
+                class="res-block b old color-grey-3 ms-fs-36"
+                style="display: none"
+              >
+                Xem thêm tin mới
+              </div>
+            </div>
+            <div
+              id="ads-mobile"
+              class="my-30 bold color-white res-block"
+              style="display: none"
+            >
+              Quảng cáo mobile
+            </div>
+            <div id="list-post__right" class="pl-13 py-20 m-mx-20">
+              <div class="bg-blue-3 border__top--blue display-none">
+                <div class="slide flex border__top--blue res-block">
+                  <div>
+                    <img src="https://picsum.photos/270/160" />
+                    <div class="flex py-10 justify-center gap-10">
+                      <span id="dot"></span>
+                      <span id="dot"></span>
+                      <span id="dot"></span>
+                      <span id="dot" style="background: #0077b6"></span>
+                    </div>
+                  </div>
+                  <div class="pl-13 flex flex-column justify-end mb-40">
+                    <div class="color-blue-1 fs-12 font-helvetica">
+                      <i id="icon-stonk-2"></i>Chiến sự Israel - Hamas
+                    </div>
+                    <div class="title bold fs-18 mt-10">
+                      Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
+                      Mazda CX-5
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pb-12 mt-20">
+                <div class="tab__dash"></div>
+                <div class="tab__title bold ms-fs-60">
+                  <spa> Pháp Luật </spa>
+                  <i
+                    id="icon-chevron"
+                    class="res-block"
+                    style="display: none"
+                  ></i>
+                </div>
+                <div
+                  class="nav fs-14 color-grey pb-12 font-helvetica display-none"
+                >
+                  <a class="px-10">Ho so dieu tra </a>
+                  <span class="border-right"></span>
+                  <a class="px-10">An ninh phap luat</a>
+                  <i id="icon-chevron"></i>
+                </div>
+                <div class="hot-post flex mb-12 res-block">
+                  <img src="https://picsum.photos/270/160" />
+                  <div class="pl-8">
+                    <div
+                      class="bold fs-18 mb-12 ms-fs-36 ms-line-height-48 m-mt-40 m-mb-30"
+                    >
+                      Lời khai nghi phạm vụ bé gái 14 tuổi bị mua bán, ép phục
+                      vụ khách trong quán karaoke
+                    </div>
+                    <div
+                      class="description fs-14 color-grey ms-fs-30 ms-line-height-40"
+                    >
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="list-post"
+                  class="flex gap-12 border-top py-10 res-block wrapper"
+                >
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="m-border-bottom--grey m-my-20"></div>
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  id="list-post"
+                  class="flex gap-12 border-top py-10 res-block wrapper"
+                >
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="m-border-bottom--grey m-my-20"></div>
+
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-12 mt-20">
+                <div class="tab__dash"></div>
+                <div class="tab__title bold ms-fs-60">
+                  <spa> Pháp Luật </spa>
+                  <i
+                    id="icon-chevron"
+                    class="res-block"
+                    style="display: none"
+                  ></i>
+                </div>
+                <div
+                  class="nav fs-14 color-grey pb-12 font-helvetica display-none"
+                >
+                  <a class="px-10">Ho so dieu tra </a>
+                  <span class="border-right"></span>
+                  <a class="px-10">An ninh phap luat</a>
+                  <i id="icon-chevron"></i>
+                </div>
+                <div class="hot-post flex mb-12 res-block">
+                  <img src="https://picsum.photos/270/160" />
+                  <div class="pl-8">
+                    <div
+                      class="bold fs-18 mb-12 ms-fs-36 ms-line-height-48 m-mt-40 m-mb-30"
+                    >
+                      Lời khai nghi phạm vụ bé gái 14 tuổi bị mua bán, ép phục
+                      vụ khách trong quán karaoke
+                    </div>
+                    <div
+                      class="description fs-14 color-grey ms-fs-30 ms-line-height-40"
+                    >
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="list-post"
+                  class="flex gap-12 border-top py-10 res-block wrapper"
+                >
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="m-border-bottom--grey m-my-20"></div>
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  id="list-post"
+                  class="flex gap-12 border-top py-10 res-block wrapper"
+                >
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="m-border-bottom--grey m-my-20"></div>
+
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-12 mt-20">
+                <div class="tab__dash"></div>
+                <div class="tab__title bold ms-fs-60">
+                  <spa> Pháp Luật </spa>
+                  <i
+                    id="icon-chevron"
+                    class="res-block"
+                    style="display: none"
+                  ></i>
+                </div>
+                <div
+                  class="nav fs-14 color-grey pb-12 font-helvetica display-none"
+                >
+                  <a class="px-10">Ho so dieu tra </a>
+                  <span class="border-right"></span>
+                  <a class="px-10">An ninh phap luat</a>
+                  <i id="icon-chevron"></i>
+                </div>
+                <div class="hot-post flex mb-12 res-block">
+                  <img src="https://picsum.photos/270/160" />
+                  <div class="pl-8">
+                    <div
+                      class="bold fs-18 mb-12 ms-fs-36 ms-line-height-48 m-mt-40 m-mb-30"
+                    >
+                      Lời khai nghi phạm vụ bé gái 14 tuổi bị mua bán, ép phục
+                      vụ khách trong quán karaoke
+                    </div>
+                    <div
+                      class="description fs-14 color-grey ms-fs-30 ms-line-height-40"
+                    >
+                      Trong số hàng loạt xe điện bắt đầu có dấu hiệu "học hỏi
+                      nhau", Skyworth Skyhome của Skywell nổi bật với trang bị
+                      ít xe nào có...
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="list-post"
+                  class="flex gap-12 border-top py-10 res-block wrapper"
+                >
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="m-border-bottom--grey m-my-20"></div>
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  id="list-post"
+                  class="flex gap-12 border-top py-10 res-block wrapper"
+                >
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="m-border-bottom--grey m-my-20"></div>
+
+                  <div
+                    class="bold mr-12 fs-16 pl-13 ms-fs-32 ms-line-height-44"
+                  >
+                    <ul>
+                      <li>
+                        Xử lý người đàn ông báo tin giả bị thôi miên mất tài sản
+                        để giãn nợ
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="media" class="bg-grey-4 py-16 px-10 m-px-0 m-pb-70">
+            <div
+              class="color-blue-1 pb-30 fs-30 font-italic color-blue-1 align-center bold ms-fs-60"
+            >
+              MEDIA GIAI TRI
+            </div>
+            <div class="container flex res-block m-mx-20">
+              <div class="hot-post mr-20 m-mx-0">
+                <img class="mb-30" src="https://picsum.photos/440/260" />
+                <div class="title bold mb-30 fs-18 ms-fs-36 ms-line-height-48">
+                  [E] Bộ trưởng Nguyễn Kim Sơn: Giáo dục cần có sự hỗ trợ, chia
+                  sẻ từ phía xã hội
+                </div>
+                <div
+                  class="description color-grey fs-14 ms-fs-28 ms-line-height-40"
+                >
+                  Toàn ngành đang đứng trước thách thức rất lớn. Nhưng những
+                  thách thức, áp lực như vậy cũng là cơ hội để nhà giáo tiếp tục
+                  đổi mới, phát triển và trưởng thành...
+                </div>
+              </div>
+              <div class="list-post">
+                <div class="row flex gap-10 m-flex-column">
+                  <div class="m-border-bottom--grey-2 m-my-20"></div>
+                  <div id="post-item" class="m-flex gap-20">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="title bold py-20 ms-fs-32 ms-line-height-44 m-py-0"
+                    >
+                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
+                      em về nhà
+                    </div>
+                  </div>
+                  <div class="m-border-bottom--grey-2 m-my-20"></div>
+                  <div id="post-item" class="m-flex gap-20">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="title bold py-20 ms-fs-32 ms-line-height-44 m-py-0"
+                    >
+                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
+                      em về nhà
+                    </div>
+                  </div>
+                  <div class="m-border-bottom--grey-2 m-my-20"></div>
+                  <div id="post-item" class="m-flex gap-20">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="title bold py-20 ms-fs-32 ms-line-height-44 m-py-0"
+                    >
+                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
+                      em về nhà
+                    </div>
+                  </div>
+                  <div class="m-border-bottom--grey-2 m-my-20"></div>
+                </div>
+                <div class="row flex gap-10 m-flex-column">
+                  <div id="post-item" class="m-flex gap-20">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="title bold py-20 ms-fs-32 ms-line-height-44 m-py-0"
+                    >
+                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
+                      em về nhà
+                    </div>
+                  </div>
+                  <div class="m-border-bottom--grey-2 m-my-20"></div>
+                  <div id="post-item" class="m-flex gap-20">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="title bold py-20 ms-fs-32 ms-line-height-44 m-py-0"
+                    >
+                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
+                      em về nhà
+                    </div>
+                  </div>
+                  <div class="m-border-bottom--grey-2 m-my-20"></div>
+                  <div id="post-item" class="m-flex gap-20">
+                    <img
+                      src="https://picsum.photos/220/130"
+                      class="m-max-width-40pc"
+                    />
+                    <div
+                      class="title bold py-20 ms-fs-32 ms-line-height-44 m-py-0"
+                    >
+                      Khán giả "phát cuồng" khi Mỹ Linh trổ tài đệm đàn, hát Đưa
+                      em về nhà
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div
+            id="ads-mobile"
+            class="my-30 bold color-white res-block"
+            style="display: none"
+          >
+            Quảng cáo mobile
+          </div>
+          <section class="flex mt-30 gap-20 res-block">
+            <div id="left">
+              <div div class="flex gap-16 res-block m-mx-20">
+                <div
+                  id="business"
+                  class="bg-grey-1 p-8 m-px-22 m-mb-60 m-pb-44"
+                >
+                  <div class="tab__dash"></div>
+                  <div class="bold tab__title ms-fs-60">
+                    <span>Kinh Doanh</span>
+                    <i
+                      id="icon-chevron"
+                      class="res-block"
+                      style="display: none"
+                    ></i>
+                  </div>
+                  <div
+                    class="nav fs-14 color-grey pb-12 font-helvetica display-none"
+                  >
+                    <a class="px-10">Tai chinh 4.0</a>
+                    <span class="border-right"></span>
+                    <a class="px-10">Thi truong dau tu</a>
+                    <i id="icon-chevron"></i>
+                  </div>
+                  <div class="hot-post">
+                    <img src="https://picsum.photos/370/220" />
+                    <div
+                      class="title bold fs-18 mb-12 ms-fs-36 ms-line-height-48"
+                    >
+                      Căn hộ biển sở hữu lâu dài tại Phú Quốc: Bảo chứng giá trị
+                      cho second home
+                    </div>
+                    <div
+                      class="description color-grey mb-12 ms-fs-30 ms-line-height-40"
+                    >
+                      Là dự án chung cư cao cấp có sổ đỏ lâu dài hiếm hoi tại
+                      Phú Quốc, Meypearl Harmony Phú Quốc thiết lập định nghĩa
+                      chuẩn mực cho một seconde home...
+                    </div>
+                  </div>
+                  <div class="list-post">
+                    <div class="m-border-bottom--grey-2 m-my-20"></div>
+
+                    <div class="item flex py-8 border-top ms-gap-20">
+                      <img src="https://picsum.photos/120/75" />
+                      <div
+                        class="title mr-8 bold px-10 ms-fs-32 ms-line-height-44"
+                      >
+                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
+                        đất lúa làm dự án đầu tư
+                      </div>
+                    </div>
+                    <div class="m-border-bottom--grey-2 m-my-20"></div>
+
+                    <div class="item flex py-8 border-top ms-gap-20">
+                      <img src="https://picsum.photos/120/75" />
+                      <div
+                        class="title mr-8 bold px-10 ms-fs-32 ms-line-height-44"
+                      >
+                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
+                        đất lúa làm dự án đầu tư
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="business"
+                  class="bg-grey-1 p-8 m-px-22 m-mb-60 m-pb-44"
+                >
+                  <div class="tab__dash"></div>
+                  <div class="bold tab__title ms-fs-60">
+                    <span>Kinh Doanh</span>
+                    <i
+                      id="icon-chevron"
+                      class="res-block"
+                      style="display: none"
+                    ></i>
+                  </div>
+                  <div
+                    class="nav fs-14 color-grey pb-12 font-helvetica display-none"
+                  >
+                    <a class="px-10">Tai chinh 4.0</a>
+                    <span class="border-right"></span>
+                    <a class="px-10">Thi truong dau tu</a>
+                    <i id="icon-chevron"></i>
+                  </div>
+                  <div class="hot-post">
+                    <img src="https://picsum.photos/370/220" />
+                    <div
+                      class="title bold fs-18 mb-12 ms-fs-36 ms-line-height-48"
+                    >
+                      Căn hộ biển sở hữu lâu dài tại Phú Quốc: Bảo chứng giá trị
+                      cho second home
+                    </div>
+                    <div
+                      class="description color-grey mb-12 ms-fs-30 ms-line-height-40"
+                    >
+                      Là dự án chung cư cao cấp có sổ đỏ lâu dài hiếm hoi tại
+                      Phú Quốc, Meypearl Harmony Phú Quốc thiết lập định nghĩa
+                      chuẩn mực cho một seconde home...
+                    </div>
+                  </div>
+                  <div class="list-post">
+                    <div class="m-border-bottom--grey-2 m-my-20"></div>
+
+                    <div class="item flex py-8 border-top ms-gap-20">
+                      <img src="https://picsum.photos/120/75" />
+                      <div
+                        class="title mr-8 bold px-10 ms-fs-32 ms-line-height-44"
+                      >
+                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
+                        đất lúa làm dự án đầu tư
+                      </div>
+                    </div>
+                    <div class="m-border-bottom--grey-2 m-my-20"></div>
+
+                    <div class="item flex py-8 border-top ms-gap-20">
+                      <img src="https://picsum.photos/120/75" />
+                      <div
+                        class="title mr-8 bold px-10 ms-fs-32 ms-line-height-44"
+                      >
+                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
+                        đất lúa làm dự án đầu tư
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="ad"
+                class="width-100pc display-none"
+                style="width: 800px; height: 128px; background: #333"
+              ></div>
+              <div
+                id="ads-mobile"
+                class="my-30 bold color-white res-block"
+                style="display: none"
+              >
+                Quảng cáo mobile
+              </div>
+              <div class="flex gap-16 res-block m-mx-20">
+                <div
+                  id="business"
+                  class="bg-grey-1 p-8 m-px-22 m-mb-60 m-pb-44"
+                >
+                  <div class="tab__dash"></div>
+                  <div class="bold tab__title ms-fs-60">
+                    <span>Kinh Doanh</span>
+                    <i
+                      id="icon-chevron"
+                      class="res-block"
+                      style="display: none"
+                    ></i>
+                  </div>
+                  <div
+                    class="nav fs-14 color-grey pb-12 font-helvetica display-none"
+                  >
+                    <a class="px-10">Tai chinh 4.0</a>
+                    <span class="border-right"></span>
+                    <a class="px-10">Thi truong dau tu</a>
+                    <i id="icon-chevron"></i>
+                  </div>
+                  <div class="hot-post">
+                    <img src="https://picsum.photos/370/220" />
+                    <div
+                      class="title bold fs-18 mb-12 ms-fs-36 ms-line-height-48"
+                    >
+                      Căn hộ biển sở hữu lâu dài tại Phú Quốc: Bảo chứng giá trị
+                      cho second home
+                    </div>
+                    <div
+                      class="description color-grey mb-12 ms-fs-30 ms-line-height-40"
+                    >
+                      Là dự án chung cư cao cấp có sổ đỏ lâu dài hiếm hoi tại
+                      Phú Quốc, Meypearl Harmony Phú Quốc thiết lập định nghĩa
+                      chuẩn mực cho một seconde home...
+                    </div>
+                  </div>
+                  <div class="list-post">
+                    <div class="m-border-bottom--grey-2 m-my-20"></div>
+
+                    <div class="item flex py-8 border-top ms-gap-20">
+                      <img src="https://picsum.photos/120/75" />
+                      <div
+                        class="title mr-8 bold px-10 ms-fs-32 ms-line-height-44"
+                      >
+                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
+                        đất lúa làm dự án đầu tư
+                      </div>
+                    </div>
+                    <div class="m-border-bottom--grey-2 m-my-20"></div>
+
+                    <div class="item flex py-8 border-top ms-gap-20">
+                      <img src="https://picsum.photos/120/75" />
+                      <div
+                        class="title mr-8 bold px-10 ms-fs-32 ms-line-height-44"
+                      >
+                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
+                        đất lúa làm dự án đầu tư
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="business"
+                  class="bg-grey-1 p-8 m-px-22 m-mb-60 m-pb-44"
+                >
+                  <div class="tab__dash"></div>
+                  <div class="bold tab__title ms-fs-60">
+                    <span>Kinh Doanh</span>
+                    <i
+                      id="icon-chevron"
+                      class="res-block"
+                      style="display: none"
+                    ></i>
+                  </div>
+                  <div
+                    class="nav fs-14 color-grey pb-12 font-helvetica display-none"
+                  >
+                    <a class="px-10">Tai chinh 4.0</a>
+                    <span class="border-right"></span>
+                    <a class="px-10">Thi truong dau tu</a>
+                    <i id="icon-chevron"></i>
+                  </div>
+                  <div class="hot-post">
+                    <img src="https://picsum.photos/370/220" />
+                    <div
+                      class="title bold fs-18 mb-12 ms-fs-36 ms-line-height-48"
+                    >
+                      Căn hộ biển sở hữu lâu dài tại Phú Quốc: Bảo chứng giá trị
+                      cho second home
+                    </div>
+                    <div
+                      class="description color-grey mb-12 ms-fs-30 ms-line-height-40"
+                    >
+                      Là dự án chung cư cao cấp có sổ đỏ lâu dài hiếm hoi tại
+                      Phú Quốc, Meypearl Harmony Phú Quốc thiết lập định nghĩa
+                      chuẩn mực cho một seconde home...
+                    </div>
+                  </div>
+                  <div class="list-post">
+                    <div class="m-border-bottom--grey-2 m-my-20"></div>
+
+                    <div class="item flex py-8 border-top ms-gap-20">
+                      <img src="https://picsum.photos/120/75" />
+                      <div
+                        class="title mr-8 bold px-10 ms-fs-32 ms-line-height-44"
+                      >
+                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
+                        đất lúa làm dự án đầu tư
+                      </div>
+                    </div>
+                    <div class="m-border-bottom--grey-2 m-my-20"></div>
+
+                    <div class="item flex py-8 border-top ms-gap-20">
+                      <img src="https://picsum.photos/120/75" />
+                      <div
+                        class="title mr-8 bold px-10 ms-fs-32 ms-line-height-44"
+                      >
+                        Hướng dẫn thực hiện quy định về chuyển mục đích sử dụng
+                        đất lúa làm dự án đầu tư
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="right" class="display-none">
+              <div id="stock" class="border display-none">
+                <img src="https://picsum.photos/300/130" />
+                <table class="bg-grey-1">
+                  <tr class="py-10 border-bottom">
+                    <th>INDEX</th>
+                    <th>GIA</th>
+                    <th>+/-</th>
+                  </tr>
+                  <tr class="border-bottom">
+                    <td>VN INDEX</td>
+                    <td>1,367.55</td>
+                    <td>-0.25%</td>
+                  </tr>
+                  <tr class="border-bottom">
+                    <td>HNX-INDEX</td>
+                    <td>342.80</td>
+                    <td>-0.25</td>
+                  </tr>
+                  <tr class="border-bottom">
+                    <td>UP-INDEX</td>
+                    <td>94.04</td>
+                    <td>-0.00%</td>
+                  </tr>
+                  <tr class="border-bottom">
+                    <td>VN-30</td>
+                    <td>1498.90</td>
+                    <td>-0.12%</td>
+                  </tr>
+                  <tr class="border-bottom">
+                    <td>HNX-30</td>
+                    <td>572.00</td>
+                    <td>-0.34%</td>
+                  </tr>
+                </table>
+              </div>
+              <div id="forex-table" class="mt-30 fs-12 display-none">
+                <table class="bg-grey-1">
+                  <tr>
+                    <th>SYMBOL</th>
+                    <th>PRICE</th>
+                    <th>CHANGE</th>
+                    <th>%CHANGE</th>
+                  </tr>
+                  <tr>
+                    <td>USD INDEX</td>
+                    <td>1,367.55</td>
+                    <td>-0.25%</td>
+                    <td>-0.25%</td>
+                  </tr>
+                  <tr>
+                    <td>HNX-INDEX</td>
+                    <td>342.80</td>
+                    <td>-0.25</td>
+                    <td>-0.25</td>
+                  </tr>
+                  <tr>
+                    <td>UP-INDEX</td>
+                    <td>94.04</td>
+                    <td>-0.00%</td>
+                    <td>-0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>VN-30</td>
+                    <td>1498.90</td>
+                    <td>-0.12%</td>
+                    <td>-0.12%</td>
+                  </tr>
+                  <tr>
+                    <td>HNX-30</td>
+                    <td>572.00</td>
+                    <td>-0.34%</td>
+                    <td>-0.34%</td>
+                  </tr>
+                </table>
+              </div>
+              <div id="ads-300-600" class="mt-30"></div>
+            </div>
+          </section>
+          <section id="news-tab" class="display-none">
+            <div class="tab__dash"></div>
+            <div class="bold tab__title">TIN TỨC</div>
+            <div id="nav" class="nav fs-14 color-grey pb-12 font-helvetica">
+              <a class="px-10">Tin trong nuoc </a>
+              <span class="border-right"></span>
+              <a class="px-10">Tin trong nuoc </a>
+              <span class="border-right"></span>
+              <a class="px-10">Tin trong nuoc </a>
+              <span class="border-right"></span>
+              <a class="px-10">Tin trong nuoc </a>
+              <i id="icon-chevron"></i>
+            </div>
+            <div class="flex gap-12 mb-30 res-block">
+              <div id="hot-post">
+                <img src="https://picsum.photos/365/220" />
+                <div class="title bold fs-18 mt-20">
+                  [E] “Hãnh diện lớn nhất đời tôi là tạo dựng được ngân hàng
+                  trên đất Mỹ"
+                  <span class="comment-amount fs-12">
+                    <i id="icon-comment" class="display-none"> </i>
+                    <span class="number">6</span>
+                  </span>
+                </div>
+              </div>
+              <div class="border-right"></div>
+              <div id="post">
+                <div id="post-1" class="flex mb-12">
+                  <img
+                    src="https://picsum.photos/160/100"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="title bold px-10 py-4">
+                    Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
+                    <span class="comment-amount fs-12">
+                      <i id="icon-comment" class="display-none"> </i>
+                      <span class="number">6</span>
+                    </span>
+                  </div>
+                </div>
+                <div id="border-top__short"></div>
+                <div class="title bold py-14 fs-16">
+                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
+                  phố quan trọng trên biển Baltic
+                </div>
+                <div id="border-top__short"></div>
+                <div class="title bold py-14 fs-16">
+                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
+                  phố quan trọng trên biển Baltic
+                </div>
+              </div>
+              <div class="border-right"></div>
+              <div id="post">
+                <div id="post-1" class="flex mb-12">
+                  <img
+                    src="https://picsum.photos/160/100"
+                    class="m-max-width-40pc"
+                  />
+                  <div class="title bold px-10 py-4">
+                    Hamas muốn gia hạn thỏa thuận ngừng bắn với Israel
+                    <span class="comment-amount fs-12">
+                      <i id="icon-comment" class="display-none"> </i>
+                      <span class="number">6</span>
+                    </span>
+                  </div>
+                </div>
+                <div id="border-top__short"></div>
+                <div class="title bold py-14 fs-16">
+                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
+                  phố quan trọng trên biển Baltic
+                </div>
+                <div id="border-top__short"></div>
+                <div class="title bold py-14 fs-16">
+                  Tình báo Anh phát hiện động thái bất thường của Nga ở thành
+                  phố quan trọng trên biển Baltic
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="display-none">
+            <div
+              class="ad width-100pc"
+              style="width: 1128px; height: 250px; background: #333"
+            ></div>
+          </section>
+        </div>
+      </div>
+    </section>
+    <section
+      id="footer"
+      class="side bg-blue-1 color-white font-helvetica ms-fs-28 ms-line-height-40"
+    >
+      <div id="footer-wrapper" class="py-28 px-14">
+        <div id="logo-footer__container">
+          <img id="footer-logo" class="width-150" src="../asset/logo.png" />
+        </div>
+        <div class="info-1 flex mt-24 pb-12 space-between res-block">
+          <div>
+            <div class="left border-bottom__white pb-12">
+              <div class="mb-6">
+                Website của Tạp chí Đời sống và Pháp luật -
+                https://www.doisongphapluat.com
+              </div>
+              <div class="mb-6">
+                Giấy phép số 33/GP-TTĐT do Bộ Thông tin và Truyền thông cấp.
+              </div>
+              <div class="mb-6">
+                Tổng biên tập Tạp chí Đời sống và Pháp luật : Nguyễn Tiến Thanh
+              </div>
+              <div>Trưởng ban biên tập: Nguyễn Thanh Ngọc</div>
+              <div class="mb-6">
+                Chỉ được dẫn nguồn khi được chấp thuận bằng văn bản từ Tạp chí
+                Đời sống và Pháp luật.
+              </div>
+            </div>
+            <div class="info-2 mt-16">
+              <div class="location mb-6">
+                <i id="icon-location" class="mr-22"></i>
+                Tầng 4, Tòa tháp Ngôi Sao - Star Tower, đường Dương Đình Nghệ -
+                Phường Yên Hòa - Quận Cầu Giấy - Hà Nội.
+              </div>
+              <div class="phone mb-6">
+                <i id="icon-phone" class="mr-22"></i>0947271302
+              </div>
+              <div class="email mb-6">
+                <i id="icon-mail" class="mr-22"></i>dsplonline.toasoan@gmail.com
+              </div>
+            </div>
+          </div>
+          <div
+            class="m-border-white res-block m-my-40"
+            style="display: none"
+          ></div>
+          <div
+            class="right mr-144 font-helvetica color-blue-2 m-flex space-between flex-align-end"
+          >
+            <div>
+              <div>Báo giá quảng cáo</div>
+              <div>Ms Linh 098 9033388</div>
+            </div>
+
+            <img class="mt-24" style="width: auto" src="../asset/dmca.png" />
+          </div>
+        </div>
+
+        <div id="to-the-top" class="color-white bold">
+          Đầu trang
+          <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="p-16 color-blue-2 bold">
+        Quản lý và xuất bản bởi Đời sống & Pháp luật
+      </div>
+    </section>
+  </body>
+</html>
