@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/video-style.css" />
+    <link rel="stylesheet" href="./video-style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -67,19 +67,17 @@
           ></i>
           <div class="py-16 flex items-center">
             <a class="text-no-wrap px-14 bold ms-fs-28 fs-30">VIDEO</a>
-            <a class="text-no-wrap px-14 bold ms-fs-28 border-left-3px"
+            <a
+              class="text-no-wrap px-14 bold ms-fs-28 border-left-3px display-none"
               >THỜI SỰ</a
             >
-            <a class="text-no-wrap px-14 bold ms-fs-28">THẾ GIỚI</a>
-            <a class="text-no-wrap px-14 bold ms-fs-28">GIẢI TRÍ</a>
+            <a class="text-no-wrap px-14 bold ms-fs-28 display-none"
+              >THẾ GIỚI</a
+            >
+            <a class="text-no-wrap px-14 bold ms-fs-28 display-none"
+              >GIẢI TRÍ</a
+            >
           </div>
-
-          <i
-            id="icon-share"
-            class="res-block px-14"
-            aria-hidden="true"
-            style="display: none"
-          ></i>
           <i class="display-none px-14 mr-20" id="icon-menu"></i>
         </div>
       </div>
@@ -87,14 +85,21 @@
     <section id="body" class="side border">
       <div id="body-wrapper" class="border">
         <div class="mb-2"></div>
+        <div class="flex">
+          <a class="text-no-wrap px-14 ms-fs-28 border-left-3px color-blue-1"
+            >Thời sự</a
+          >
+          <a class="text-no-wrap px-14 ms-fs-28 color-grey">Thế giới</a>
+          <a class="text-no-wrap px-14 ms-fs-28 color-grey">Giải trí</a>
+        </div>
         <div id="page" class="">
           <section class="flex res-block">
             <div id="page-main__video" class="">
               <div
                 id="hot-news__video"
-                class="flex border__top--blue bg-grey-1 space-between res-block"
+                class="flex border__top--blue bg-grey-1 space-between res-block m-px-20"
               >
-                <img src="https://picsum.photos/750/420" />
+                <img src="https://picsum.photos/750/420" class="" />
 
                 <div id="hot-news__video" class="p-16">
                   <div
@@ -102,8 +107,8 @@
                   >
                     9 dự án cao tốc thông xe năm nay
                   </div>
-                  <div>Thời sự</div>
-                  <div class="video-icon flex">
+                  <div class="display-none">Thời sự</div>
+                  <div class="video-icon flex display-none">
                     <span>link</span>
                     <span>zalo</span>
                     <span>facebook</span>
@@ -116,13 +121,15 @@
                     tuyến Tuyên Quang - Phú Thọ thông xe năm 2023 giúp nối liền
                     vùng miền, phát triển kinh tế ở nhiều địa phương.
                   </div>
-                  <div class="author flex justify-end">Nhân Văn</div>
-                  <div class="description-2">
+                  <div class="author flex justify-end display-none">
+                    Nhân Văn
+                  </div>
+                  <div class="description-2 display-none">
                     Cảm ơn bạn đã quan tâm đến nội dung trên. Hãy
                     <span class="uppercase">tặng sao</span> để tiếp thêm động
                     lực cho tác giả có những bài viết hay hơn nữa.
                   </div>
-                  <div class="reaction ms-fs-24">
+                  <div class="reaction ms-fs-24 display-none">
                     Đã tặng:
                     <span class="like">85 like</span>
                     <span class="heart">12</span>
@@ -137,13 +144,6 @@
                       src="https://picsum.photos/260/160"
                       class="m-max-width-40pc"
                     />
-                    <div
-                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                      style="display: none"
-                    >
-                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                    </div>
                   </div>
 
                   <div class="p-8 mt-6">
@@ -163,13 +163,6 @@
                       src="https://picsum.photos/260/160"
                       class="m-max-width-40pc"
                     />
-                    <div
-                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                      style="display: none"
-                    >
-                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                    </div>
                   </div>
 
                   <div class="p-8 mt-6">
@@ -189,13 +182,6 @@
                       src="https://picsum.photos/260/160"
                       class="m-max-width-40pc"
                     />
-                    <div
-                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                      style="display: none"
-                    >
-                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                    </div>
                   </div>
 
                   <div class="p-8 mt-6">
@@ -217,13 +203,6 @@
                       src="https://picsum.photos/260/160"
                       class="m-max-width-40pc"
                     />
-                    <div
-                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                      style="display: none"
-                    >
-                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                    </div>
                   </div>
 
                   <div class="p-8 mt-6">
@@ -243,13 +222,6 @@
                       src="https://picsum.photos/260/160"
                       class="m-max-width-40pc"
                     />
-                    <div
-                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                      style="display: none"
-                    >
-                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                    </div>
                   </div>
 
                   <div class="p-8 mt-6">
@@ -269,13 +241,6 @@
                       src="https://picsum.photos/260/160"
                       class="m-max-width-40pc"
                     />
-                    <div
-                      class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                      style="display: none"
-                    >
-                      Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                      mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                    </div>
                   </div>
 
                   <div class="p-8 mt-6">
@@ -315,13 +280,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">
@@ -341,13 +299,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">
@@ -367,13 +318,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">
@@ -419,13 +363,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -440,13 +377,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -463,13 +393,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -484,13 +407,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -533,13 +449,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -554,13 +463,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -577,13 +479,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -598,13 +493,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -647,13 +535,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -668,13 +549,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -691,13 +565,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -712,13 +579,6 @@
                         src="https://picsum.photos/267/150"
                         class="m-max-width-40pc"
                       />
-                      <div
-                        class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                        style="display: none"
-                      >
-                        Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ
-                        mua vào 2 triệu cổ phiếu HDB để đầu tư.
-                      </div>
                     </div>
 
                     <div class="p-8 mt-6">
@@ -742,13 +602,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">
@@ -768,13 +621,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">
@@ -794,13 +640,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">
@@ -822,13 +661,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">
@@ -848,13 +680,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">
@@ -874,13 +699,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">
@@ -902,13 +720,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">
@@ -928,13 +739,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">
@@ -954,13 +758,6 @@
                     src="https://picsum.photos/260/160"
                     class="m-max-width-40pc"
                   />
-                  <div
-                    class="description color-grey-3 ms-fs-30 ms-line-height-40 res-block"
-                    style="display: none"
-                  >
-                    Ông Phạm Quốc Thanh - Thành viên HĐQT, vừa thông báo sẽ mua
-                    vào 2 triệu cổ phiếu HDB để đầu tư.
-                  </div>
                 </div>
 
                 <div class="p-8 mt-6">

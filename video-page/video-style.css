@@ -1,3 +1,15 @@
 #page-main {
   width: 100%;
 }
+@media only screen and (max-width: 769px) {
+  #nav-bar {
+    justify-content: flex-start;
+  }
+  #hot-news__video,
+  #news-item {
+    background: #fff;
+  }
+  #news-item{
+    flex-direction: column;
+  }
+}
