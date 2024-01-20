@@ -296,6 +296,30 @@ img {
   display: inline-block;
   background-repeat: no-repeat;
 }
+#icon-like {
+  background-image: url("./asset/sprite-icon-2.png");
+  background-position: 0 0;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+#icon-heart {
+  background-image: url("./asset/sprite-icon-2.png");
+  background-position: 0;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+#icon-star {
+  background-image: url("./asset/sprite-icon-2.png");
+  background-position: 0 -55px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
 .fa-home:before {
   /* font-size: 44px; */
   font-size: 5.867vw;
