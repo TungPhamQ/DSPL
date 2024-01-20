@@ -640,6 +640,9 @@ body {
 .width-full {
   width: 100%;
 }
+.width-unset {
+    width: unset;
+  }
 .width-fit {
   width: fit-content;
 }
@@ -878,6 +881,9 @@ body {
   }
   .m-flex {
     display: flex !important;
+  }
+  .m-flex-row {
+    flex-direction: row !important;
   }
   .m-flex-column {
     flex-direction: column;
