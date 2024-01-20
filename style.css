@@ -525,6 +525,10 @@ body {
   margin-top: 12px;
   margin-bottom: 12px;
 }
+.my-14 {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
 .my-16 {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -557,6 +561,9 @@ body {
 .border-bottom--grey {
   border-bottom: 1px solid #dbdbdb;
 }
+.border-bottom--grey-2 {
+    border-bottom: 1px solid #dedede;
+  }
 .border-bottom__white {
   border-bottom: 1px solid #fff;
 }
