@@ -9,7 +9,13 @@
   #news-item {
     background: #fff;
   }
-  #news-item{
+  #news-item {
     flex-direction: column;
+    padding-top: 38px;
+    border-top: 1px solid #cdcdcd;
+  }
+  #news-item:first-child {
+    border-top: none !important;
+    padding-top: 0 !important;
   }
 }
