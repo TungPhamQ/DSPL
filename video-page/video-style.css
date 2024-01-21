@@ -39,3 +39,8 @@
     padding-top: 0 !important;
   }
 }
+@media only screen and (max-width: 425px) {
+  #news-item {
+    padding-top: 0;
+  }
+}

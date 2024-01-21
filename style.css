@@ -562,8 +562,8 @@ body {
   border-bottom: 1px solid #dbdbdb;
 }
 .border-bottom--grey-2 {
-    border-bottom: 1px solid #dedede;
-  }
+  border-bottom: 1px solid #dedede;
+}
 .border-bottom__white {
   border-bottom: 1px solid #fff;
 }
@@ -1148,5 +1148,8 @@ body {
   }
   .m-max-width-40pc {
     max-width: 40% !important;
+  }
+  .width-unset {
+    width: 100%;
   }
 }
