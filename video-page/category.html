@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="../video-style.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./video-style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -90,11 +90,11 @@
         <div id="page" class="">
           <section class="flex res-block">
             <div id="page-main__video" class="">
-              <div
+                <div
                 id="hot-news__video"
-                class="flex border__top--blue bg-grey-1 space-between"
+                class="flex border__top--blue bg-grey-1 space-between res-block m-px-20"
               >
-                <img src="https://picsum.photos/750/420" />
+                <img src="https://picsum.photos/750/420" class="" />
 
                 <div id="hot-news__video" class="p-16">
                   <div
@@ -102,31 +102,54 @@
                   >
                     9 dự án cao tốc thông xe năm nay
                   </div>
-                  <div>Thời sự</div>
-                  <div class="video-icon flex">
-                    <span>link</span>
-                    <span>zalo</span>
-                    <span>facebook</span>
+                  <div
+                    class="display-none color-blue-6 fs-14 bold font-helvetica"
+                  >
+                    Thời sự
+                  </div>
+                  <div class="video-icon flex display-none gap-10 my-12">
+                    <span class="button-social-video mr-10">
+                        <i class="fa fa-link" aria-hidden="true"></i>
+                      </span>
+                      <span class="button-social-video fs-10 mr-10"
+                        >Zalo</span
+                      >
+                      <span class="button-social-video mr-10">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </span>
                   </div>
                   <div
                     id="hot-news__description"
-                    class="fs-18 color-333 font-helvetica line-height-24 ms-fs-36 ms-line-height-48"
+                    class="fs-18 color-grey-3 font-helvetica line-height-24 ms-fs-36 ms-line-height-48"
                   >
                     8 dự án thành phần cao tốc Bắc - Nam phía Đông cùng 40 km
                     tuyến Tuyên Quang - Phú Thọ thông xe năm 2023 giúp nối liền
                     vùng miền, phát triển kinh tế ở nhiều địa phương.
                   </div>
-                  <div class="author flex justify-end">Nhân Văn</div>
-                  <div class="description-2">
-                    Cảm ơn bạn đã quan tâm đến nội dung trên. Hãy
-                    <span class="uppercase">tặng sao</span> để tiếp thêm động
-                    lực cho tác giả có những bài viết hay hơn nữa.
+                  <div
+                    class="author color-grey-3 bold font-helvetica fs-18 flex justify-end display-none py-14 border-bottom--grey-2"
+                  >
+                    Nhân Văn
                   </div>
-                  <div class="reaction ms-fs-24">
+                  <div
+                    class="description-2 fs-15 font-helvetica color-grey-3 fs-14 display-none mt-20"
+                  >
+                    Cảm ơn bạn đã quan tâm đến nội dung trên. Hãy
+                    <span class="uppercase color-blue-5 bold">Tặng sao</span> để
+                    tiếp thêm động lực cho tác giả có những bài viết hay hơn
+                    nữa.
+                  </div>
+                  <div
+                    class="reaction fs-15 color-grey-3 ms-fs-24 font-helvetica bold display-none"
+                  >
                     Đã tặng:
-                    <span class="like">85 like</span>
-                    <span class="heart">12</span>
-                    <span class="star">20</span>
+                    <span class="like color-222 font-arial mr-16"
+                      >85 <span id="icon-like"></span>
+                    </span>
+                    <span class="heart color-222 font-arial mr-16"
+                      >12 <span id="icon-heart"></span
+                    ></span>
+                    <span class="star color-222 font-arial mr-16">20<span id="icon-star"></span>
                   </div>
                 </div>
               </div>
@@ -543,6 +566,12 @@
                 </div>
               </div>
             </div>
+            <div
+            id="see-more-btn"
+            class="font-helvetica color-333 ms-fs-30"
+          >
+            Xem thêm
+          </div>
           </section>
           <div
             id="ads-mobile"

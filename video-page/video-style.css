@@ -11,6 +11,16 @@
   align-items: center;
   justify-content: center;
 }
+#see-more-btn {
+  width: 364px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media only screen and (max-width: 769px) {
   #nav-bar {
     justify-content: flex-start;
