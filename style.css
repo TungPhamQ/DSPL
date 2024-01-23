@@ -1143,9 +1143,6 @@ body {
   }
 }
 @media only screen and (max-width: 425px) {
-  #icon-share {
-    transform: scale(0.5);
-  }
   .m-max-width-40pc {
     max-width: 40% !important;
   }
