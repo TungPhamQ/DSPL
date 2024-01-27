@@ -12,42 +12,44 @@
     <title>Đời Sống Pháp Luật</title>
   </head>
   <body>
-    <section id="header">
-      <img id="ads-img" src="./asset/ads_top.png" />
-      <div id="menu-bar" class="side color-white">
+    <section class="header">
+      <img class="ads-img" src="./asset/ads_top.png" />
+      <div class="menu-bar side color-white">
         <div class="p-14 flex space-between" style="gap: 8%">
           <div class="flex gap-28 flex-align-center width-100pc">
             <img class="width-150" src="./asset/logo.png" />
             <div
-              id="search-bar"
-              class="display-none bg-blue-1 border flex space-between"
+              class="search-bar display-none bg-blue-1 border flex space-between"
             >
-              <input id="search-input" placeholder="Nhập nội dung tìm kiếm" />
-              <i id="icon-search"></i>
+              <input
+                class="search-input"
+                placeholder="Nhập nội dung tìm kiếm"
+              />
+              <i class="icon-search"></i>
             </div>
           </div>
           <div
             class="flex gap-28 flex-align-center font-helvetica color-blue-2"
           >
-            <span id="weather" class="display-none">
+            <span class="weather display-none">
               <span class="text-no-wrap">Thứ 3, ngày 21-11-2023</span>
               <span class="text-no-wrap flex flex-align-center gap-6">
                 Hà Nội, 16° - 28°C
-                <i id="icon-sun"></i>
+                <i class="icon-sun"></i>
               </span>
             </span>
-            <span id="news" class="flex flex-align-center gap-6"
-              ><i id="icon-reload"></i>
+            <span class="news flex flex-align-center gap-6"
+              ><i class="icon-reload"></i>
               <span class="display-none text-no-wrap">Tin mới nhất</span></span
             >
-            <span id="login" class="flex flex-align-center gap-6"
-              ><i id="icon-user"></i>
+            <span class="login flex flex-align-center gap-6"
+              ><i class="icon-user"></i>
               <span class="display-none text-no-wrap">Đăng nhập</span>
             </span>
             <i class="fa fa-search res-block" style="display: none"></i>
           </div>
         </div>
-        <div id="nav-bar" class="flex border flex-align-center space-between">
+        <div class="nav-bar flex border flex-align-center space-between">
           <i
             class="fa fa-home res-block"
             aria-hidden="true"
@@ -67,44 +69,36 @@
           <a class="text-no-wrap display-none py-16 px-14">VIDEO</a>
           <a class="text-no-wrap display-none py-16 px-14">THỂ THAO</a>
           <a class="text-no-wrap display-none py-16 px-14">GIÁO DỤC</a>
-          <i class="display-none px-14 mr-20" id="icon-menu"></i>
+          <i class="display-none px-14 mr-20 icon-menu"></i>
         </div>
       </div>
     </section>
-    <section id="body" class="side border">
-      <div id="body-wrapper" class="border">
+    <section class="body side border">
+      <div class="body-wrapper border">
         <div
-          id="hot-event"
-          class="display-none flex flex-align-center gap-6 py-8 px-44 font-helvetica mb-2 border-bottom"
+          class="hot-event display-none flex flex-align-center gap-6 py-8 px-44 font-helvetica mb-2 border-bottom"
         >
-          <span id="" class="text-no-wrap fs-10 flex flex-align-center"
-            ><i id="icon-stonk" class="display-none"></i> Dòng sự kiện</span
+          <span class="text-no-wrap fs-10 flex flex-align-center"
+            ><i class="icon-stonk display-none"></i> Dòng sự kiện</span
           >
-          <span id="event" class="tag fs-10 color-blue-1 text-no-wrap"
+          <span class="event tag fs-10 color-blue-1 text-no-wrap"
             >Vụ đứt cáp ròng rọc, 3 người chết ở Bình Thuận</span
           >
-          <span
-            id="event"
-            class="tag fs-10 color-blue-1 text-no-wrap display-none"
-          >
+          <span class="event tag fs-10 color-blue-1 text-no-wrap display-none">
             Tai nạn giao thông, 5 người chết ở Lạng Sơn</span
           >
-          <span
-            id="event"
-            class="tag fs-10 color-blue-1 text-no-wrap display-none"
-          >
+          <span class="event tag fs-10 color-blue-1 text-no-wrap display-none">
             Những vụ giết người phi tang chấn động</span
           >
         </div>
         <div class="border-top mb-2"></div>
-        <div id="page" class="border-top">
+        <div class="page border-top">
           <section class="flex res-block">
             <div class="flex">
-              <div id="sharing" class="pl-16 mt-54 flex-col">
+              <div class="sharing pl-16 mt-54 flex-col">
                 <div>
                   <div
-                    id="sharing"
-                    class="bg-grey-1 p-4 rounded-16 flex flex-col justify-center items-center gap-10"
+                    class="sharing bg-grey-1 p-4 rounded-16 flex flex-col justify-center items-center gap-10"
                   >
                     <span class="button-zoom">+</span>
                     <span class="text-center">Aa</span>
@@ -127,11 +121,8 @@
                   </div>
                 </div>
               </div>
-              <div id="detail_container" class="pr-44 pl-30">
-                <div
-                  id="bread-crumb"
-                  class="mb-12 text-crumb flex justify-between"
-                >
+              <div class="detail_container pr-44 pl-30">
+                <div class="bread-crumb mb-12 text-crumb flex justify-between">
                   <div class="flex items-center justify-center uppercase fs-14">
                     <span>Kinh doanh</span>
                     <i
@@ -145,20 +136,19 @@
                   >
                 </div>
                 <div class="relative">
-                  <div id="title">
+                  <div class="title">
                     <span class="color-black bold fs-36">
                       Nam A Bank tăng trưởng ấn tượng dựa trên sáng tạo số và
                       quản trị rủi ro chuẩn mực quốc tế
                     </span>
                   </div>
-                  <div id="sub__menu" class="mb-12">
+                  <div class="sub__menu mb-12">
                     <ul class="uppercase fs-14 bold pl-16">
                       <li class="color-blue-1">Nhân văn</li>
                     </ul>
                   </div>
                   <div
-                    id="content__detail"
-                    class="pb-12 fs-20 font-italic color-black word-space-1"
+                    class="content__detail pb-12 fs-20 font-italic color-black word-space-1"
                   >
                     <span class="bold color-blue-1">ĐS&PL </span>Nam A Bank vừa
                     công bố kết quả kinh doanh năm 2022 với nhiều chỉ tiêu tăng
@@ -167,7 +157,7 @@
                     chứng cho hiệu quả hoạt động ổn định, bền vững của Nam A
                     Bank trên thị trường.
                   </div>
-                  <div id="description__detail" class="width-full">
+                  <div class="description__detail width-full">
                     <img
                       class="width-full"
                       src="https://picsum.photos/300/200"
@@ -180,8 +170,7 @@
                     </span>
                   </div>
                   <div
-                    id="main__content"
-                    class="relative flex gap-16 my-16 line-height-24"
+                    class="main__content relative flex gap-16 my-16 line-height-24"
                   >
                     <div class="width-59">
                       <span class="fs-16">
@@ -196,10 +185,7 @@
                         giá trị nhân văn sâu sắc đến với cộng đồng.
                       </span>
                     </div>
-                    <div
-                      id="list-news"
-                      class="width-38 relative h-fit bold fs-16"
-                    >
+                    <div class="list-news width-38 relative h-fit bold fs-16">
                       <ul class="pr-20 pl-20">
                         <li class="py-14 border-bottom">
                           Những dấu ấn quan trọng NAM A BANK giai đoạn 2016-2021
@@ -222,8 +208,7 @@
                     </span>
                   </div>
                   <div
-                    id="main__content"
-                    class="relative flex gap-24 my-16 line-height-24"
+                    class="main__content relative flex gap-24 my-16 line-height-24"
                   >
                     <img
                       class="img-250-280"
@@ -261,7 +246,7 @@
                       trên toàn quốc.
                     </span>
                   </div>
-                  <div id="description__detail" class="width-full my-16">
+                  <div class="description__detail width-full my-16">
                     <img src="https://picsum.photos/260/160" />
                     <span
                       class="fs-12 text-center width-full display-block img-des"
@@ -288,7 +273,7 @@
                       toàn diện.
                     </span>
                   </div>
-                  <div id="main__content" class="relative flex gap-10 mt-16">
+                  <div class="main__content relative flex gap-10 mt-16">
                     <div class="relative width-60 line-height-24">
                       <p class="fs-16">
                         Song hành cùng hoạt động kinh doanh, vai trò trách nhiệm
@@ -302,12 +287,11 @@
                         động thiện nguyện sau chương trình…
                       </p>
                       <div
-                        id="block__hidden"
-                        class="img-250-280 mb-12 bold bg-grey-1 mt-10 display-none"
+                        class="block__hidden img-250-280 mb-12 bold bg-grey-1 mt-10 display-none"
                       >
                         QUANG CAO 300 250
                       </div>
-                      <p id="sharing" class="mt-16">
+                      <p class="sharing mt-16">
                         Với những hoạt động tích cực, mang giá trị thiết thực và
                         ý nghĩa trên, năm vừa qua Nam A Bank đã được các tổ chức
                         trong và ngoài nước ghi nhận như: Nơi làm việc tốt nhất
@@ -315,7 +299,7 @@
                       </p>
                     </div>
                     <div class="relative width-42">
-                      <div id="box">
+                      <div class="box">
                         <div class="box__content">
                           <span class="fs-16"
                             >Năm vừa qua, Nam A Bank tiếp được NHNN chấp thuận
@@ -331,7 +315,7 @@
                   </div>
                   <div class="relative">
                     <span class="fs-16">
-                      <span id="content__hidden" class="mt-16">
+                      <span class="content__hidden mt-16">
                         Với những hoạt động tích cực, mang giá trị thiết thực và
                         ý nghĩa trên, năm vừa qua Nam A Bank đã được các tổ chức
                         trong và ngoài nước ghi nhận như: Nơi làm việc tốt nhất
@@ -362,11 +346,13 @@
                   </div>
                 </div>
                 <div
-                  id="container__content"
-                  class="width-full bg-grey-3 flex items-center gap-10 p-14"
+                  class="container__content width-full bg-grey-3 flex items-center gap-10 p-14"
                 >
-                  <img id="img__detail" src="https://picsum.photos/260/140" />
-                  <div id="other__news" class="relative pb-12">
+                  <img
+                    class="img__detail"
+                    src="https://picsum.photos/260/140"
+                  />
+                  <div class="other__news relative pb-12">
                     <p class="bold color-blue-1">
                       Kỳ 2: Nam A Bank hai năm liên tiếp nhận giải thưởng thương
                       hiệu châu Á
@@ -386,8 +372,7 @@
                   </span>
                 </div>
                 <div
-                  id="block__hidden"
-                  class="img-250-280 mb-12 bold bg-grey-1 mt-10 display-none"
+                  class="block__hidden img-250-280 mb-12 bold bg-grey-1 mt-10 display-none"
                 >
                   QUANG CAO 300 250
                 </div>
@@ -423,8 +408,7 @@
                     </div>
                   </div>
                   <div
-                    id="sharing"
-                    class="flex items-center items-center gap-6 pb-24"
+                    class="sharing flex items-center items-center gap-6 pb-24"
                   >
                     <span class="button-share"
                       ><i class="fa fa-chevron-left" aria-hidden="true"></i
@@ -446,8 +430,7 @@
                   >
                 </div>
                 <div
-                  id="container__comments"
-                  class="relative py-14 pl-30 pr-20 bg-grey-3 border mt-54"
+                  class="container__comments relative py-14 pl-30 pr-20 bg-grey-3 border mt-54"
                 >
                   <div class="title flex items-end justify-between mb-20">
                     <div>
@@ -458,12 +441,9 @@
                         ></i>
                         <span class="ml-8">Bình luận</span>
                       </span>
-                      <span class="">(23)</span>
+                      <span>(23)</span>
                     </div>
-                    <div
-                      id="block__hidden"
-                      class="flex items-center justify-center"
-                    >
+                    <div class="block__hidden flex items-center justify-center">
                       <span>Chia sẻ</span>
                     </div>
                   </div>
@@ -479,13 +459,12 @@
                       </span>
                     </div>
                     <div class="flex items-center justify-between mt-10">
-                      <span id="sharing" class="fs-12"
+                      <span class="sharing fs-12"
                         >Bình luận sẽ được xét duyệt trước khi đăng. Xin vui
                         lòng gõ tiếng Việt có dấu</span
                       >
                       <span
-                        id="comment__btn"
-                        class="px-18 py-8 bg-blue-4 color-white rounded-4"
+                        class="comment__btn px-18 py-8 bg-blue-4 color-white rounded-4"
                         >Gửi bình luận</span
                       >
                     </div>
@@ -542,8 +521,7 @@
                             </span>
                           </div>
                           <div
-                            id="comment__action"
-                            class="pl-16 border-left h-fit mt-12"
+                            class="comment__action pl-16 border-left h-fit mt-12"
                           >
                             <div class="cmt-area relative">
                               <span class="motion-icon">
@@ -558,7 +536,7 @@
                             <div
                               class="flex items-center justify-between mt-16"
                             >
-                              <span id="sharing" class="fs-12"
+                              <span class="sharing fs-12"
                                 >Tối đa 1500 ký tự</span
                               >
                               <div class="wrapper__btn">
@@ -654,7 +632,7 @@
                       </div>
                       <div class="relative text-center">Xem thêm bình luận</div>
                     </div>
-                    <section id="news-tab" class="display-none mt-16">
+                    <section class="news-tab display-none mt-16">
                       <div class="tab__dash"></div>
                       <div class="bold tab__title">Tin liên quan</div>
                       <div class="relative posts">
@@ -708,7 +686,7 @@
                         </div>
                       </div>
                     </section>
-                    <section id="news-tab" class="display-none mt-16">
+                    <section class="news-tab display-none mt-16">
                       <div class="tab__dash"></div>
                       <div class="bold tab__title">Tin cùng tác giả</div>
                       <div class="relative posts">
@@ -795,7 +773,7 @@
                         <div class="relative text-center mt-16">Xem thêm</div>
                       </div>
                     </section>
-                    <section id="news-tab" class="display-none mt-16">
+                    <section class="news-tab display-none mt-16">
                       <div class="tab__dash"></div>
                       <div class="bold tab__title">Tin cùng chuyên mục</div>
                       <div class="relative posts">
@@ -882,7 +860,7 @@
                         <div class="relative text-center mt-16">Xem thêm</div>
                       </div>
                     </section>
-                    <section id="news-tab" class="display-none mt-16">
+                    <section class="news-tab display-none mt-16">
                       <div class="tab__dash"></div>
                       <div class="bold tab__title">Tin nổi bật trong ngày</div>
                       <div class="relative posts">
@@ -970,7 +948,7 @@
                       </div>
                     </section>
 
-                    <section id="block__hidden" class="mt-16">
+                    <section class="block__hidden mt-16">
                       <div class="tab__dash"></div>
                       <div class="bold tab__title">Tin liên quan</div>
                       <div class="relative posts">
@@ -981,7 +959,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -998,7 +976,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1015,7 +993,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1028,7 +1006,7 @@
                         <div class="p-14 bold align-center">Xem thêm</div>
                       </div>
                     </section>
-                    <section id="block__hidden" class="">
+                    <section class="block__hidden">
                       <div class="tab__dash"></div>
                       <div class="bold tab__title">Tin cùng tác giả</div>
                       <div class="relative posts">
@@ -1039,7 +1017,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1056,7 +1034,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1073,7 +1051,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1090,7 +1068,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1107,7 +1085,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1120,7 +1098,7 @@
                         <div class="p-14 bold align-center">Xem thêm</div>
                       </div>
                     </section>
-                    <section id="block__hidden" class="">
+                    <section class="block__hidden">
                       <div class="tab__dash"></div>
                       <div class="bold tab__title">Tin nổi bật</div>
                       <div class="relative posts">
@@ -1131,7 +1109,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1148,7 +1126,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1165,7 +1143,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1182,7 +1160,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1199,7 +1177,7 @@
                           </div>
                           <div class="text flex gap-8 py-10">
                             <img
-                              id="img__detail"
+                              class="img__detail"
                               src="https://picsum.photos/220/130"
                             />
                             <div class="description color-grey fs-14">
@@ -1216,31 +1194,30 @@
                 </div>
               </div>
             </div>
-            <div id="hidden__ads" class="flex flex-col pl-13">
+            <div class="hidden__ads flex flex-col pl-13">
               <div class="ad-300-250 mb-12 bold color-white">
                 QUANG CAO 300 250
               </div>
               <div class="ad-300-250 mb-12 bold color-white">
                 QUANG CAO 300 250
               </div>
-              <div id="side-bar" class="bg-grey-1">
-                <div id="side-bar__tab" class="flex bold font-helvetica">
+              <div class="side-bar bg-grey-1">
+                <div class="side-bar__tab flex bold font-helvetica">
                   <div
-                    id="common-read"
-                    class="bold color-grey px-20 py-10 align-center"
+                    class="common-read bold color-grey px-20 py-10 align-center"
                   >
                     ĐỌC NHIỀU
                   </div>
-                  <div id="comment" class="bold px-20 py-10 align-center">
+                  <div class="comment bold px-20 py-10 align-center">
                     BÌNH LUẬN
                   </div>
                 </div>
-                <div id="item" class="">
+                <div class="item">
                   <div class="p-14 border-bottom fs-16 bold color-grey-3">
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
+                      <i class="icon-comment display-none"> </i>
                       <span class="number">6</span>
                     </span>
                   </div>
@@ -1248,7 +1225,7 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
+                      <i class="icon-comment display-none"> </i>
                       <span class="number">6</span>
                     </span>
                   </div>
@@ -1256,7 +1233,7 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
+                      <i class="icon-comment display-none"> </i>
                       <span class="number">6</span>
                     </span>
                   </div>
@@ -1264,7 +1241,7 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
+                      <i class="icon-comment display-none"> </i>
                       <span class="number">6</span>
                     </span>
                   </div>
@@ -1272,7 +1249,7 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
+                      <i class="icon-comment display-none"> </i>
                       <span class="number">6</span>
                     </span>
                   </div>
@@ -1284,16 +1261,16 @@
                   <div>
                     <img src="https://picsum.photos/270/160" />
                     <div class="flex py-10 justify-center gap-10">
-                      <span id="dot"></span>
-                      <span id="dot"></span>
-                      <span id="dot"></span>
-                      <span id="dot" style="background: #0077b6"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot" style="background: #0077b6"></span>
                     </div>
                   </div>
                   <div class="px-14 pb-12 flex-column justify-end">
                     <div class="color-blue-1 fs-12 font-helvetica">
-                      <i id="icon-stonk-2"></i> Giải pháp thúc đẩy ngành Du lịch
-                      cất cánh
+                      <i class="icon-stonk-2"></i> Giải pháp thúc đẩy ngành Du
+                      lịch cất cánh
                     </div>
                     <div class="title bold fs-18 mt-10">
                       Giải pháp thu hút du khách quốc tế đến Việt Nam: Những con
@@ -1302,8 +1279,8 @@
                   </div>
                 </div>
               </div>
-              <div id="right" class="mt-16">
-                <div id="stock" class="border display-none">
+              <div class="right mt-16">
+                <div class="stock border display-none">
                   <img src="https://picsum.photos/300/130" />
                   <table class="bg-grey-1">
                     <tr class="py-10 border-bottom">
@@ -1338,7 +1315,7 @@
                     </tr>
                   </table>
                 </div>
-                <div id="forex-table" class="mt-30 fs-12 display-none">
+                <div class="forex-table mt-30 fs-12 display-none">
                   <table class="bg-grey-1">
                     <tr>
                       <th>SYMBOL</th>
@@ -1389,12 +1366,11 @@
       </div>
     </section>
     <section
-      id="footer"
-      class="side bg-blue-1 color-white font-helvetica ms-fs-28 ms-line-height-40"
+      class="footer side bg-blue-1 color-white font-helvetica ms-fs-28 ms-line-height-40"
     >
-      <div id="footer-wrapper" class="py-28 px-14">
-        <div id="logo-footer__container">
-          <img id="footer-logo" class="width-150" src="./asset/logo.png" />
+      <div class="footer-wrapper py-28 px-14">
+        <div class="logo-footer__container">
+          <img class="footer-logo width-150" src="./asset/logo.png" />
         </div>
         <div class="info-1 flex mt-24 pb-12 space-between res-block">
           <div>
@@ -1417,15 +1393,15 @@
             </div>
             <div class="info-2 mt-16">
               <div class="location mb-6">
-                <i id="icon-location" class="mr-22"></i>
+                <i class="icon-location mr-22"></i>
                 Tầng 4, Tòa tháp Ngôi Sao - Star Tower, đường Dương Đình Nghệ -
                 Phường Yên Hòa - Quận Cầu Giấy - Hà Nội.
               </div>
               <div class="phone mb-6">
-                <i id="icon-phone" class="mr-22"></i>0947271302
+                <i class="icon-phone mr-22"></i>0947271302
               </div>
               <div class="email mb-6">
-                <i id="icon-mail" class="mr-22"></i>dsplonline.toasoan@gmail.com
+                <i class="icon-mail mr-22"></i>dsplonline.toasoan@gmail.com
               </div>
             </div>
           </div>
@@ -1445,7 +1421,7 @@
           </div>
         </div>
 
-        <div id="to-the-top" class="color-white bold">
+        <div class="to-the-top color-white bold">
           Đầu trang
           <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
         </div>
