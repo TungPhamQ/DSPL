@@ -27,21 +27,26 @@
 #nav-bar {
   padding: 10px 14px;
 }
-#hot-news__video {
+#hot-video-wrapper {
   max-width: 1720px;
-  margin: auto;
-  margin-top: 15px;
+  margin: 15px auto 0;
 }
 video {
-  width: 100%;
-  height: 670px;
+  width: 62vw;
+  max-width: 1190px;
+  height: 100%;
   object-fit: cover;
+}
+@media only screen and (max-width: 1000px) {
+  #hot-video-wrapper {
+    margin: 15px 0 0 !important;
+  }
 }
 @media only screen and (max-width: 769px) {
   #nav-bar {
     justify-content: flex-start;
   }
-  #hot-news__video,
+  #hot-video-wrapper,
   #news-item {
     background: #fff;
   }
