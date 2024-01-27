@@ -35,7 +35,6 @@ video {
   width: 62vw;
   max-width: 1190px;
   height: 100%;
-  object-fit: cover;
 }
 .comment-avatar {
   background: #c9c9c9;
