@@ -28,6 +28,9 @@ body {
 .color-grey-3 {
   color: #5f5f5d;
 }
+.color-grey-4 {
+    color: #939393;
+  }
 .color-222 {
   color: #222;
 }
@@ -149,6 +152,9 @@ body {
   gap: 64px;
 }
 /* padding */
+.p-0 {
+  padding: 0;
+}
 .p-2 {
   padding: 2px;
 }
@@ -377,6 +383,9 @@ body {
 .pl-20 {
   padding-left: 20px;
 }
+.pb-10 {
+  padding-bottom: 10px;
+}
 .pb-12 {
   padding-bottom: 12px;
 }
@@ -430,8 +439,14 @@ body {
 .mb-6 {
   margin-bottom: 6px;
 }
+.mb-8 {
+  margin-bottom: 8px;
+}
 .mb-12 {
   margin-bottom: 12px;
+}
+.mb-15 {
+  margin-bottom: 15px;
 }
 .mb-16 {
   margin-bottom: 16px;
@@ -572,6 +587,9 @@ body {
 }
 .border-top-2 {
   border-top: 2px solid #dcdcdc;
+}
+.border-top--grey-2 {
+  border-top: 1px solid #dedede;
 }
 .border-right {
   border-right: 1px solid #dbdbdb;
@@ -867,7 +885,7 @@ body {
     width: auto;
     max-width: 1158px;
   }
-  #page-main {
+  .page-main {
     width: 68%;
   }
 }
@@ -876,17 +894,17 @@ body {
     border-right: none;
   }
   .post-item,
-  #news-item__category {
+  .news-item__category {
     padding-top: 40px;
     border-top: 2px solid #e2e2e2;
     margin-bottom: 32px;
   }
-  #logo-footer__container {
+  .logo-footer__container {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  #footer-logo {
+  .footer-logo {
     width: 49.867vw;
   }
   img {
@@ -922,40 +940,40 @@ body {
   .m-width-fill-max {
     width: -webkit-fill-available !important;
   }
-  #page-main {
+  .page-main {
     width: 100%;
   }
-  #hot-news img {
+  .hot-news img {
     max-width: unset;
     width: 100% !important;
   }
-  #hot-news__title {
+  .hot-news__title {
     width: 100%;
     max-height: none;
   }
-  #hot-news__description {
+  .hot-news__description {
     /* margin-bottom: 20px; */
     margin-bottom: 2.667vw;
   }
-  #news-item {
+  .news-item {
     display: flex;
     flex-direction: column-reverse;
     /* margin-bottom: 40px; */
     margin-bottom: 5.333vw;
   }
-  #news-2 {
+  .news-2 {
     display: flex;
     flex-direction: column;
     /* gap: 40px; */
     gap: 5.333vw;
   }
-  #news-2-item {
+  .news-2-item {
     /* padding-bottom: 40px; */
     padding-bottom: 5.333vw;
     border-bottom: 1px solid #dcdcdc;
     border-top: none;
   }
-  #ads-mobile {
+  .ads-mobile {
     width: 100%;
     /* height: 625px; */
     height: 83.333vw;
@@ -968,7 +986,7 @@ body {
     background: #f0f0f0 !important;
     height: 100% !important;
   }
-  #border-top__short--mobile {
+  .border-top__short--mobile {
     display: block !important;
     width: 154px;
     border-top: 4px solid #b9e1ff;

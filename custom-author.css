@@ -1,21 +1,21 @@
-#avatar {
+.avatar {
   width: 180px;
   border-radius: 50%;
 }
-#content {
+.content {
   border-bottom: 5px solid #f0f0f0;
 }
-#page-main {
+.page-main {
   border-right: none;
 }
 @media only screen and (max-width: 768px) {
-  #content {
+  .content {
     align-items: center;
   }
   .info {
     text-align: center;
   }
-  #avatar {
+  .avatar {
     width: 42.667vw;
   }
 }

@@ -13,55 +13,53 @@
     <title>Đời Sống Pháp Luật</title>
   </head>
   <body>
-    <section id="header">
-      <img id="ads-img" src="./asset/ads_top.png" />
-      <div id="menu-bar" class="side color-white">
+    <section class="header">
+      <img class="ads-img" src="./asset/ads_top.png" />
+      <div class="menu-bar side color-white">
         <div class="p-14 flex space-between" style="gap: 8%">
           <div class="flex gap-28 flex-align-center width-100pc">
             <i
-              class="res-block px-14 mr-20"
-              id="icon-menu"
+              class="icon-menu res-block px-14 mr-20"
               style="display: none"
             ></i>
             <img class="width-150" src="./asset/logo.png" />
             <div
-              id="search-bar"
-              class="display-none bg-blue-1 border flex space-between"
+              class="search-bar display-none bg-blue-1 border flex space-between"
             >
-              <input id="search-input" placeholder="Nhập nội dung tìm kiếm" />
-              <i id="icon-search"></i>
+              <input
+                class="search-input"
+                placeholder="Nhập nội dung tìm kiếm"
+              />
+              <i class="icon-search"></i>
             </div>
           </div>
           <div
-            id="icon-wrapper"
             class="icon-wrapper flex gap-28 flex-align-center font-helvetica color-blue-2"
           >
-            <span id="weather" class="display-none">
+            <span class="weather display-none">
               <span class="text-no-wrap">Thứ 3, ngày 21-11-2023</span>
               <span class="text-no-wrap flex flex-align-center gap-6">
                 Hà Nội<i class="fa fa-chevron-down" aria-hidden="true"></i>
                 , 16° - 28°C
-                <i id="icon-sun"></i>
+                <i class="icon-sun"></i>
               </span>
             </span>
-            <span id="news" class="flex flex-align-center gap-6"
-              ><i id="icon-reload" class="icon-scale"></i>
+            <span class="news flex flex-align-center gap-6"
+              ><i class="icon-reload icon-scale"></i>
               <span class="display-none text-no-wrap">Tin mới nhất</span></span
             >
-            <span id="login" class="flex flex-align-center gap-6"
-              ><i id="icon-user" class="icon-scale"></i>
+            <span class="login flex flex-align-center gap-6"
+              ><i class="icon-user icon-scale"></i>
               <span class="display-none text-no-wrap">Đăng nhập</span>
             </span>
             <i
-              id="icon-search"
-              class="res-block icon-scale"
+              class="icon-search res-block icon-scale"
               style="display: none"
             ></i>
           </div>
         </div>
         <div
-          id="nav-bar-category"
-          class="flex border flex-align-center space-between"
+          class="nav-bar-category flex border flex-align-center space-between"
         >
           <i
             class="fa fa-home res-block"
@@ -77,23 +75,21 @@
           <a class="text-no-wrap display-none py-16 px-14 bold">VIDEO</a>
           <a class="text-no-wrap display-none py-16 px-14 bold">THỂ THAO</a>
           <a class="text-no-wrap display-none py-16 px-14 bold">GIÁO DỤC</a>
-          <i class="display-none px-14 mr-20" id="icon-menu"></i>
+          <i class="display-none px-14 mr-20 icon-menu"></i>
         </div>
       </div>
     </section>
-    <section id="body" class="side border">
-      <div id="body-wrapper" class="border">
+    <section class="body side border">
+      <div class="body-wrapper border">
         <div
-          id="hot-event"
-          class="flex flex-align-center gap-6 py-8 px-44 mb-2 border-bottom color-blue-1 bold fs-24 display-none justify-center"
+          class="hot-event flex flex-align-center gap-6 py-8 px-44 mb-2 border-bottom color-blue-1 bold fs-24 display-none justify-center"
         >
           TIN TỨC
         </div>
         <div class="border-top mb-2"></div>
-        <div id="page" class="border-top">
+        <div class="page border-top">
           <section
-            id="category"
-            class="flex font-helvetica color-grey gap-24 justify-center py-14 ms-fs-28"
+            class="category flex font-helvetica color-grey gap-24 justify-center py-14 ms-fs-28"
           >
             <span class="color-blue-1">Tin trong nước</span>
             <span class="">Tâm điểm</span>
@@ -104,7 +100,7 @@
             <span class="display-none">Hội luật gia</span>
           </section>
           <section class="flex res-block">
-            <div id="page-main" class="pr-13">
+            <div class="page-main pr-13">
               <div class="flex gap-20 m-flex-column-reverse m-mx-20">
                 <div>
                   <div class="post-item res-block border__top--blue">
@@ -114,7 +110,7 @@
                         Tổng giám đốc Phạm Quốc Thanh muốn mua 2 triệu cổ phiếu
                         để đầu tư
                         <span class="comment-amount fs-12">
-                          <i id="icon-comment" class=""> </i>
+                          <i class="icon-comment"> </i>
                           <span class="number">6</span>
                         </span>
                       </div>
@@ -135,7 +131,7 @@
                         Tổng giám đốc Phạm Quốc Thanh muốn mua 2 triệu cổ phiếu
                         để đầu tư
                         <span class="comment-amount fs-12">
-                          <i id="icon-comment" class=""> </i>
+                          <i class="icon-comment"> </i>
                           <span class="number">6</span>
                         </span>
                       </div>
@@ -151,11 +147,10 @@
                   </div>
                 </div>
                 <div
-                  id="hot-news-category"
-                  class="flex border__top--blue bg-grey-1 space-between flex-column-reverse m-width-100pc"
+                  class="hot-news-category flex border__top--blue bg-grey-1 space-between flex-column-reverse m-width-100pc"
                   style="width: 65%"
                 >
-                  <div id="hot-news__title-category" class="p-16">
+                  <div class="p-16 hot-news__title-category">
                     <div
                       class="color-blue-1 bold fs-24 pb-12 ms-line-height-62"
                     >
@@ -164,7 +159,7 @@
                         nhất thế giới
                       </span>
                       <span class="comment-amount fs-12">
-                        <i id="icon-comment" class=""> </i>
+                        <i class="icon-comment"> </i>
                         <span class="number">6</span>
                       </span>
                     </div>
@@ -184,18 +179,15 @@
                 </div>
               </div>
 
-              <div id="news" class="flex gap-10 py-16 res-block m-mx-20">
-                <div
-                  id="news-item__category"
-                  class="border__top--blue bg-grey-3"
-                >
+              <div class="news flex gap-10 py-16 res-block m-mx-20">
+                <div class="news-item__category border__top--blue bg-grey-3">
                   <img src="https://picsum.photos/260/160" />
                   <div class="p-8 mt-6">
                     <div class="bold ms-fs-48 ms-line-height-60">
                       Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
                       để đầu tư phiếu
                       <span class="comment-amount fs-12">
-                        <i id="icon-comment" class=""> </i>
+                        <i class="icon-comment"> </i>
                         <span class="number">6</span>
                       </span>
                     </div>
@@ -209,17 +201,14 @@
                     </div>
                   </div>
                 </div>
-                <div
-                  id="news-item__category"
-                  class="border__top--blue bg-grey-3"
-                >
+                <div class="news-item__category border__top--blue bg-grey-3">
                   <img src="https://picsum.photos/260/160" />
                   <div class="p-8 mt-6">
                     <div class="bold ms-fs-48 ms-line-height-60">
                       Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
                       để đầu tư phiếu
                       <span class="comment-amount fs-12">
-                        <i id="icon-comment" class=""> </i>
+                        <i class="icon-comment"> </i>
                         <span class="number">6</span>
                       </span>
                     </div>
@@ -233,17 +222,14 @@
                     </div>
                   </div>
                 </div>
-                <div
-                  id="news-item__category"
-                  class="border__top--blue bg-grey-3"
-                >
+                <div class="news-item__category border__top--blue bg-grey-3">
                   <img src="https://picsum.photos/260/160" />
                   <div class="p-8 mt-6">
                     <div class="bold ms-fs-48 ms-line-height-60">
                       Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
                       để đầu tư phiếu
                       <span class="comment-amount fs-12">
-                        <i id="icon-comment" class=""> </i>
+                        <i class="icon-comment"> </i>
                         <span class="number">6</span>
                       </span>
                     </div>
@@ -257,17 +243,14 @@
                     </div>
                   </div>
                 </div>
-                <div
-                  id="news-item__category"
-                  class="border__top--blue bg-grey-3"
-                >
+                <div class="news-item__category border__top--blue bg-grey-3">
                   <img src="https://picsum.photos/260/160" />
                   <div class="p-8 mt-6">
                     <div class="bold ms-fs-48 ms-line-height-60">
                       Tổng giám đốc HBBank Phạm Quốc Thanh muốn mua 2 triệu cổ
                       để đầu tư phiếu
                       <span class="comment-amount fs-12">
-                        <i id="icon-comment" class=""> </i>
+                        <i class="icon-comment"> </i>
                         <span class="number">6</span>
                       </span>
                     </div>
@@ -283,8 +266,7 @@
                 </div>
               </div>
               <div
-                id="ads-mobile"
-                class="my-30 bold color-white res-block"
+                class="ads-mobile my-30 bold color-white res-block"
                 style="display: none"
               >
                 Quảng cáo mobile
@@ -293,32 +275,29 @@
                 Quảng cáo 800 x 128px
               </div>
               <div
-                id="side-bar"
-                class="bg-grey-1 m-mx-20 res-block"
+                class="side-bar bg-grey-1 m-mx-20 res-block"
                 style="display: none"
               >
-                <div id="side-bar__tab" class="flex bold font-helvetica">
+                <div class="side-bar__tab flex bold font-helvetica">
                   <div
-                    id="common-read"
-                    class="bold color-grey px-20 py-10 align-center ms-fs-40 ms-line-height-44"
+                    class="common-read bold color-grey px-20 py-10 align-center ms-fs-40 ms-line-height-44"
                   >
                     ĐỌC NHIỀU
                   </div>
                   <div
-                    id="comment"
-                    class="bold px-20 py-10 align-center ms-fs-40 ms-line-height-44"
+                    class="comment bold px-20 py-10 align-center ms-fs-40 ms-line-height-44"
                   >
                     BÌNH LUẬN
                   </div>
                 </div>
-                <div id="item " class="">
+                <div class="item">
                   <div
                     class="p-14 border-bottom fs-16 bold color-grey-3 ms-fs-32 ms-line-height-44"
                   >
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class=""> </i>
+                      <i  class="icon-comment"> </i>
                       <span class="number ms-fs-24">6</span>
                     </span>
                   </div>
@@ -328,7 +307,7 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class=""> </i>
+                      <i  class="icon-comment"> </i>
                       <span class="number ms-fs-24">6</span>
                     </span>
                   </div>
@@ -338,7 +317,7 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class=""> </i>
+                      <i  class="icon-comment"> </i>
                       <span class="number ms-fs-24">6</span>
                     </span>
                   </div>
@@ -348,7 +327,7 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class=""> </i>
+                      <i  class="icon-comment"> </i>
                       <span class="number ms-fs-24">6</span>
                     </span>
                   </div>
@@ -358,11 +337,11 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class=""> </i>
+                      <i  class="icon-comment"> </i>
                       <span class="number ms-fs-24">6</span>
                     </span>
                   </div>
-                  <div id="show-more-btn" class="p-14 bold align-center">
+                  <div  class="show-more-btn p-14 bold align-center">
                     Xem thêm
                   </div>
                 </div>
@@ -375,15 +354,15 @@
                   <div>
                     <img src="https://picsum.photos/270/160" />
                     <div class="flex py-10 justify-center gap-20">
-                      <span id="dot"></span>
-                      <span id="dot"></span>
-                      <span id="dot"></span>
-                      <span id="dot" style="background: #0077b6"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot" style="background: #0077b6"></span>
                     </div>
                   </div>
                   <div class="pl-13 flex flex-column justify-end mb-40">
                     <div class="color-blue-1 ms-fs-24 font-helvetica flex">
-                      <i id="icon-stonk-2" style="transform: scale(2)"></i>
+                      <i class="icon-stonk-2" style="transform: scale(2)"></i>
                       <span>Chiến sự Israel - Hamas</span>
                     </div>
                     <div
@@ -396,8 +375,8 @@
                 </div>
               </div>
               <div
-                id="list-post__left"
-                class="border-right pr-13 width-100pc m-px-20"
+                
+                class="list-post__left border-right pr-13 width-100pc m-px-20"
               >
                 <div class="post-item py-20 border-bottom">
                   <div
@@ -408,7 +387,10 @@
                     CX-5
                   </div>
                   <div class="flex">
-                    <img class="m-max-width-40pc" src="https://picsum.photos/220/130" />
+                    <img
+                      class="m-max-width-40pc"
+                      src="https://picsum.photos/220/130"
+                    />
                     <div class="text px-12">
                       <div class="title bold mb-12 display-none">
                         Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
@@ -433,7 +415,10 @@
                     CX-5
                   </div>
                   <div class="flex">
-                    <img class="m-max-width-40pc" src="https://picsum.photos/220/130" />
+                    <img
+                      class="m-max-width-40pc"
+                      src="https://picsum.photos/220/130"
+                    />
                     <div class="text px-12">
                       <div class="title bold mb-12 display-none">
                         Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
@@ -458,7 +443,10 @@
                     CX-5
                   </div>
                   <div class="flex">
-                    <img class="m-max-width-40pc" src="https://picsum.photos/220/130" />
+                    <img
+                      class="m-max-width-40pc"
+                      src="https://picsum.photos/220/130"
+                    />
                     <div class="text px-12">
                       <div class="title bold mb-12 display-none">
                         Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
@@ -483,7 +471,10 @@
                     CX-5
                   </div>
                   <div class="flex">
-                    <img class="m-max-width-40pc" src="https://picsum.photos/220/130" />
+                    <img
+                      class="m-max-width-40pc"
+                      src="https://picsum.photos/220/130"
+                    />
                     <div class="text px-12">
                       <div class="title bold mb-12 display-none">
                         Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
@@ -508,7 +499,10 @@
                     CX-5
                   </div>
                   <div class="flex">
-                    <img class="m-max-width-40pc" src="https://picsum.photos/220/130" />
+                    <img
+                      class="m-max-width-40pc"
+                      src="https://picsum.photos/220/130"
+                    />
                     <div class="text px-12">
                       <div class="title bold mb-12 display-none">
                         Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
@@ -533,7 +527,10 @@
                     CX-5
                   </div>
                   <div class="flex">
-                    <img class="m-max-width-40pc" src="https://picsum.photos/220/130" />
+                    <img
+                      class="m-max-width-40pc"
+                      src="https://picsum.photos/220/130"
+                    />
                     <div class="text px-12">
                       <div class="title bold mb-12 display-none">
                         Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
@@ -558,7 +555,10 @@
                     CX-5
                   </div>
                   <div class="flex">
-                    <img class="m-max-width-40pc" src="https://picsum.photos/220/130" />
+                    <img
+                      class="m-max-width-40pc"
+                      src="https://picsum.photos/220/130"
+                    />
                     <div class="text px-12">
                       <div class="title bold mb-12 display-none">
                         Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
@@ -583,7 +583,10 @@
                     CX-5
                   </div>
                   <div class="flex">
-                    <img class="m-max-width-40pc" src="https://picsum.photos/220/130" />
+                    <img
+                      class="m-max-width-40pc"
+                      src="https://picsum.photos/220/130"
+                    />
                     <div class="text px-12">
                       <div class="title bold mb-12 display-none">
                         Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
@@ -608,7 +611,10 @@
                     CX-5
                   </div>
                   <div class="flex">
-                    <img class="m-max-width-40pc" src="https://picsum.photos/220/130" />
+                    <img
+                      class="m-max-width-40pc"
+                      src="https://picsum.photos/220/130"
+                    />
                     <div class="text px-12">
                       <div class="title bold mb-12 display-none">
                         Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
@@ -626,31 +632,31 @@
                 </div>
               </div>
             </div>
-            <div id="side-page_category" class="pl-13 display-none">
+            <div  class="side-page_category pl-13 display-none">
               <div class="ad-300-250 mb-12 bold color-white display-none">
                 QUANG CAO 300 250
               </div>
               <div class="ad-300-250 mb-12 bold color-white">
                 QUANG CAO 300 250
               </div>
-              <div id="side-bar" class="bg-grey-1">
-                <div id="side-bar__tab" class="flex bold font-helvetica">
+              <div  class="side-bar bg-grey-1">
+                <div  class="side-bar__tab flex bold font-helvetica">
                   <div
-                    id="common-read"
-                    class="bold color-grey px-20 py-10 align-center"
+                    
+                    class="common-read bold color-grey px-20 py-10 align-center"
                   >
                     ĐỌC NHIỀU
                   </div>
-                  <div id="comment" class="bold px-20 py-10 align-center">
+                  <div  class="comment bold px-20 py-10 align-center">
                     BÌNH LUẬN
                   </div>
                 </div>
-                <div id="item " class="">
+                <div class="item">
                   <div class="p-14 border-bottom fs-16 bold color-grey-3">
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
+                      <i  class="icon-comment display-none"> </i>
                       <span class="number">6</span>
                     </span>
                   </div>
@@ -658,7 +664,7 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
+                      <i  class="icon-comment display-none"> </i>
                       <span class="number">6</span>
                     </span>
                   </div>
@@ -666,7 +672,7 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
+                      <i  class="icon-comment display-none"> </i>
                       <span class="number">6</span>
                     </span>
                   </div>
@@ -674,7 +680,7 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
+                      <i  class="icon-comment display-none"> </i>
                       <span class="number">6</span>
                     </span>
                   </div>
@@ -682,7 +688,7 @@
                     Giá tăng gần 20%, vợ thành viên HĐQT ngân hàng OCB muốn bán
                     500.000 cổ phiếu
                     <span class="comment-amount fs-12">
-                      <i id="icon-comment" class="display-none"> </i>
+                      <i  class="icon-comment display-none"> </i>
                       <span class="number">6</span>
                     </span>
                   </div>
@@ -694,15 +700,15 @@
                   <div>
                     <img src="https://picsum.photos/270/160" />
                     <div class="flex py-10 justify-center gap-10">
-                      <span id="dot"></span>
-                      <span id="dot"></span>
-                      <span id="dot"></span>
-                      <span id="dot" style="background: #0077b6"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot" style="background: #0077b6"></span>
                     </div>
                   </div>
                   <div class="pl-13 flex flex-column justify-end mb-40">
                     <div class="color-blue-1 fs-12 font-helvetica">
-                      <i id="icon-stonk-2"></i>Chiến sự Israel - Hamas
+                      <i class="icon-stonk-2"></i>Chiến sự Israel - Hamas
                     </div>
                     <div class="title bold fs-18 mt-10">
                       Mẫu xe điện Skyworth Skyhome gây sốc, giá dự kiến như
@@ -711,8 +717,8 @@
                   </div>
                 </div>
               </div>
-              <div id="right ">
-                <div id="stock" class="border display-none">
+              <div class="right">
+                <div  class="stock border display-none">
                   <img src="https://picsum.photos/300/130" />
                   <table class="bg-grey-1">
                     <tr class="py-10 border-bottom">
@@ -747,7 +753,7 @@
                     </tr>
                   </table>
                 </div>
-                <div id="forex-table" class="mt-30 fs-12 display-none">
+                <div  class="forex-table mt-30 fs-12 display-none">
                   <table class="bg-grey-1">
                     <tr>
                       <th>SYMBOL</th>
@@ -787,7 +793,7 @@
                     </tr>
                   </table>
                 </div>
-                <div id="ads-300-600" class="mt-30 width-100pc"></div>
+                <div  class="ads-300-600 mt-30 width-100pc"></div>
               </div>
             </div>
           </section>
@@ -801,12 +807,12 @@
       </div>
     </section>
     <section
-      id="footer"
-      class="side bg-blue-1 color-white font-helvetica ms-fs-28 ms-line-height-40"
+      
+      class="footer side bg-blue-1 color-white font-helvetica ms-fs-28 ms-line-height-40"
     >
-      <div id="footer-wrapper" class="py-28 px-14">
-        <div id="logo-footer__container">
-          <img id="footer-logo" class="width-150" src="./asset/logo.png" />
+      <div  class="footer-wrapper py-28 px-14">
+        <div class="logo-footer__container">
+          <img  class="footer-logo width-150" src="./asset/logo.png" />
         </div>
         <div class="info-1 flex mt-24 pb-12 space-between res-block">
           <div>
@@ -829,15 +835,16 @@
             </div>
             <div class="info-2 mt-16">
               <div class="location mb-6">
-                <i id="icon-location" class="mr-22"></i>
+                <i  class="icon-location mr-22"></i>
                 Tầng 4, Tòa tháp Ngôi Sao - Star Tower, đường Dương Đình Nghệ -
                 Phường Yên Hòa - Quận Cầu Giấy - Hà Nội.
               </div>
               <div class="phone mb-6">
-                <i id="icon-phone" class="mr-22"></i>0947271302
+                <i  class="icon-phone mr-22"></i>0947271302
               </div>
               <div class="email mb-6">
-                <i id="icon-mail" class="mr-22"></i>dsplonline.toasoan@gmail.com
+                <i  class="icon-mail mr-22"></i
+                >dsplonline.toasoan@gmail.com
               </div>
             </div>
           </div>
@@ -857,7 +864,7 @@
           </div>
         </div>
 
-        <div id="to-the-top" class="color-white bold">
+        <div  class="to-the-top color-white bold">
           Đầu trang
           <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
         </div>

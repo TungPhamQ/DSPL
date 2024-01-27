@@ -1,38 +1,38 @@
-#content__hidden {
+.content__hidden {
   display: none !important;
 }
-#block__hidden {
+.block__hidden {
   display: none !important;
 }
 
 @media only screen and (max-width: 768px) {
-  #sharing {
+  .sharing {
     display: none;
   }
-  #detail_container {
+  .detail_container {
     padding: 12px 10px;
   }
-  #bread-crumb {
+  .bread-crumb {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
   }
-  #title {
+  .title {
     word-spacing: 1px;
   }
-  #sub__menu {
+  .sub__menu {
     margin: 10px 0;
   }
-  #content__detail {
+  .content__detail {
     word-spacing: 3px;
   }
-  #description__detail {
+  .description__detail {
     margin: 10px 0;
   }
-  #description__detail span {
+  .description__detail span {
     padding: 0;
   }
-  #main__content {
+  .main__content {
     flex-direction: column;
   }
   .width-59 {
@@ -47,7 +47,7 @@
   .width-42 {
     width: auto;
   }
-  #box {
+  .box {
     width: 94%;
     height: auto;
     margin: 10px 0 24px 0;
@@ -57,23 +57,23 @@
     width: 100%;
     height: auto;
   }
-  #other__news {
+  .other__news {
     padding-bottom: 0px;
   }
-  #other__news p:nth-child(2) {
+  .other__news p:nth-child(2) {
     display: none;
   }
-  #img__detail {
+  .img__detail {
     width: 120px;
     height: 80px;
   }
-  #container__content {
+  .container__content {
     margin-top: 16px;
   }
-  #container__comments {
+  .container__comments {
     padding: 16px 12px;
   }
-  #comment__btn {
+  .comment__btn {
     width: 100%;
     text-align: center;
     padding: 4px 18px;
@@ -81,7 +81,7 @@
   .comment-item {
     gap: 5px;
   }
-  #comment__action {
+  .comment__action {
     border: none !important;
     padding-left: 0;
   }
@@ -93,7 +93,7 @@
   .time {
     padding-bottom: 0px;
   }
-  #hidden__ads {
+  .hidden__ads {
     display: none;
   }
   .post-item {
@@ -104,10 +104,10 @@
   .img-250-280 {
     height: 230px;
   }
-  #content__hidden {
+  .content__hidden {
     display: inline !important;
   }
-  #block__hidden {
+  .block__hidden {
     display: block !important;
   }
 }

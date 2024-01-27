@@ -1,19 +1,19 @@
-#info-table table {
+.info-table table {
   width: auto;
   border-right: 1px solid #c9c9c9;
   border-top: 1px solid #c9c9c9;
 }
-#info-table th,
-#info-table td {
+.info-table th,
+.info-table td {
   border-bottom: 1px solid #c9c9c9;
   border-left: 1px solid #c9c9c9;
 }
-#info-table td {
+.info-table td {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif !important;
   font-size: 18px;
 }
-#collapse-btn {
+.collapse-btn {
   background: #f9f9f9;
   width: 364px;
   height: 30px;
@@ -24,10 +24,10 @@
   margin: 0 auto;
 }
 
-#mobile-table {
+.mobile-table {
   border: 1px solid #c9c9c9;
 }
-#mobile-table .date {
+.mobile-table .date {
   background: #f0f0f0;
   color: #222222;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
@@ -36,7 +36,7 @@
   font-size: 4.267vw;
   padding: 15px 24px;
 }
-#mobile-table .info {
+.mobile-table .info {
   background: #fff;
   color: #222222;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
@@ -46,13 +46,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-  #icon-stonk-2 {
+  .icon-stonk-2 {
     transform: scale(2);
   }
 }
 
 @media only screen and (max-width: 426px) {
-  #icon-stonk-2 {
+  .icon-stonk-2 {
     height: 22px;
     transform: scale(1.4);
   }
