@@ -21,6 +21,12 @@
   align-items: center;
   justify-content: center;
 }
+.fa-home:before {
+  font-size: 40px;
+}
+#nav-bar {
+  padding: 10px 14px;
+}
 @media only screen and (max-width: 769px) {
   #nav-bar {
     justify-content: flex-start;
