@@ -1703,3 +1703,14 @@ body {
 
 
 /* NavBar */
+
+/* Global */
+.collapse-btn {
+  background: #f0f0f0;
+  width: 364px;
+  border-radius: 15px;
+  font-size: 14px;
+  width: 100%;
+  color: #222222;
+
+}

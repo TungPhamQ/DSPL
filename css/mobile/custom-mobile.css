@@ -16,7 +16,7 @@ section {
   border-top: none;
 }
 
-#menu-bar {
+.menu-bar {
   background: #052962;
   width: 100%;
 }
