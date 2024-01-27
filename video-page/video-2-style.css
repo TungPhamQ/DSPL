@@ -27,6 +27,11 @@
 #nav-bar {
   padding: 10px 14px;
 }
+#hot-news__video {
+  max-width: 1720px;
+  margin: auto;
+  margin-top: 15px;
+}
 @media only screen and (max-width: 769px) {
   #nav-bar {
     justify-content: flex-start;
