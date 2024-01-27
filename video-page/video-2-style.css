@@ -43,6 +43,12 @@ video {
   font-size: 10px;
   padding: 7px;
 }
+.author::before {
+  content: "\2022";
+  color: #052962;
+  font-size: 1.5em;
+  margin-right: 10px;
+}
 @media only screen and (max-width: 1000px) {
   #hot-video-wrapper {
     margin: 15px 0 0 !important;
