@@ -1714,3 +1714,12 @@ body {
   color: #222222;
 
 }
+
+.img-circle-325 {
+  border-radius: 50%;
+  width: 325px;
+  height: 325px;
+}
+.border-bottom-grey-3{
+  border-bottom: 3px solid #f0f0f0;
+}
