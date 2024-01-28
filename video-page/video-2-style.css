@@ -32,8 +32,8 @@
   margin: 15px 5% 0;
 }
 video {
-  width: 62vw;
-  max-width: 1190px;
+  width: 100%;
+  /* max-width: 1190px; */
   height: 100%;
 }
 .video-element {
