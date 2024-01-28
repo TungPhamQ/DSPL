@@ -36,6 +36,12 @@ video {
   max-width: 1190px;
   height: 100%;
 }
+.video-element {
+  width: 70%;
+}
+.hot-news__video {
+  width: 30%;
+}
 .comment-avatar {
   background: #c9c9c9;
   color: 0.005689;
