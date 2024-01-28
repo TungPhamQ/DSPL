@@ -1149,7 +1149,14 @@ body {
   font-size: 20px !important;
   /* font-size: 2.635vw !important; */
 }
-
+.ms-fs-14 {
+  font-size: 14px !important;
+  /* font-size: 1.867vw !important; */
+}
+.ms-fs-18 {
+  font-size: 18px !important;
+  /* font-size: 2.4vw !important; */
+}
 .ms-fs-24 {
   font-size: 24px !important;
   /* font-size: 3.2vw !important; */
@@ -1319,6 +1326,10 @@ body {
   /* padding-top: 4vw;
   padding-bottom: 4vw; */
 }
+.m-pt-30 {
+  padding-top: 30px; 
+  /* padding-top: 4vw;
+}
 
 .m-pb-30 {
   padding-bottom: 30px;
@@ -1355,6 +1366,14 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .ms-fs-14 {
+    /* font-size: 14px !important; */
+    font-size: 1.867vw !important;
+  }
+  .ms-fs-18 {
+    /* font-size: 18px !important; */
+    font-size: 2.4vw !important;
+  }
   .ms-fs-20 {
     /* font-size: 20px !important; */
     font-size: 2.635vw !important;
@@ -1529,7 +1548,10 @@ body {
     padding-top: 4vw;
     padding-bottom: 4vw;
   }
-
+.m-pt-30 {
+    /* padding-top: 30px;  */
+    padding-top: 4vw;
+  }
   .m-pb-30 {
     /* padding-bottom: 30px; */
     padding-bottom: 4vw;
