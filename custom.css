@@ -9,12 +9,51 @@ section {
 .footer {
   padding: 0;
 }
+.menu-show-wrapper {
+  height: 470px;
+  position: absolute;
+  top: 158px;
+  background: #052962;
+  width: 100% !important;
+  padding-bottom: 40px;
+}
+.menu {
+  width: 1158px;
+  margin: auto;
+  border: 1px solid #fff;
+  height: 100%;
+  border-top: 4px solid #00b2ff;
+  padding-top: 25px;
+  gap: 80px;
+  justify-content: space-evenly;
+}
+.menu > div:first-child {
+  margin-left: 70px;
+}
+.menu > div:last-child {
+  margin-right: 70px;
+}
+.menu a {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:active {
+  text-decoration: underline !important;
+  text-decoration: #ffe500;
+  color: #ffe500;
+}
 .body-wrapper {
   border-top: none;
 }
 .menu-bar {
   background: #052962;
   width: 100%;
+  position: relative;
 }
 .page-main {
   width: 72%;
