@@ -36,6 +36,26 @@ video {
   /* max-width: 1190px; */
   height: 100%;
 }
+.comment-wrapper {
+  overflow: auto;
+  max-height: 226px;
+}
+/* width */
+.comment-wrapper::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.comment-wrapper::-webkit-scrollbar-track {
+  background: #ebebeb;
+}
+
+/* Handle */
+.comment-wrapper::-webkit-scrollbar-thumb {
+  background: #d7d7d7;
+  border-radius: 10px;
+}
+
 .video-element {
   width: 70%;
 }
