@@ -27,6 +27,10 @@ section {
   gap: 80px;
   justify-content: space-evenly;
 }
+.footer .menu {
+  border-top: none;
+  border-bottom: none;
+}
 .news.row-1 {
   margin-left: 70px;
   margin-bottom: 31px;
@@ -35,6 +39,18 @@ section {
   padding: 23px 44px;
   border-top: 1px solid #dcdcdc;
   width: max-content;
+  position: relative;
+}
+.contact.row-2::after {
+  position: absolute;
+  display: inline-block;
+  z-index: 10;
+  top: 1px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  color: #fff;
+  border-radius: 50%;
 }
 .law.row-1 {
   margin-bottom: 40px;
@@ -49,7 +65,7 @@ section {
   margin-bottom: 76px;
 }
 .menu > div:last-child {
-  margin-right: 70px;
+  padding-right: 70px;
 }
 .menu a {
   display: block;
@@ -192,7 +208,14 @@ input:focus {
 .footer-wrapper {
   border: 1px solid #fff;
   position: relative;
+  border-top: none;
 }
+.footer-menu-wrap {
+  margin: 0 16px;
+  border-bottom: 4px solid #dcdcdc;
+  padding-bottom: 25px;
+}
+
 .to-the-top {
   position: absolute;
   right: 80px;
