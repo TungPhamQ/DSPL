@@ -18,7 +18,7 @@ section {
   padding-bottom: 40px;
 }
 .menu {
-  width: 1158px;
+  max-width: 1158px;
   margin: auto;
   border: 1px solid #dcdcdc;
   height: 100%;
@@ -278,6 +278,14 @@ img {
   border-radius: 4px;
 }
 /* icon define */
+.click-menu-icon {
+  background-image: url("./asset/click-menu-icon.png");
+  background-position: 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
 .icon-search {
   background-image: url("./asset/icon-sprite.png");
   background-position: -14px -214px;
