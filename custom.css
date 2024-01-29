@@ -55,14 +55,27 @@ section {
 .law.row-1 {
   margin-bottom: 40px;
 }
+.footer .law.row-1 {
+  margin-bottom: 75px;
+}
 .business.row-1 {
   margin-bottom: 26px;
 }
+.footer .business.row-1 {
+  margin-bottom: 42px;
+}
+
 .life.row-1 {
   margin-bottom: 26px;
 }
+.footer .life.row-1 {
+  margin-bottom: 42px;
+}
 .world.row-1 {
   margin-bottom: 76px;
+}
+.footer .world.row-1 {
+  margin-bottom: 70px;
 }
 .menu > div:last-child {
   padding-right: 70px;
