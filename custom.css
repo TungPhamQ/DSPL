@@ -9,12 +9,98 @@ section {
 .footer {
   padding: 0;
 }
+.menu-show-wrapper {
+  /* height: 470px; */
+  position: absolute;
+  top: 157px;
+  background: #052962;
+  width: 100% !important;
+  padding-bottom: 40px;
+}
+.menu {
+  max-width: 1158px;
+  margin: auto;
+  border: 1px solid #dcdcdc;
+  height: 100%;
+  border-top: 4px solid #00b2ff;
+  padding-top: 25px;
+  gap: 80px;
+  justify-content: space-evenly;
+}
+.footer .menu {
+  border-top: none;
+  border-bottom: none;
+}
+.news.row-1 {
+  margin-left: 70px;
+  margin-bottom: 31px;
+}
+.contact.row-2 {
+  padding: 23px 44px;
+  border-top: 1px solid #dcdcdc;
+  width: max-content;
+  position: relative;
+}
+.contact.row-2::after {
+  position: absolute;
+  display: inline-block;
+  z-index: 10;
+  top: 1px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  color: #fff;
+  border-radius: 50%;
+}
+.law.row-1 {
+  margin-bottom: 40px;
+}
+.footer .law.row-1 {
+  margin-bottom: 75px;
+}
+.business.row-1 {
+  margin-bottom: 26px;
+}
+.footer .business.row-1 {
+  margin-bottom: 42px;
+}
+
+.life.row-1 {
+  margin-bottom: 26px;
+}
+.footer .life.row-1 {
+  margin-bottom: 42px;
+}
+.world.row-1 {
+  margin-bottom: 76px;
+}
+.footer .world.row-1 {
+  margin-bottom: 70px;
+}
+.menu > div:last-child {
+  padding-right: 70px;
+}
+.menu a {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:active {
+  text-decoration: underline !important;
+  text-decoration: #ffe500;
+  color: #ffe500;
+}
 .body-wrapper {
   border-top: none;
 }
 .menu-bar {
   background: #052962;
   width: 100%;
+  position: relative;
 }
 .page-main {
   width: 72%;
@@ -135,7 +221,14 @@ input:focus {
 .footer-wrapper {
   border: 1px solid #fff;
   position: relative;
+  border-top: none;
 }
+.footer-menu-wrap {
+  margin: 0 16px;
+  border-bottom: 4px solid #dcdcdc;
+  padding-bottom: 25px;
+}
+
 .to-the-top {
   position: absolute;
   right: 80px;
@@ -198,6 +291,14 @@ img {
   border-radius: 4px;
 }
 /* icon define */
+.click-menu-icon {
+  background-image: url("./asset/click-menu-icon.png");
+  background-position: 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
 .icon-search {
   background-image: url("./asset/icon-sprite.png");
   background-position: -14px -214px;
